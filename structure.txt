@@ -1,0 +1,42 @@
+backend/
+├── app/
+│   ├── main.py
+│   ├── config.py
+│   ├── api/
+│   │   ├── discover.py
+│   │   ├── clusters.py
+│   │   ├── synthesis.py
+│   │   ├── gaps.py
+│   │   ├── experiments.py
+│   ├── agents/
+│   │   ├── discovery_agent.py
+│   │   ├── extraction_agent.py
+│   │   ├── trajectory_agent.py
+│   │   ├── gap_agent.py
+│   │   ├── experiment_agent.py
+│   ├── pipelines/
+│   │   ├── ingestion_pipeline.py
+│   │   ├── temporal_pipeline.py
+│   │   ├── synthesis_pipeline.py
+│   ├── services/
+│   │   ├── paper_fetcher.py
+│   │   ├── embedding_service.py
+│   │   ├── llm_service.py
+│   │   ├── clustering_service.py
+│   │   ├── citation_service.py
+│   ├── models/
+│   │   ├── paper.py
+│   │   ├── method.py
+│   │   ├── trajectory.py
+│   │   ├── gap.py
+│   │   ├── experiment.py
+│   ├── storage/
+│   │   ├── postgres.py
+│   │   ├── vector_store.py
+│   │   ├── object_store.py
+│   └── utils/
+│       ├── time_utils.py
+│       ├── scoring.py
+│       ├── citation_metrics.py
+├── requirements.txt
+└── README.md
