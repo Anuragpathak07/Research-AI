@@ -2,10 +2,12 @@
 from flask import Blueprint, jsonify, request
 from collections import Counter, defaultdict
 from services.llm_service import LLMService
+from services.data_cache import DataCache
 import json
 
 synthesis_bp = Blueprint("synthesis", __name__)
 llm_service = LLMService()
+data_cache = DataCache()
 
 def generate_synthesis_content(papers):
     """Generate synthesis content using LLM"""
@@ -198,6 +200,13 @@ def synthesis():
         if not papers:
             return jsonify({"error": "No papers provided"}), 400
         
+        # Check cache first
+        cached_data = data_cache.get_synthesis(papers)
+        if cached_data and cached_data.get("synthesis"):
+            print("Returning cached synthesis")
+            return jsonify(cached_data["synthesis"])
+        
+        # Generate synthesis if not cached
         result = generate_synthesis_content(papers)
         
         # Check if any sections failed to generate
@@ -209,6 +218,9 @@ def synthesis():
         
         if has_errors:
             result["warning"] = "Some sections could not be generated with LLM. Using basic analysis instead. Please ensure Ollama is running for full synthesis."
+        
+        # Auto-store in cache
+        data_cache.save_synthesis(papers, result)
         
         return jsonify(result)
     except Exception as e:

@@ -92,6 +92,41 @@ export default function Clusters() {
     }
   }, [papers]);
 
+  const storeClustersAutomatically = async (clustersToStore: any[]) => {
+    try {
+      // Silently store clusters in background - no UI feedback needed
+      const response = await fetch("/api/paper/store", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          papers: papers,
+          clusters: clustersToStore,
+          synthesis: null,
+          gaps: [],
+          experiments: [],
+        }),
+      });
+
+      if (!response.ok) {
+        console.warn("Failed to auto-store clusters:", response.status);
+        return;
+      }
+
+      const data = await response.json();
+      if (data.error) {
+        console.warn("Error auto-storing clusters:", data.error);
+        return;
+      }
+
+      console.log("Clusters auto-stored successfully");
+    } catch (error) {
+      console.warn("Error auto-storing clusters:", error);
+      // Don't show error to user - this is background operation
+    }
+  };
+
   const fetchClusters = async () => {
     if (papers.length === 0) {
       setError("Please discover papers first on the Discover page.");
@@ -206,6 +241,9 @@ export default function Clusters() {
       setClusters(transformedClusters);
       console.log("Clusters set, checking context...");
       setLoading({ clusters: false });
+      
+      // Auto-store clusters for paper generation
+      storeClustersAutomatically(transformedClusters);
       
       // Verify clusters were set
       setTimeout(() => {
@@ -603,7 +641,7 @@ export default function Clusters() {
               const TrajectoryIcon = getTrajectoryIcon(cluster.trajectoryStatus);
               return (
                 <div
-                  key={cluster.id}
+                  key={`cluster-${index}-${cluster.id}`}
                   className="p-6 rounded-2xl bg-card border-2 shadow-premium hover:shadow-premium-lg transition-all duration-300 animate-slide-up"
                   style={{ 
                     animationDelay: `${index * 0.1}s`,

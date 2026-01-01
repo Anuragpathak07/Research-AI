@@ -5,8 +5,10 @@ from sklearn.cluster import KMeans
 import numpy as np
 from collections import Counter
 import re
+from services.data_cache import DataCache
 
 clusters_bp = Blueprint("clusters", __name__)
+data_cache = DataCache()
 
 def extract_keywords(text, top_n=5):
     """Extract top keywords from text"""
@@ -169,7 +171,19 @@ def clusters():
         if not papers:
             return jsonify([])
         
+        # Check cache first
+        cached_data = data_cache.get_clusters(papers)
+        if cached_data and cached_data.get("clusters"):
+            print("Returning cached clusters")
+            return jsonify(cached_data["clusters"])
+        
+        # Generate clusters if not cached
         results = cluster_papers(papers)
+        
+        # Auto-store in cache
+        if results:
+            data_cache.save_clusters(papers, results)
+        
         return jsonify(results)
     except Exception as e:
         print(f"Error in clustering: {e}")

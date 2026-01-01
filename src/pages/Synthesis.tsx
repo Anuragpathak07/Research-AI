@@ -1,7 +1,10 @@
 import { useState, useEffect } from "react";
 import { PageLayout } from "@/components/layout/PageLayout";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, ChevronRight, Copy, Download, Check, Clock, TrendingUp, TrendingDown, ArrowRight, Loader2, AlertCircle } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { ChevronDown, ChevronRight, Copy, Download, Check, Clock, TrendingUp, TrendingDown, ArrowRight, Loader2, AlertCircle, FileText } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useResearch } from "@/context/ResearchContext";
 
@@ -33,10 +36,14 @@ interface SynthesisData {
 export default function Synthesis() {
   const [expandedSections, setExpandedSections] = useState<string[]>(["methods", "method_transitions"]);
   const [copied, setCopied] = useState(false);
-  const { papers, loading, setLoading } = useResearch();
+  const { papers, clusters, gaps, experiments, loading, setLoading } = useResearch();
   const [synthesisData, setSynthesisData] = useState<SynthesisData | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [warning, setWarning] = useState<string | null>(null);
+  const [paperTopic, setPaperTopic] = useState("");
+  const [generatedPaper, setGeneratedPaper] = useState<string | null>(null);
+  const [generatingPaper, setGeneratingPaper] = useState(false);
+  const [paperError, setPaperError] = useState<string | null>(null);
 
   useEffect(() => {
     if (papers.length > 0 && !synthesisData && !loading.synthesis) {
@@ -91,6 +98,9 @@ export default function Synthesis() {
       setSynthesisData(data);
       setLoading({ synthesis: false });
       
+      // Auto-store data after synthesis is generated
+      await storeDataAutomatically(data);
+      
       if (data.warning) {
         setWarning(data.warning);
       } else {
@@ -137,6 +147,85 @@ export default function Synthesis() {
     );
   };
 
+  const storeDataAutomatically = async (synthesisDataToStore: any) => {
+    try {
+      // Silently store data in background - no UI feedback needed
+      const response = await fetch("/api/paper/store", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          papers: papers,
+          clusters: clusters,
+          synthesis: synthesisDataToStore,
+          gaps: gaps,
+          experiments: experiments,
+        }),
+      });
+
+      if (!response.ok) {
+        console.warn("Failed to auto-store data:", response.status);
+        return;
+      }
+
+      const data = await response.json();
+      if (data.error) {
+        console.warn("Error auto-storing data:", data.error);
+        return;
+      }
+
+      console.log("Data auto-stored successfully");
+    } catch (error) {
+      console.warn("Error auto-storing data:", error);
+      // Don't show error to user - this is background operation
+    }
+  };
+
+  const generatePaper = async () => {
+    if (!paperTopic.trim()) {
+      setPaperError("Please enter a paper topic");
+      return;
+    }
+
+    try {
+      setGeneratingPaper(true);
+      setPaperError(null);
+      setGeneratedPaper(null);
+
+      const response = await fetch("/api/paper/generate", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          topic: paperTopic,
+          papers: papers,
+          clusters: clusters,
+          synthesis: synthesisData,
+          gaps: gaps,
+          experiments: experiments,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      if (data.error) {
+        throw new Error(data.error);
+      }
+
+      setGeneratedPaper(data.paper);
+      setGeneratingPaper(false);
+    } catch (error: any) {
+      console.error("Error generating paper:", error);
+      setPaperError(error.message || "Failed to generate paper. Please check if Ollama is running.");
+      setGeneratingPaper(false);
+    }
+  };
+
   return (
     <PageLayout>
       <div className="min-h-screen py-24 px-6 lg:px-8">
@@ -152,24 +241,104 @@ export default function Synthesis() {
           </div>
 
           {/* Action Buttons */}
-          <div className="flex items-center justify-end gap-3 mb-8 animate-slide-up">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={handleCopy}
-              className="gap-2"
-            >
-              {copied ? (
-                <Check className="h-4 w-4" />
-              ) : (
-                <Copy className="h-4 w-4" />
+          <div className="flex items-center justify-end mb-8 animate-slide-up">
+            <div className="flex items-center gap-3">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleCopy}
+                className="gap-2"
+              >
+                {copied ? (
+                  <Check className="h-4 w-4" />
+                ) : (
+                  <Copy className="h-4 w-4" />
+                )}
+                {copied ? "Copied" : "Copy All"}
+              </Button>
+              <Button variant="outline" size="sm" className="gap-2">
+                <Download className="h-4 w-4" />
+                Export PDF
+              </Button>
+              {synthesisData && (
+                <Dialog>
+                  <DialogTrigger asChild>
+                    <Button variant="premium" size="sm" className="gap-2">
+                      <FileText className="h-4 w-4" />
+                      Generate Paper
+                    </Button>
+                  </DialogTrigger>
+                  <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+                    <DialogHeader>
+                      <DialogTitle>Generate Research Paper</DialogTitle>
+                      <DialogDescription>
+                        Generate a research paper based on your discovered papers, synthesis, gaps, and experiments using RAG.
+                      </DialogDescription>
+                    </DialogHeader>
+                    <div className="space-y-4 mt-4">
+                      <div>
+                        <label className="text-sm font-medium mb-2 block">Paper Topic</label>
+                        <Input
+                          placeholder="e.g., Quantum Error Correction in NISQ Era"
+                          value={paperTopic}
+                          onChange={(e) => setPaperTopic(e.target.value)}
+                          disabled={generatingPaper}
+                        />
+                        <p className="text-xs text-muted-foreground mt-1">
+                          Enter a specific topic for your research paper
+                        </p>
+                      </div>
+                      {paperError && (
+                        <div className="p-3 rounded-lg bg-red-50 border border-red-200 text-red-800 text-sm">
+                          {paperError}
+                        </div>
+                      )}
+                      <Button
+                        onClick={generatePaper}
+                        disabled={!paperTopic || generatingPaper}
+                        className="w-full gap-2"
+                        variant="premium"
+                      >
+                        {generatingPaper ? (
+                          <>
+                            <Loader2 className="h-4 w-4 animate-spin" />
+                            Generating Paper...
+                          </>
+                        ) : (
+                          <>
+                            <FileText className="h-4 w-4" />
+                            Generate Paper
+                          </>
+                        )}
+                      </Button>
+                      {generatedPaper && (
+                        <div className="mt-6 p-4 rounded-lg bg-secondary/30 border border-border/50">
+                          <div className="flex items-center justify-between mb-3">
+                            <h3 className="font-medium">Generated Paper</h3>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => {
+                                navigator.clipboard.writeText(generatedPaper);
+                                setCopied(true);
+                                setTimeout(() => setCopied(false), 2000);
+                              }}
+                              className="gap-2"
+                            >
+                              {copied ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
+                              Copy
+                            </Button>
+                          </div>
+                          <div className="prose prose-sm max-w-none text-foreground whitespace-pre-wrap">
+                            {renderContent(generatedPaper)}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </DialogContent>
+                </Dialog>
               )}
-              {copied ? "Copied" : "Copy All"}
-            </Button>
-            <Button variant="outline" size="sm" className="gap-2">
-              <Download className="h-4 w-4" />
-              Export PDF
-            </Button>
+            </div>
           </div>
 
           {papers.length === 0 && (

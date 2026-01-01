@@ -7,6 +7,7 @@ from api.synthesis import synthesis_bp
 from api.gaps import gaps_bp
 from api.experiments import experiments_bp
 from api.code import code_bp
+from api.paper_generation import paper_generation_bp
 
 def create_app():
     app = Flask(__name__)
@@ -22,6 +23,7 @@ def create_app():
     app.register_blueprint(gaps_bp, url_prefix="/api/gaps")
     app.register_blueprint(experiments_bp, url_prefix="/api/experiments")
     app.register_blueprint(code_bp, url_prefix="/api/code")
+    app.register_blueprint(paper_generation_bp, url_prefix="/api/paper")
     return app
 
 if __name__ == "__main__":
