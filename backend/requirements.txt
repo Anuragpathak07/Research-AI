@@ -24,6 +24,7 @@ psycopg2-binary==2.9.9
 
 # LLM API
 openai==1.42.0
+# Note: Using custom ReAct implementation with Ollama, not LangChain
 
 # Utilities
 python-dotenv==1.0.1

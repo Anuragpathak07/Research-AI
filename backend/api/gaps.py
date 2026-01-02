@@ -1,99 +1,136 @@
 # api/gaps.py
 from flask import Blueprint, jsonify, request
-from collections import defaultdict
-from services.llm_service import LLMService
+from agents.gap_agent import GapAgent
+from agents.trajectory_agent import TrajectoryAgent
+from agents.extraction_agent import ExtractionAgent
 
 gaps_bp = Blueprint("gaps", __name__)
-llm_service = LLMService()
+gap_agent = GapAgent()
+trajectory_agent = TrajectoryAgent()
+extraction_agent = ExtractionAgent()
 
-def analyze_clusters_for_gaps(clusters):
-    """Analyze clusters to identify research gaps"""
-    gaps = []
+def clusters_to_extracted_papers(clusters, use_fast_extraction=True):
+    """Convert clusters format to extracted_papers format for agents"""
+    extracted_papers = []
+    for cluster in clusters:
+        # Get papers from cluster
+        papers_data = cluster.get("papersData", cluster.get("papers", []))
+        if isinstance(papers_data, list) and len(papers_data) > 0:
+            for paper in papers_data:
+                if isinstance(paper, dict):
+                    extracted_papers.append({
+                        "paper_id": paper.get("paper_id") or paper.get("id", ""),
+                        "title": paper.get("title", ""),
+                        "abstract": paper.get("abstract", ""),
+                        "year": paper.get("year", 2020),
+                        "methods": [],  # Will be extracted
+                        "datasets": [],
+                        "metrics": []
+                    })
     
-    # Basic analysis
-    for c in clusters:
-        name = c.get("name", "Unknown")
-        papers = c.get("papers", c.get("paper_count", 0))
-        status = c.get("trajectoryStatus", c.get("trajectory", "stable"))
-        momentum = c.get("momentumScore", 50)
+    # Extract entities from papers
+    # Use fast keyword-only extraction to avoid slow LLM calls
+    if extracted_papers:
+        if use_fast_extraction:
+            # Fast keyword-based extraction only (no LLM calls)
+            for p in extracted_papers:
+                text = (p.get("abstract", "") + " " + p.get("title", "")).lower()
+                # Quick keyword matching
+                methods = [m for m in extraction_agent.METHOD_KEYWORDS if m in text]
+                datasets = [d for d in extraction_agent.DATASET_KEYWORDS if d in text]
+                metrics = [m for m in extraction_agent.METRIC_KEYWORDS if m in text]
+                p["methods"] = list(set(methods))
+                p["datasets"] = list(set(datasets))
+                p["metrics"] = list(set(metrics))
+        else:
+            # Full LLM-based extraction (slower but more accurate)
+            extracted_papers = extraction_agent.extract_entities(extracted_papers)
+    
+    return extracted_papers
+
+def clusters_to_trajectories(clusters):
+    """Convert clusters format to trajectories format for agents"""
+    trajectories = {}
+    for cluster in clusters:
+        name = cluster.get("name", "Unknown")
+        trajectory_status = cluster.get("trajectoryStatus", cluster.get("trajectory", "stable"))
+        papers_count = cluster.get("papers", cluster.get("paper_count", 0))
         
-        # Identify gaps based on patterns
-        if status == "rising" and papers < 10:
-            gaps.append({
-                "gap": f"Emerging research area: {name}",
-                "viability": "Future-Viable",
-                "reason": f"Rising trajectory with only {papers} papers - early opportunity for contribution"
-            })
-        elif status == "stable" and papers < 5:
-            gaps.append({
-                "gap": f"Underexplored area: {name}",
-                "viability": "Future-Viable",
-                "reason": f"Stable momentum but low paper count ({papers}) - potential for growth"
-            })
-        elif status == "declining" and momentum < 30:
-            gaps.append({
-                "gap": f"Declining area: {name}",
-                "viability": "Likely Obsolete",
-                "reason": f"Declining trajectory with low momentum ({momentum}) - may become obsolete"
-            })
-        elif status == "saturating" and papers > 20:
-            gaps.append({
-                "gap": f"Saturated area: {name}",
-                "viability": "Time-Sensitive",
-                "reason": f"High saturation ({papers} papers) - limited time window for novel contributions"
-            })
+        # Normalize trajectory status (capitalize first letter)
+        if isinstance(trajectory_status, str):
+            trajectory_status = trajectory_status.capitalize()
+            # Map common variations
+            if trajectory_status.lower() in ["rising", "increasing", "growing"]:
+                trajectory_status = "Rising"
+            elif trajectory_status.lower() in ["declining", "decreasing", "falling"]:
+                trajectory_status = "Declining"
+            elif trajectory_status.lower() in ["stable", "steady", "constant"]:
+                trajectory_status = "Stable"
+            elif trajectory_status.lower() in ["saturating", "saturated"]:
+                trajectory_status = "Saturating"
+        
+        # Create trajectory entry
+        trajectories[name] = {
+            "trajectory": trajectory_status,
+            "paper_count": papers_count if isinstance(papers_count, int) else 0,
+            "years": [],
+            "slope": 0.0
+        }
     
-    # Use LLM to enhance gaps if available
-    if gaps and len(clusters) > 0:
-        try:
-            cluster_summary = "\n".join([
-                f"- {c.get('name', 'Unknown')}: {c.get('papers', c.get('paper_count', 0))} papers, {c.get('trajectoryStatus', c.get('trajectory', 'unknown'))} trajectory"
-                for c in clusters[:10]
-            ])
-            
-            prompt = f"""Based on these research clusters, identify 3-5 key research gaps:
-
-{cluster_summary}
-
-For each gap, provide:
-1. A clear gap title
-2. Why it matters (2-3 sentences)
-3. Evidence from the data
-4. Temporal viability: "Future-Viable", "Time-Sensitive", or "Likely Obsolete"
-5. Temporal justification (why this classification)
-
-Format as JSON array with keys: gap, reason, evidence, viability, temporal_justification"""
-            
-            llm_response = llm_service.generate(prompt, temperature=0.5)
-            
-            # Try to parse LLM response (simplified - in production, use proper JSON parsing)
-            # For now, use basic analysis + LLM enhancement
-            enhanced_gaps = []
-            for gap in gaps[:5]:  # Limit to top 5
-                enhanced_gaps.append({
-                    "gap": gap["gap"],
-                    "viability": gap["viability"],
-                    "reason": gap["reason"],
-                    "evidence": f"Based on cluster analysis: {gap['reason']}",
-                    "temporal_justification": f"Analysis suggests {gap['viability'].lower()} trajectory based on current research patterns."
-                })
-            
-            return enhanced_gaps
-        except Exception as e:
-            print(f"LLM enhancement failed, using basic analysis: {e}")
-            # Return basic gaps if LLM fails
-            return gaps[:5]  # Limit to 5 gaps
-    
-    return gaps[:5]
+    return trajectories
 
 @gaps_bp.route("/", methods=["POST"])
 def gaps():
     try:
+        print(f"[GAPS] Received request with {len(request.json or [])} clusters")
         clusters = request.json or []
         if not clusters:
             return jsonify([])
         
-        gaps = analyze_clusters_for_gaps(clusters)
-        return jsonify(gaps)
+        # Convert clusters to format expected by agents
+        # Use fast extraction (keyword-only) to avoid slow LLM calls
+        print("[GAPS] Extracting papers from clusters...")
+        extracted_papers = clusters_to_extracted_papers(clusters, use_fast_extraction=True)
+        print(f"[GAPS] Extracted {len(extracted_papers)} papers")
+        
+        # Build trajectories from clusters or extract from papers
+        # Prefer using cluster data directly (faster) unless we have good extracted papers
+        print("[GAPS] Building trajectories...")
+        if extracted_papers and len(extracted_papers) > 10:
+            # Only use trajectory agent if we have enough papers with extracted methods
+            papers_with_methods = [p for p in extracted_papers if p.get("methods")]
+            if papers_with_methods:
+                print(f"[GAPS] Using trajectory agent with {len(papers_with_methods)} papers with methods")
+                trajectories = trajectory_agent.build_trajectories(extracted_papers)
+            else:
+                print("[GAPS] Using cluster-based trajectories (no methods extracted)")
+                trajectories = clusters_to_trajectories(clusters)
+        else:
+            print("[GAPS] Using cluster-based trajectories (few papers)")
+            trajectories = clusters_to_trajectories(clusters)
+        
+        print(f"[GAPS] Built {len(trajectories)} trajectories")
+        
+        # Use agentic gap agent to detect gaps
+        print("[GAPS] Detecting gaps...")
+        detected_gaps = gap_agent.detect_gaps(trajectories, extracted_papers if extracted_papers else [])
+        print(f"[GAPS] Detected {len(detected_gaps)} gaps")
+        
+        # Transform to frontend format
+        formatted_gaps = []
+        for i, gap in enumerate(detected_gaps):
+            formatted_gaps.append({
+                "id": gap.get("id", f"gap_{i+1}"),
+                "gap": gap.get("title", "Unknown gap"),
+                "viability": gap.get("temporalViability", "future-viable").replace("-", " ").title(),
+                "reason": gap.get("why", gap.get("temporalJustification", "Analysis needed")),
+                "evidence": gap.get("evidence", "Based on trajectory analysis"),
+                "temporal_justification": gap.get("temporalJustification", gap.get("why", ""))
+            })
+        
+        return jsonify(formatted_gaps[:10])  # Limit to top 10
     except Exception as e:
+        print(f"Error in gaps endpoint: {e}")
+        import traceback
+        traceback.print_exc()
         return jsonify({"error": str(e)}), 500
