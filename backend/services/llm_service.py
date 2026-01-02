@@ -1,9 +1,13 @@
 # services/llm_service.py
 import requests
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file if it exists
+load_dotenv()
 
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "llama3")  # RTX 3050 6GB should handle llama3 fine
 
 class LLMService:
     def _check_ollama_connection(self):
@@ -49,6 +53,22 @@ class LLMService:
         except requests.exceptions.HTTPError as e:
             if e.response.status_code == 404:
                 raise ValueError(f"Model '{OLLAMA_MODEL}' not found. Please ensure the model is installed: ollama pull {OLLAMA_MODEL}")
-            raise ValueError(f"HTTP error from Ollama: {e.response.status_code} - {e.response.text}")
+            elif e.response.status_code == 500:
+                error_text = e.response.text
+                # Check for CUDA/GPU memory errors
+                if "CUDA" in error_text or "buffer" in error_text or "memory" in error_text.lower():
+                    raise ValueError(
+                        f"GPU memory allocation failed. The model '{OLLAMA_MODEL}' requires more GPU memory than available.\n\n"
+                        f"Solutions:\n"
+                        f"1. Use a smaller model: Set OLLAMA_MODEL to a smaller model (e.g., 'llama3:8b' or 'mistral')\n"
+                        f"2. Use CPU mode: Restart Ollama with CPU-only mode\n"
+                        f"3. Free GPU memory: Close other applications using GPU\n"
+                        f"4. Check available models: Run 'ollama list' to see installed models\n\n"
+                        f"Original error: {error_text}"
+                    )
+                else:
+                    raise ValueError(f"Ollama server error (500): {error_text}\n\nPlease check if Ollama is running properly: ollama serve")
+            else:
+                raise ValueError(f"HTTP error from Ollama: {e.response.status_code} - {e.response.text}")
         except Exception as e:
             raise Exception(f"Unexpected error calling Ollama: {str(e)}")

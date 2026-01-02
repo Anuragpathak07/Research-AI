@@ -36,18 +36,39 @@
 5. Set up Ollama (if not already installed):
    - Download from https://ollama.ai
    - Install and start Ollama
-   - Pull a model (e.g., `ollama pull llama3.2`)
+   - Pull a model:
+     ```bash
+     # For smaller GPU memory (recommended):
+     ollama pull llama3.2:3b
+     # or
+     ollama pull llama3.2:1b
+     
+     # For larger models (requires more GPU memory):
+     ollama pull llama3
+     ```
 
-6. Set environment variables (optional):
+6. Set environment variables (recommended):
+   
+   **Option A: Using .env file (recommended)**
+   - Copy `.env.example` to `.env` in the backend directory
+   - Edit `.env` and set `OLLAMA_MODEL` to your preferred model
+   
+   **Option B: Set environment variables directly**
    ```bash
    # Windows PowerShell
    $env:OLLAMA_BASE_URL="http://localhost:11434"
-   $env:OLLAMA_MODEL="llama3.2"
+   $env:OLLAMA_MODEL="llama3.2:3b"  # Use smaller model for GPU memory issues
+   
+   # Windows CMD
+   set OLLAMA_BASE_URL=http://localhost:11434
+   set OLLAMA_MODEL=llama3.2:3b
    
    # macOS/Linux
    export OLLAMA_BASE_URL="http://localhost:11434"
-   export OLLAMA_MODEL="llama3.2"
+   export OLLAMA_MODEL="llama3.2:3b"
    ```
+   
+   **Note:** If you get CUDA/GPU memory errors, use a smaller model like `llama3.2:3b` or `llama3.2:1b`
 
 7. Run the backend server:
    ```bash

@@ -1,0 +1,1669 @@
+{
+  "papers": [
+    {
+      "paper_id": "http://arxiv.org/abs/2501.02842v1",
+      "title": "Foundations of GenIR",
+      "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+      "authors": [
+        "Qingyao Ai",
+        "Jingtao Zhan",
+        "Yiqun Liu"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2501.02842v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2509.00961v1",
+      "title": "Ultra Strong Machine Learning: Teaching Humans Active Learning Strategies via Automated AI Explanations",
+      "abstract": "Ultra Strong Machine Learning (USML) refers to symbolic learning systems that not only improve their own performance but can also teach their acquired knowledge to quantifiably improve human performance. In this work, we present LENS (Logic Programming Explanation via Neural Summarisation), a neuro-symbolic method that combines symbolic program synthesis with large language models (LLMs) to automate the explanation of machine-learned logic programs in natural language. LENS addresses a key limitation of prior USML approaches by replacing hand-crafted explanation templates with scalable automated generation. Through systematic evaluation using multiple LLM judges and human validation, we demonstrate that LENS generates superior explanations compared to direct LLM prompting and hand-crafted templates. To investigate whether LENS can teach transferable active learning strategies, we carried out a human learning experiment across three related domains. Our results show no significant human performance improvements, suggesting that comprehensive LLM responses may overwhelm users for simpler problems rather than providing learning support. Our work provides a solid foundation for building effective USML systems to support human learning. The source code is available on: https://github.com/lun-ai/LENS.git.",
+      "authors": [
+        "Lun Ai",
+        "Johannes Langer",
+        "Ute Schmid",
+        "Stephen Muggleton"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2509.00961v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2308.12400v1",
+      "title": "Towards The Ultimate Brain: Exploring Scientific Discovery with ChatGPT AI",
+      "abstract": "This paper presents a novel approach to scientific discovery using an artificial intelligence (AI) environment known as ChatGPT, developed by OpenAI. This is the first paper entirely generated with outputs from ChatGPT. We demonstrate how ChatGPT can be instructed through a gamification environment to define and benchmark hypothetical physical theories. Through this environment, ChatGPT successfully simulates the creation of a new improved model, called GPT$^4$, which combines the concepts of GPT in AI (generative pretrained transformer) and GPT in physics (generalized probabilistic theory). We show that GPT$^4$ can use its built-in mathematical and statistical capabilities to simulate and analyze physical laws and phenomena. As a demonstration of its language capabilities, GPT$^4$ also generates a limerick about itself. Overall, our results demonstrate the promising potential for human-AI collaboration in scientific discovery, as well as the importance of designing systems that effectively integrate AI's capabilities with human intelligence.",
+      "authors": [
+        "Gerardo Adesso"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2308.12400v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2112.01298v2",
+      "title": "Meaningful human control: actionable properties for AI system development",
+      "abstract": "How can humans remain in control of artificial intelligence (AI)-based systems designed to perform tasks autonomously? Such systems are increasingly ubiquitous, creating benefits - but also undesirable situations where moral responsibility for their actions cannot be properly attributed to any particular person or group. The concept of meaningful human control has been proposed to address responsibility gaps and mitigate them by establishing conditions that enable a proper attribution of responsibility for humans; however, clear requirements for researchers, designers, and engineers are yet inexistent, making the development of AI-based systems that remain under meaningful human control challenging. In this paper, we address the gap between philosophical theory and engineering practice by identifying, through an iterative process of abductive thinking, four actionable properties for AI-based systems under meaningful human control, which we discuss making use of two applications scenarios: automated vehicles and AI-based hiring. First, a system in which humans and AI algorithms interact should have an explicitly defined domain of morally loaded situations within which the system ought to operate. Second, humans and AI agents within the system should have appropriate and mutually compatible representations. Third, responsibility attributed to a human should be commensurate with that human's ability and authority to control the system. Fourth, there should be explicit links between the actions of the AI agents and actions of humans who are aware of their moral responsibility. We argue that these four properties will support practically-minded professionals to take concrete steps toward designing and engineering for AI systems that facilitate meaningful human control.",
+      "authors": [
+        "Luciano Cavalcante Siebert",
+        "Maria Luce Lupetti",
+        "Evgeni Aizenberg",
+        "Niek Beckers",
+        "Arkady Zgonnikov",
+        "Herman Veluwenkamp",
+        "David Abbink",
+        "Elisa Giaccardi",
+        "Geert-Jan Houben",
+        "Catholijn M. Jonker",
+        "Jeroen van den Hoven",
+        "Deborah Forster",
+        "Reginald L. Lagendijk"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2112.01298v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2408.00025v3",
+      "title": "Need of AI in Modern Education: in the Eyes of Explainable AI (xAI)",
+      "abstract": "Modern Education is not \\textit{Modern} without AI. However, AI's complex nature makes understanding and fixing problems challenging. Research worldwide shows that a parent's income greatly influences a child's education. This led us to explore how AI, especially complex models, makes important decisions using Explainable AI tools. Our research uncovered many complexities linked to parental income and offered reasonable explanations for these decisions. However, we also found biases in AI that go against what we want from AI in education: clear transparency and equal access for everyone. These biases can impact families and children's schooling, highlighting the need for better AI solutions that offer fair opportunities to all. This chapter tries to shed light on the complex ways AI operates, especially concerning biases. These are the foundational steps towards better educational policies, which include using AI in ways that are more reliable, accountable, and beneficial for everyone involved.",
+      "authors": [
+        "Supriya Manna",
+        "Niladri Sett"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2408.00025v3"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2401.15284v6",
+      "title": "Beyond principlism: Practical strategies for ethical AI use in research practices",
+      "abstract": "The rapid adoption of generative artificial intelligence (AI) in scientific research, particularly large language models (LLMs), has outpaced the development of ethical guidelines, leading to a \"Triple-Too\" problem: too many high-level ethical initiatives, too abstract principles lacking contextual and practical relevance, and too much focus on restrictions and risks over benefits and utilities. Existing approaches--principlism (reliance on abstract ethical principles), formalism (rigid application of rules), and technological solutionism (overemphasis on technological fixes)--offer little practical guidance for addressing ethical challenges of AI in scientific research practices. To bridge the gap between abstract principles and day-to-day research practices, a user-centered, realism-inspired approach is proposed here. It outlines five specific goals for ethical AI use: 1) understanding model training and output, including bias mitigation strategies; 2) respecting privacy, confidentiality, and copyright; 3) avoiding plagiarism and policy violations; 4) applying AI beneficially compared to alternatives; and 5) using AI transparently and reproducibly. Each goal is accompanied by actionable strategies and realistic cases of misuse and corrective measures. I argue that ethical AI application requires evaluating its utility against existing alternatives rather than isolated performance metrics. Additionally, I propose documentation guidelines to enhance transparency and reproducibility in AI-assisted research. Moving forward, we need targeted professional development, training programs, and balanced enforcement mechanisms to promote responsible AI use while fostering innovation. By refining these ethical guidelines and adapting them to emerging AI capabilities, we can accelerate scientific progress without compromising research integrity.",
+      "authors": [
+        "Zhicheng Lin"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2401.15284v6"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2504.16770v1",
+      "title": "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions",
+      "abstract": "While generative artificial intelligence (Gen AI) increasingly transforms academic environments, a critical gap exists in understanding and mitigating human biases in AI interactions, such as anchoring and confirmation bias. This position paper advocates for metacognitive AI literacy interventions to help university students critically engage with AI and address biases across the Human-AI interaction workflows. The paper presents the importance of considering (1) metacognitive support with deliberate friction focusing on human bias; (2) bi-directional Human-AI interaction intervention addressing both input formulation and output interpretation; and (3) adaptive scaffolding that responds to diverse user engagement patterns. These frameworks are illustrated through ongoing work on \"DeBiasMe,\" AIED (AI in Education) interventions designed to enhance awareness of cognitive biases while empowering user agency in AI interactions. The paper invites multiple stakeholders to engage in discussions on design and evaluation methods for scaffolding mechanisms, bias visualization, and analysis frameworks. This position contributes to the emerging field of AI-augmented learning by emphasizing the critical role of metacognition in helping students navigate the complex interaction between human, statistical, and systemic biases in AI use while highlighting how cognitive adaptation to AI systems must be explicitly integrated into comprehensive AI literacy frameworks.",
+      "authors": [
+        "Chaeyeon Lim"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2504.16770v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2211.12434v1",
+      "title": "Expansive Participatory AI: Supporting Dreaming within Inequitable Institutions",
+      "abstract": "Participatory Artificial Intelligence (PAI) has recently gained interest by researchers as means to inform the design of technology through collective's lived experience. PAI has a greater promise than that of providing useful input to developers, it can contribute to the process of democratizing the design of technology, setting the focus on what should be designed. However, in the process of PAI there existing institutional power dynamics that hinder the realization of expansive dreams and aspirations of the relevant stakeholders. In this work we propose co-design principals for AI that address institutional power dynamics focusing on Participatory AI with youth.",
+      "authors": [
+        "Michael Alan Chang",
+        "Shiran Dudy"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2211.12434v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2504.08817v2",
+      "title": "Exploring utilization of generative AI for research and education in data-driven materials science",
+      "abstract": "Generative AI has recently had a profound impact on various fields, including daily life, research, and education. To explore its efficient utilization in data-driven materials science, we organized a hackathon -- AIMHack2024 -- in July 2024. In this hackathon, researchers from fields such as materials science, information science, bioinformatics, and condensed matter physics worked together to explore how generative AI can facilitate research and education. Based on the results of the hackathon, this paper presents topics related to (1) conducting AI-assisted software trials, (2) building AI tutors for software, and (3) developing GUI applications for software. While generative AI continues to evolve rapidly, this paper provides an early record of its application in data-driven materials science and highlights strategies for integrating AI into research and education.",
+      "authors": [
+        "Takahiro Misawa",
+        "Ai Koizumi",
+        "Ryo Tamura",
+        "Kazuyoshi Yoshimi"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2504.08817v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2504.09138v1",
+      "title": "White-Box AI Model: Next Frontier of Wireless Communications",
+      "abstract": "White-box AI (WAI), or explainable AI (XAI) model, a novel tool to achieve the reasoning behind decisions and predictions made by the AI algorithms, makes it more understandable and transparent. It offers a new approach to address key challenges of interpretability and mathematical validation in traditional black-box models. In this paper, WAI-aided wireless communication systems are proposed and investigated thoroughly to utilize the promising capabilities. First, we introduce the fundamental principles of WAI. Then, a detailed comparison between WAI and traditional black-box model is conducted in terms of optimization objectives and architecture design, with a focus on deep neural networks (DNNs) and transformer networks. Furthermore, in contrast to the traditional black-box methods, WAI leverages theory-driven causal modeling and verifiable optimization paths, thereby demonstrating potential advantages in areas such as signal processing and resource allocation. Finally, we outline future research directions for the integration of WAI in wireless communication systems.",
+      "authors": [
+        "Jiayao Yang",
+        "Jiayi Zhang",
+        "Bokai Xu",
+        "Jiakang Zheng",
+        "Zhilong Liu",
+        "Ziheng Liu",
+        "Dusit Niyato",
+        "M\u00e9rouane Debbah",
+        "Zhu Han",
+        "Bo Ai"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2504.09138v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2311.18252v3",
+      "title": "Privacy and Copyright Protection in Generative AI: A Lifecycle Perspective",
+      "abstract": "The advent of Generative AI has marked a significant milestone in artificial intelligence, demonstrating remarkable capabilities in generating realistic images, texts, and data patterns. However, these advancements come with heightened concerns over data privacy and copyright infringement, primarily due to the reliance on vast datasets for model training. Traditional approaches like differential privacy, machine unlearning, and data poisoning only offer fragmented solutions to these complex issues. Our paper delves into the multifaceted challenges of privacy and copyright protection within the data lifecycle. We advocate for integrated approaches that combines technical innovation with ethical foresight, holistically addressing these concerns by investigating and devising solutions that are informed by the lifecycle perspective. This work aims to catalyze a broader discussion and inspire concerted efforts towards data privacy and copyright integrity in Generative AI.",
+      "authors": [
+        "Dawen Zhang",
+        "Boming Xia",
+        "Yue Liu",
+        "Xiwei Xu",
+        "Thong Hoang",
+        "Zhenchang Xing",
+        "Mark Staples",
+        "Qinghua Lu",
+        "Liming Zhu"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2311.18252v3"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2509.11056v1",
+      "title": "BERT4beam: Large AI Model Enabled Generalized Beamforming Optimization",
+      "abstract": "Artificial intelligence (AI) is anticipated to emerge as a pivotal enabler for the forthcoming sixth-generation (6G) wireless communication systems. However, current research efforts regarding large AI models for wireless communications primarily focus on fine-tuning pre-trained large language models (LLMs) for specific tasks. This paper investigates the large-scale AI model designed for beamforming optimization to adapt and generalize to diverse tasks defined by system utilities and scales. We propose a novel framework based on bidirectional encoder representations from transformers (BERT), termed BERT4beam. We aim to formulate the beamforming optimization problem as a token-level sequence learning task, perform tokenization of the channel state information, construct the BERT model, and conduct task-specific pre-training and fine-tuning strategies. Based on the framework, we propose two BERT-based approaches for single-task and multi-task beamforming optimization, respectively. Both approaches are generalizable for varying user scales. Moreover, the former can adapt to varying system utilities and antenna configurations by re-configuring the input and output module of the BERT model, while the latter, termed UBERT, can directly generalize to diverse tasks, due to a finer-grained tokenization strategy. Extensive simulation results demonstrate that the two proposed approaches can achieve near-optimal performance and outperform existing AI models across various beamforming optimization tasks, showcasing strong adaptability and generalizability.",
+      "authors": [
+        "Yuhang Li",
+        "Yang Lu",
+        "Wei Chen",
+        "Bo Ai",
+        "Zhiguo Ding",
+        "Dusit Niyato"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2509.11056v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2504.14689v1",
+      "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+      "abstract": "The recent rapid advancement of LLM-based AI systems has accelerated our search and production of information. While the advantages brought by these systems seemingly improve the performance or efficiency of human activities, they do not necessarily enhance human capabilities. Recent research has started to examine the impact of generative AI on individuals' cognitive abilities, especially critical thinking. Based on definitions of critical thinking across psychology and education, this position paper proposes the distinction between demonstrated and performed critical thinking in the era of generative AI and discusses the implication of this distinction in research and development of AI systems that aim to augment human critical thinking.",
+      "authors": [
+        "Katelyn Xiaoying Mei",
+        "Nic Weber"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2504.14689v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2507.16110v1",
+      "title": "Expert-Guided LLM Reasoning for Battery Discovery: From AI-Driven Hypothesis to Synthesis and Characterization",
+      "abstract": "Large language models (LLMs) leverage chain-of-thought (CoT) techniques to tackle complex problems, representing a transformative breakthrough in artificial intelligence (AI). However, their reasoning capabilities have primarily been demonstrated in solving math and coding problems, leaving their potential for domain-specific applications-such as battery discovery-largely unexplored. Inspired by the idea that reasoning mirrors a form of guided search, we introduce ChatBattery, a novel agentic framework that integrates domain knowledge to steer LLMs toward more effective reasoning in materials design. Using ChatBattery, we successfully identify, synthesize, and characterize three novel lithium-ion battery cathode materials, which achieve practical capacity improvements of 28.8%, 25.2%, and 18.5%, respectively, over the widely used cathode material, LiNi0.8Mn0.1Co0.1O2 (NMC811). Beyond this discovery, ChatBattery paves a new path by showing a successful LLM-driven and reasoning-based platform for battery materials invention. This complete AI-driven cycle-from design to synthesis to characterization-demonstrates the transformative potential of AI-driven reasoning in revolutionizing materials discovery.",
+      "authors": [
+        "Shengchao Liu",
+        "Hannan Xu",
+        "Yan Ai",
+        "Huanxin Li",
+        "Yoshua Bengio",
+        "Harry Guo"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2507.16110v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2412.14538v4",
+      "title": "Overview of AI and Communication for 6G Network: Fundamentals, Challenges, and Future Research Opportunities",
+      "abstract": "With the growing demand for seamless connectivity and intelligent communication, the integration of artificial intelligence (AI) and sixth-generation (6G) communication networks has emerged as a transformative paradigm. By embedding AI capabilities across various network layers, this integration enables optimized resource allocation, improved efficiency, and enhanced system robust performance, particularly in intricate and dynamic environments. This paper presents a comprehensive overview of AI and communication for 6G networks, with a focus on emphasizing their foundational principles, inherent challenges, and future research opportunities. We first review the integration of AI and communications in the context of 6G, exploring the driving factors behind incorporating AI into wireless communications, as well as the vision for the convergence of AI and 6G. The discourse then transitions to a detailed exposition of the envisioned integration of AI within 6G networks, delineated across three progressive developmental stages. The first stage, AI for Network, focuses on employing AI to augment network performance, optimize efficiency, and enhance user service experiences. The second stage, Network for AI, highlights the role of the network in facilitating and buttressing AI operations and presents key enabling technologies, such as digital twins for AI and semantic communication. In the final stage, AI as a Service, it is anticipated that future 6G networks will innately provide AI functions as services, supporting application scenarios like immersive communication and intelligent industrial robots. In addition, we conduct an in-depth analysis of the critical challenges faced by the integration of AI and communications in 6G. Finally, we outline promising future research opportunities that are expected to drive the development and refinement of AI and 6G communications.",
+      "authors": [
+        "Qimei Cui",
+        "Xiaohu You",
+        "Ni Wei",
+        "Guoshun Nan",
+        "Xuefei Zhang",
+        "Jianhua Zhang",
+        "Xinchen Lyu",
+        "Ming Ai",
+        "Xiaofeng Tao",
+        "Zhiyong Feng",
+        "Ping Zhang",
+        "Qingqing Wu",
+        "Meixia Tao",
+        "Yongming Huang",
+        "Chongwen Huang",
+        "Guangyi Liu",
+        "Chenghui Peng",
+        "Zhiwen Pan",
+        "Tao Sun",
+        "Dusit Niyato",
+        "Tao Chen",
+        "Muhammad Khurram Khan",
+        "Abbas Jamalipour",
+        "Mohsen Guizani",
+        "Chau Yuen"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2412.14538v4"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2510.00183v2",
+      "title": "Lattica: A Decentralized Cross-NAT Communication Framework for Scalable AI Inference and Training",
+      "abstract": "The rapid expansion of distributed Artificial Intelligence (AI) workloads beyond centralized data centers creates a demand for new communication substrates. These substrates must operate reliably in heterogeneous and permissionless environments, where Network Address Translators (NATs) and firewalls impose significant constraints. Existing solutions, however, are either designed for controlled data center deployments or implemented as monolithic systems that tightly couple machine learning logic with networking code. To address these limitations, we present Lattica, a decentralized cross-NAT communication framework designed to support distributed AI systems. Lattica integrates three core components. First, it employs a robust suite of NAT traversal mechanisms to establish a globally addressable peer-to-peer mesh. Second, it provides a decentralized data store based on Conflict-free Replicated Data Types (CRDTs), ensuring verifiable and eventually consistent state replication. Third, it incorporates a content discovery layer that leverages distributed hash tables (DHTs) together with an optimized RPC protocol for efficient model synchronization. By integrating these components, Lattica delivers a complete protocol stack for sovereign, resilient, and scalable AI systems that operate independently of centralized intermediaries. It is directly applicable to edge intelligence, collaborative reinforcement learning, and other large-scale distributed machine learning scenarios.",
+      "authors": [
+        "Ween Yang",
+        "Jason Liu",
+        "Suli Wang",
+        "Xinyuan Song",
+        "Lynn Ai",
+        "Eric Yang",
+        "Bill Shi"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2510.00183v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2504.15894v1",
+      "title": "Supporting Data-Frame Dynamics in AI-assisted Decision Making",
+      "abstract": "High stakes decision-making often requires a continuous interplay between evolving evidence and shifting hypotheses, a dynamic that is not well supported by current AI decision support systems. In this paper, we introduce a mixed-initiative framework for AI assisted decision making that is grounded in the data-frame theory of sensemaking and the evaluative AI paradigm. Our approach enables both humans and AI to collaboratively construct, validate, and adapt hypotheses. We demonstrate our framework with an AI-assisted skin cancer diagnosis prototype that leverages a concept bottleneck model to facilitate interpretable interactions and dynamic updates to diagnostic hypotheses.",
+      "authors": [
+        "Chengbo Zheng",
+        "Tim Miller",
+        "Alina Bialkowski",
+        "H Peter Soyer",
+        "Monika Janda"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2504.15894v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2410.13042v1",
+      "title": "How Do AI Companies \"Fine-Tune\" Policy? Examining Regulatory Capture in AI Governance",
+      "abstract": "Industry actors in the United States have gained extensive influence in conversations about the regulation of general-purpose artificial intelligence (AI) systems. Although industry participation is an important part of the policy process, it can also cause regulatory capture, whereby industry co-opts regulatory regimes to prioritize private over public welfare. Capture of AI policy by AI developers and deployers could hinder such regulatory goals as ensuring the safety, fairness, beneficence, transparency, or innovation of general-purpose AI systems. In this paper, we first introduce different models of regulatory capture from the social science literature. We then present results from interviews with 17 AI policy experts on what policy outcomes could compose regulatory capture in US AI policy, which AI industry actors are influencing the policy process, and whether and how AI industry actors attempt to achieve outcomes of regulatory capture. Experts were primarily concerned with capture leading to a lack of AI regulation, weak regulation, or regulation that over-emphasizes certain policy goals over others. Experts most commonly identified agenda-setting (15 of 17 interviews), advocacy (13), academic capture (10), information management (9), cultural capture through status (7), and media capture (7) as channels for industry influence. To mitigate these particular forms of industry influence, we recommend systemic changes in developing technical expertise in government and civil society, independent funding streams for the AI ecosystem, increased transparency and ethics requirements, greater civil society access to policy, and various procedural safeguards.",
+      "authors": [
+        "Kevin Wei",
+        "Carson Ezell",
+        "Nick Gabrieli",
+        "Chinmay Deshpande"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2410.13042v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2512.20902v1",
+      "title": "Embodied AI-Enhanced IoMT Edge Computing: UAV Trajectory Optimization and Task Offloading with Mobility Prediction",
+      "abstract": "Due to their inherent flexibility and autonomous operation, unmanned aerial vehicles (UAVs) have been widely used in Internet of Medical Things (IoMT) to provide real-time biomedical edge computing service for wireless body area network (WBAN) users. In this paper, considering the time-varying task criticality characteristics of diverse WBAN users and the dual mobility between WBAN users and UAV, we investigate the dynamic task offloading and UAV flight trajectory optimization problem to minimize the weighted average task completion time of all the WBAN users, under the constraint of UAV energy consumption. To tackle the problem, an embodied AI-enhanced IoMT edge computing framework is established. Specifically, we propose a novel hierarchical multi-scale Transformer-based user trajectory prediction model based on the users' historical trajectory traces captured by the embodied AI agent (i.e., UAV). Afterwards, a prediction-enhanced deep reinforcement learning (DRL) algorithm that integrates predicted users' mobility information is designed for intelligently optimizing UAV flight trajectory and task offloading decisions. Real-word movement traces and simulation results demonstrate the superiority of the proposed methods in comparison with the existing benchmarks.",
+      "authors": [
+        "Siqi Mu",
+        "Shuo Wen",
+        "Yang Lu",
+        "Ruihong Jiang",
+        "Bo Ai"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2512.20902v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2407.04336v3",
+      "title": "AI-Driven Mobility Management for High-Speed Railway Communications: Compressed Measurements and Proactive Handover",
+      "abstract": "High-speed railway (HSR) communications are pivotal for ensuring rail safety, operations, maintenance, and delivering passenger information services. The high speed of trains creates rapidly time-varying wireless channels, increases the signaling overhead, and reduces the system throughput, making it difficult to meet the growing and stringent needs of HSR applications. In this article, we explore artificial intelligence (AI)-based beam-level and cell-level mobility management suitable for HSR communications. Particularly, we propose a compressed spatial multi-beam measurements scheme via compressive sensing for beam-level mobility management in HSR communications. In comparison to traditional down-sampling spatial beam measurements, this method leads to improved spatial-temporal beam prediction accuracy with the same measurement overhead. Moreover, we propose a novel AI-based proactive handover scheme to predict handover events and reduce radio link failure (RLF) rates in HSR communications. Compared with the traditional event A3-based handover mechanism, the proposed approach significantly reduces the RLF rates which saves 50% beam measurement overhead.",
+      "authors": [
+        "Wen Li",
+        "Wei Chen",
+        "Shiyue Wang",
+        "Yuanyuan Zhang",
+        "Michail Matthaiou",
+        "Bo Ai"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2407.04336v3"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2502.18527v2",
+      "title": "GOD model: Privacy Preserved AI School for Personal Assistant",
+      "abstract": "Personal AI assistants (e.g., Apple Intelligence, Meta AI) offer proactive recommendations that simplify everyday tasks, but their reliance on sensitive user data raises concerns about privacy and trust. To address these challenges, we introduce the Guardian of Data (GOD), a secure, privacy-preserving framework for training and evaluating AI assistants directly on-device. Unlike traditional benchmarks, the GOD model measures how well assistants can anticipate user needs-such as suggesting gifts-while protecting user data and autonomy. Functioning like an AI school, it addresses the cold start problem by simulating user queries and employing a curriculum-based approach to refine the performance of each assistant. Running within a Trusted Execution Environment (TEE), it safeguards user data while applying reinforcement and imitation learning to refine AI recommendations. A token-based incentive system encourages users to share data securely, creating a data flywheel that drives continuous improvement. Specifically, users mine with their data, and the mining rate is determined by GOD's evaluation of how well their AI assistant understands them across categories such as shopping, social interactions, productivity, trading, and Web3. By integrating privacy, personalization, and trust, the GOD model provides a scalable, responsible path for advancing personal AI assistants. For community collaboration, part of the framework is open-sourced at https://github.com/PIN-AI/God-Model.",
+      "authors": [
+        "PIN AI Team",
+        "Bill Sun",
+        "Gavin Guo",
+        "Regan Peng",
+        "Boliang Zhang",
+        "Shouqiao Wang",
+        "Laura Florescu",
+        "Xi Wang",
+        "Davide Crapis",
+        "Ben Wu"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2502.18527v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2504.14996v1",
+      "title": "Distributed Cognition for AI-supported Remote Operations: Challenges and Research Directions",
+      "abstract": "This paper investigates the impact of artificial intelligence integration on remote operations, emphasising its influence on both distributed and team cognition. As remote operations increasingly rely on digital interfaces, sensors, and networked communication, AI-driven systems transform decision-making processes across domains such as air traffic control, industrial automation, and intelligent ports. However, the integration of AI introduces significant challenges, including the reconfiguration of human-AI team cognition, the need for adaptive AI memory that aligns with human distributed cognition, and the design of AI fallback operators to maintain continuity during communication disruptions. Drawing on theories of distributed and team cognition, we analyse how cognitive overload, loss of situational awareness, and impaired team coordination may arise in AI-supported environments. Based on real-world intelligent port scenarios, we propose research directions that aim to safeguard human reasoning and enhance collaborative decision-making in AI-augmented remote operations.",
+      "authors": [
+        "Rune M\u00f8berg Jacobsen",
+        "Joel Wester",
+        "Helena B\u00f8jer Djern\u00e6s",
+        "Niels van Berkel"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2504.14996v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2504.15647v2",
+      "title": "Promoting Real-Time Reflection in Synchronous Communication with Generative AI",
+      "abstract": "Real-time reflection plays a vital role in synchronous communication. It enables users to adjust their communication strategies dynamically, thereby improving the effectiveness of their communication. Generative AI holds significant potential to enhance real-time reflection due to its ability to comprehensively understand the current context and generate personalized and nuanced content. However, it is challenging to design the way of interaction and information presentation to support the real-time workflow rather than disrupt it. In this position paper, we present a review of existing research on systems designed for reflection in different synchronous communication scenarios. Based on that, we discuss design implications on how to design human-AI interaction to support reflection in real time.",
+      "authors": [
+        "Yi Wen",
+        "Meng Xia"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2504.15647v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2404.11836v1",
+      "title": "AI-Empowered RIS-Assisted Networks: CV-Enabled RIS Selection and DNN-Enabled Transmission",
+      "abstract": "This paper investigates artificial intelligence (AI) empowered schemes for reconfigurable intelligent surface (RIS) assisted networks from the perspective of fast implementation. We formulate a weighted sum-rate maximization problem for a multi-RIS-assisted network. To avoid huge channel estimation overhead due to activate all RISs, we propose a computer vision (CV) enabled RIS selection scheme based on a single shot multi-box detector. To realize real-time resource allocation, a deep neural network (DNN) enabled transmit design is developed to learn the optimal mapping from channel information to transmit beamformers and phase shift matrix. Numerical results illustrate that the CV module is able to select of RIS with the best propagation condition. The well-trained DNN achieves similar sum-rate performance to the existing alternative optimization method but with much smaller inference time.",
+      "authors": [
+        "Conggang Hu",
+        "Yang Lu",
+        "Hongyang Du",
+        "Mi Yang",
+        "Bo Ai",
+        "Dusit Niyato"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2404.11836v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2409.14702v2",
+      "title": "Rate-Splitting for Cell-Free Massive MIMO: Performance Analysis and Generative AI Approach",
+      "abstract": "Cell-free (CF) massive multiple-input multipleoutput (MIMO) provides a ubiquitous coverage to user equipments (UEs) but it is also susceptible to interference. Ratesplitting (RS) effectively extracts data by decoding interference, yet its effectiveness is limited by the weakest UE. In this paper, we investigate an RS-based CF massive MIMO system, which combines strengths and mitigates weaknesses of both approaches. Considering imperfect channel state information (CSI) resulting from both pilot contamination and noise, we derive a closed-form expression for the sum spectral efficiency (SE) of the RS-based CF massive MIMO system under a spatially correlated Rician channel. Moreover, we propose low-complexity heuristic algorithms based on statistical CSI for power-splitting of common messages and power-control of private messages, and genetic algorithm is adopted as a solution for upper bound performance. Furthermore, we formulate a joint optimization problem, aiming to maximize the sum SE of the RS-based CF massive MIMO system by optimizing the power-splitting factor and power-control coefficient. Importantly, we improve a generative AI (GAI) algorithm to address this complex and nonconvexity problem by using a diffusion model to obtain solutions. Simulation results demonstrate its effectiveness and practicality in mitigating interference, especially in dynamic environments.",
+      "authors": [
+        "Jiakang Zheng",
+        "Jiayi Zhang",
+        "Hongyang Du",
+        "Ruichen Zhang",
+        "Dusit Niyato",
+        "Octavia A. Dobre",
+        "Bo Ai"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2409.14702v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2504.16021v1",
+      "title": "Navigating the State of Cognitive Flow: Context-Aware AI Interventions for Effective Reasoning Support",
+      "abstract": "Flow theory describes an optimal cognitive state where individuals experience deep focus and intrinsic motivation when a task's difficulty aligns with their skill level. In AI-augmented reasoning, interventions that disrupt the state of cognitive flow can hinder rather than enhance decision-making. This paper proposes a context-aware cognitive augmentation framework that adapts interventions based on three key contextual factors: type, timing, and scale. By leveraging multimodal behavioral cues (e.g., gaze behavior, typing hesitation, interaction speed), AI can dynamically adjust cognitive support to maintain or restore flow. We introduce the concept of cognitive flow, an extension of flow theory in AI-augmented reasoning, where interventions are personalized, adaptive, and minimally intrusive. By shifting from static interventions to context-aware augmentation, our approach ensures that AI systems support deep engagement in complex decision-making and reasoning without disrupting cognitive immersion.",
+      "authors": [
+        "Dinithi Dissanayake",
+        "Suranga Nanayakkara"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2504.16021v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2411.06336v1",
+      "title": "Balancing Power and Ethics: A Framework for Addressing Human Rights Concerns in Military AI",
+      "abstract": "AI has made significant strides recently, leading to various applications in both civilian and military sectors. The military sees AI as a solution for developing more effective and faster technologies. While AI offers benefits like improved operational efficiency and precision targeting, it also raises serious ethical and legal concerns, particularly regarding human rights violations. Autonomous weapons that make decisions without human input can threaten the right to life and violate international humanitarian law. To address these issues, we propose a three-stage framework (Design, In Deployment, and During/After Use) for evaluating human rights concerns in the design, deployment, and use of military AI. Each phase includes multiple components that address various concerns specific to that phase, ranging from bias and regulatory issues to violations of International Humanitarian Law. By this framework, we aim to balance the advantages of AI in military operations with the need to protect human rights.",
+      "authors": [
+        "Mst Rafia Islam",
+        "Azmine Toushik Wasi"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2411.06336v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2203.10525v2",
+      "title": "Recognising the importance of preference change: A call for a coordinated multidisciplinary research effort in the age of AI",
+      "abstract": "As artificial intelligence becomes more powerful and a ubiquitous presence in daily life, it is imperative to understand and manage the impact of AI systems on our lives and decisions. Modern ML systems often change user behavior (e.g. personalized recommender systems learn user preferences to deliver recommendations that change online behavior). An externality of behavior change is preference change. This article argues for the establishment of a multidisciplinary endeavor focused on understanding how AI systems change preference: Preference Science. We operationalize preference to incorporate concepts from various disciplines, outlining the importance of meta-preferences and preference-change preferences, and proposing a preliminary framework for how preferences change. We draw a distinction between preference change, permissible preference change, and outright preference manipulation. A diversity of disciplines contribute unique insights to this framework.",
+      "authors": [
+        "Matija Franklin",
+        "Hal Ashton",
+        "Rebecca Gorman",
+        "Stuart Armstrong"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2203.10525v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2507.08804v1",
+      "title": "Cognitive Dissonance Artificial Intelligence (CD-AI): The Mind at War with Itself. Harnessing Discomfort to Sharpen Critical Thinking",
+      "abstract": "AI-augmented systems are traditionally designed to streamline human decision-making by minimizing cognitive load, clarifying arguments, and optimizing efficiency. However, in a world where algorithmic certainty risks becoming an Orwellian tool of epistemic control, true intellectual growth demands not passive acceptance but active struggle. Drawing on the dystopian visions of George Orwell and Philip K. Dick - where reality is unstable, perception malleable, and truth contested - this paper introduces Cognitive Dissonance AI (CD-AI): a novel framework that deliberately sustains uncertainty rather than resolving it. CD-AI does not offer closure, but compels users to navigate contradictions, challenge biases, and wrestle with competing truths. By delaying resolution and promoting dialectical engagement, CD-AI enhances reflective reasoning, epistemic humility, critical thinking, and adaptability in complex decision-making. This paper examines the theoretical foundations of the approach, presents an implementation model, explores its application in domains such as ethics, law, politics, and science, and addresses key ethical concerns - including decision paralysis, erosion of user autonomy, cognitive manipulation, and bias in AI reasoning. In reimagining AI as an engine of doubt rather than a deliverer of certainty, CD-AI challenges dominant paradigms of AI-augmented reasoning and offers a new vision - one in which AI sharpens the mind not by resolving conflict, but by sustaining it. Rather than reinforcing Huxleyan complacency or pacifying the user into intellectual conformity, CD-AI echoes Nietzsche's vision of the Uebermensch - urging users to transcend passive cognition through active epistemic struggle.",
+      "authors": [
+        "Delia Deliu"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2507.08804v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2207.02201v1",
+      "title": "Efficient Spatial-Temporal Information Fusion for LiDAR-Based 3D Moving Object Segmentation",
+      "abstract": "Accurate moving object segmentation is an essential task for autonomous driving. It can provide effective information for many downstream tasks, such as collision avoidance, path planning, and static map construction. How to effectively exploit the spatial-temporal information is a critical question for 3D LiDAR moving object segmentation (LiDAR-MOS). In this work, we propose a novel deep neural network exploiting both spatial-temporal information and different representation modalities of LiDAR scans to improve LiDAR-MOS performance. Specifically, we first use a range image-based dual-branch structure to separately deal with spatial and temporal information that can be obtained from sequential LiDAR scans, and later combine them using motion-guided attention modules. We also use a point refinement module via 3D sparse convolution to fuse the information from both LiDAR range image and point cloud representations and reduce the artifacts on the borders of the objects. We verify the effectiveness of our proposed approach on the LiDAR-MOS benchmark of SemanticKITTI. Our method outperforms the state-of-the-art methods significantly in terms of LiDAR-MOS IoU. Benefiting from the devised coarse-to-fine architecture, our method operates online at sensor frame rate. The implementation of our method is available as open source at: https://github.com/haomo-ai/MotionSeg3D.",
+      "authors": [
+        "Jiadai Sun",
+        "Yuchao Dai",
+        "Xianjing Zhang",
+        "Jintao Xu",
+        "Rui Ai",
+        "Weihao Gu",
+        "Xieyuanli Chen"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2207.02201v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2409.06354v1",
+      "title": "Exploring AI Futures Through Fictional News Articles",
+      "abstract": "The aim of this workshop was to enable critical discussion on AI futures using fictional news articles and discussion groups. By collaboratively imagining and presenting future scenarios in a journalistic news article format, participants explored the socio-political, ethical and sustainability factors of AI through an accessible narrative form. Participants engaged in further anticipatory work by analyzing the issues raised by the articles in a group discussion, emphasizing the underlying motivations, assumptions and expectations conveyed within the news articles.",
+      "authors": [
+        "Martin Lindstam",
+        "Elin Sporrong",
+        "Camilo Sanchez",
+        "Petra J\u00e4\u00e4skel\u00e4inen"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2409.06354v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1908.08184v1",
+      "title": "Report on the First Knowledge Graph Reasoning Challenge 2018 -- Toward the eXplainable AI System",
+      "abstract": "A new challenge for knowledge graph reasoning started in 2018. Deep learning has promoted the application of artificial intelligence (AI) techniques to a wide variety of social problems. Accordingly, being able to explain the reason for an AI decision is becoming important to ensure the secure and safe use of AI techniques. Thus, we, the Special Interest Group on Semantic Web and Ontology of the Japanese Society for AI, organized a challenge calling for techniques that reason and/or estimate which characters are criminals while providing a reasonable explanation based on an open knowledge graph of a well-known Sherlock Holmes mystery story. This paper presents a summary report of the first challenge held in 2018, including the knowledge graph construction, the techniques proposed for reasoning and/or estimation, the evaluation metrics, and the results. The first prize went to an approach that formalized the problem as a constraint satisfaction problem and solved it using a lightweight formal method; the second prize went to an approach that used SPARQL and rules; the best resource prize went to a submission that constructed word embedding of characters from all sentences of Sherlock Holmes novels; and the best idea prize went to a discussion multi-agents model. We conclude this paper with the plans and issues for the next challenge in 2019.",
+      "authors": [
+        "Takahiro Kawamura",
+        "Shusaku Egami",
+        "Koutarou Tamura",
+        "Yasunori Hokazono",
+        "Takanori Ugai",
+        "Yusuke Koyanagi",
+        "Fumihito Nishino",
+        "Seiji Okajima",
+        "Katsuhiko Murakami",
+        "Kunihiko Takamatsu",
+        "Aoi Sugiura",
+        "Shun Shiramatsu",
+        "Shawn Zhang",
+        "Kouji Kozaki"
+      ],
+      "year": 2019,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1908.08184v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2508.10108v1",
+      "title": "Amazon Nova AI Challenge -- Trusted AI: Advancing secure, AI-assisted software development",
+      "abstract": "AI systems for software development are rapidly gaining prominence, yet significant challenges remain in ensuring their safety. To address this, Amazon launched the Trusted AI track of the Amazon Nova AI Challenge, a global competition among 10 university teams to drive advances in secure AI. In the challenge, five teams focus on developing automated red teaming bots, while the other five create safe AI assistants. This challenge provides teams with a unique platform to evaluate automated red-teaming and safety alignment methods through head-to-head adversarial tournaments where red teams have multi-turn conversations with the competing AI coding assistants to test their safety alignment. Along with this, the challenge provides teams with a feed of high quality annotated data to fuel iterative improvement. Throughout the challenge, teams developed state-of-the-art techniques, introducing novel approaches in reasoning-based safety alignment, robust model guardrails, multi-turn jail-breaking, and efficient probing of large language models (LLMs). To support these efforts, the Amazon Nova AI Challenge team made substantial scientific and engineering investments, including building a custom baseline coding specialist model for the challenge from scratch, developing a tournament orchestration service, and creating an evaluation harness. This paper outlines the advancements made by university teams and the Amazon Nova AI Challenge team in addressing the safety challenges of AI for software development, highlighting this collaborative effort to raise the bar for AI safety.",
+      "authors": [
+        "Sattvik Sahai",
+        "Prasoon Goyal",
+        "Michael Johnston",
+        "Anna Gottardi",
+        "Yao Lu",
+        "Lucy Hu",
+        "Luke Dai",
+        "Shaohua Liu",
+        "Samyuth Sagi",
+        "Hangjie Shi",
+        "Desheng Zhang",
+        "Lavina Vaz",
+        "Leslie Ball",
+        "Maureen Murray",
+        "Rahul Gupta",
+        "Shankar Ananthakrishna"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2508.10108v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2503.17374v1",
+      "title": "Intanify AI Platform: Embedded AI for Automated IP Audit and Due Diligence",
+      "abstract": "In this paper we introduce a Platform created in order to support SMEs' endeavor to extract value from their intangible assets effectively. To implement the Platform, we developed five knowledge bases using a knowledge-based ex-pert system shell that contain knowledge from intangible as-set consultants, patent attorneys and due diligence lawyers. In order to operationalize the knowledge bases, we developed a \"Rosetta Stone\", an interpreter unit for the knowledge bases outside the shell and embedded in the plat-form. Building on the initial knowledge bases we have created a system of red flags, risk scoring, and valuation with the involvement of the same experts; these additional systems work upon the initial knowledge bases and therefore they can be regarded as meta-knowledge-representations that take the form of second-order knowledge graphs. All this clever technology is dressed up in an easy-to-handle graphical user interface that we will showcase at the conference. The initial platform was finished mid-2024; therefore, it qualifies as an \"emerging application of AI\" and \"deployable AI\", while development continues. The two firms that provided experts for developing the knowledge bases obtained a white-label version of the product (i.e. it runs under their own brand \"powered by Intanify\"), and there are two completed cases.",
+      "authors": [
+        "Viktor Dorfler",
+        "Dylan Dryden",
+        "Viet Lee"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2503.17374v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2412.09086v1",
+      "title": "Understanding Opportunities and Risks of Synthetic Relationships: Leveraging the Power of Longitudinal Research with Customised AI Tools",
+      "abstract": "This position paper discusses the benefits of longitudinal behavioural research with customised AI tools for exploring the opportunities and risks of synthetic relationships. Synthetic relationships are defined as \"continuing associations between humans and AI tools that interact with one another wherein the AI tool(s) influence(s) humans' thoughts, feelings, and/or actions.\" (Starke et al., 2024). These relationships can potentially improve health, education, and the workplace, but they also bring the risk of subtle manipulation and privacy and autonomy concerns. To harness the opportunities of synthetic relationships and mitigate their risks, we outline a methodological approach that complements existing findings. We propose longitudinal research designs with self-assembled AI agents that enable the integration of detailed behavioural and self-reported data.",
+      "authors": [
+        "Alfio Ventura",
+        "Nils K\u00f6bis"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2412.09086v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2009.07262v2",
+      "title": "Report prepared by the Montreal AI Ethics Institute (MAIEI) on Publication Norms for Responsible AI",
+      "abstract": "The history of science and technology shows that seemingly innocuous developments in scientific theories and research have enabled real-world applications with significant negative consequences for humanity. In order to ensure that the science and technology of AI is developed in a humane manner, we must develop research publication norms that are informed by our growing understanding of AI's potential threats and use cases. Unfortunately, it's difficult to create a set of publication norms for responsible AI because the field of AI is currently fragmented in terms of how this technology is researched, developed, funded, etc. To examine this challenge and find solutions, the Montreal AI Ethics Institute (MAIEI) co-hosted two public consultations with the Partnership on AI in May 2020. These meetups examined potential publication norms for responsible AI, with the goal of creating a clear set of recommendations and ways forward for publishers.   In its submission, MAIEI provides six initial recommendations, these include: 1) create tools to navigate publication decisions, 2) offer a page number extension, 3) develop a network of peers, 4) require broad impact statements, 5) require the publication of expected results, and 6) revamp the peer-review process. After considering potential concerns regarding these recommendations, including constraining innovation and creating a \"black market\" for AI research, MAIEI outlines three ways forward for publishers, these include: 1) state clearly and consistently the need for established norms, 2) coordinate and build trust as a community, and 3) change the approach.",
+      "authors": [
+        "Abhishek Gupta",
+        "Camylle Lanteigne",
+        "Victoria Heath"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2009.07262v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2510.26007v1",
+      "title": "The Quest for Reliable Metrics of Responsible AI",
+      "abstract": "The development of Artificial Intelligence (AI), including AI in Science (AIS), should be done following the principles of responsible AI. Progress in responsible AI is often quantified through evaluation metrics, yet there has been less work on assessing the robustness and reliability of the metrics themselves. We reflect on prior work that examines the robustness of fairness metrics for recommender systems as a type of AI application and summarise their key takeaways into a set of non-exhaustive guidelines for developing reliable metrics of responsible AI. Our guidelines apply to a broad spectrum of AI applications, including AIS.",
+      "authors": [
+        "Theresia Veronika Rampisela",
+        "Maria Maistro",
+        "Tuukka Ruotsalo",
+        "Christina Lioma"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2510.26007v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2106.05568v2",
+      "title": "Explainable AI, but explainable to whom?",
+      "abstract": "Advances in AI technologies have resulted in superior levels of AI-based model performance. However, this has also led to a greater degree of model complexity, resulting in 'black box' models. In response to the AI black box problem, the field of explainable AI (xAI) has emerged with the aim of providing explanations catered to human understanding, trust, and transparency. Yet, we still have a limited understanding of how xAI addresses the need for explainable AI in the context of healthcare. Our research explores the differing explanation needs amongst stakeholders during the development of an AI-system for classifying COVID-19 patients for the ICU. We demonstrate that there is a constellation of stakeholders who have different explanation needs, not just the 'user'. Further, the findings demonstrate how the need for xAI emerges through concerns associated with specific stakeholder groups i.e., the development team, subject matter experts, decision makers, and the audience. Our findings contribute to the expansion of xAI by highlighting that different stakeholders have different explanation needs. From a practical perspective, the study provides insights on how AI systems can be adjusted to support different stakeholders needs, ensuring better implementation and operation in a healthcare context.",
+      "authors": [
+        "Julie Gerlings",
+        "Millie S\u00f8ndergaard Jensen",
+        "Arisa Shollo"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2106.05568v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2403.17419v1",
+      "title": "AI Safety: Necessary, but insufficient and possibly problematic",
+      "abstract": "This article critically examines the recent hype around AI safety. We first start with noting the nature of the AI safety hype as being dominated by governments and corporations, and contrast it with other avenues within AI research on advancing social good. We consider what 'AI safety' actually means, and outline the dominant concepts that the digital footprint of AI safety aligns with. We posit that AI safety has a nuanced and uneasy relationship with transparency and other allied notions associated with societal good, indicating that it is an insufficient notion if the goal is that of societal good in a broad sense. We note that the AI safety debate has already influenced some regulatory efforts in AI, perhaps in not so desirable directions. We also share our concerns on how AI safety may normalize AI that advances structural harm through providing exploitative and harmful AI with a veneer of safety.",
+      "authors": [
+        "Deepak P"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2403.17419v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2308.02033v1",
+      "title": "AI and the EU Digital Markets Act: Addressing the Risks of Bigness in Generative AI",
+      "abstract": "As AI technology advances rapidly, concerns over the risks of bigness in digital markets are also growing. The EU's Digital Markets Act (DMA) aims to address these risks. Still, the current framework may not adequately cover generative AI systems that could become gateways for AI-based services. This paper argues for integrating certain AI software as core platform services and classifying certain developers as gatekeepers under the DMA. We also propose an assessment of gatekeeper obligations to ensure they cover generative AI services. As the EU considers generative AI-specific rules and possible DMA amendments, this paper provides insights towards diversity and openness in generative AI services.",
+      "authors": [
+        "Ayse Gizem Yasar",
+        "Andrew Chong",
+        "Evan Dong",
+        "Thomas Krendl Gilbert",
+        "Sarah Hladikova",
+        "Roland Maio",
+        "Carlos Mougan",
+        "Xudong Shen",
+        "Shubham Singh",
+        "Ana-Andreea Stoica",
+        "Savannah Thais",
+        "Miri Zilka"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2308.02033v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2508.08544v1",
+      "title": "AI Agents and the Law",
+      "abstract": "As AI becomes more \"agentic,\" it faces technical and socio-legal issues it must address if it is to fulfill its promise of increased economic productivity and efficiency. This paper uses technical and legal perspectives to explain how things change when AI systems start being able to directly execute tasks on behalf of a user. We show how technical conceptions of agents track some, but not all, socio-legal conceptions of agency. That is, both computer science and the law recognize the problems of under-specification for an agent, and both disciplines have robust conceptions of how to address ensuring an agent does what the programmer, or in the law, the principal desires and no more. However, to date, computer science has under-theorized issues related to questions of loyalty and to third parties that interact with an agent, both of which are central parts of the law of agency. First, we examine the correlations between implied authority in agency law and the principle of value-alignment in AI, wherein AI systems must operate under imperfect objective specification. Second, we reveal gaps in the current computer science view of agents pertaining to the legal concepts of disclosure and loyalty, and how failure to account for them can result in unintended effects in AI ecommerce agents. In surfacing these gaps, we show a path forward for responsible AI agent development and deployment.",
+      "authors": [
+        "Mark O. Riedl",
+        "Deven R. Desai"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2508.08544v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1709.04734v1",
+      "title": "Perspectives for Evaluating Conversational AI",
+      "abstract": "Conversational AI systems are becoming famous in day to day lives. In this paper, we are trying to address the following key question: To identify whether design, as well as development efforts for search oriented conversational AI are successful or not.It is tricky to define 'success' in the case of conversational AI and equally tricky part is to use appropriate metrics for the evaluation of conversational AI. We propose four different perspectives namely user experience, information retrieval, linguistic and artificial intelligence for the evaluation of conversational AI systems. Additionally, background details of conversational AI systems are provided including desirable characteristics of personal assistants, differences between chatbot and an AI based personal assistant. An importance of personalization and how it can be achieved is explained in detail. Current challenges in the development of an ideal conversational AI (personal assistant) are also highlighted along with guidelines for achieving personalized experience for users.",
+      "authors": [
+        "Mahipal Jadeja",
+        "Neelanshi Varia"
+      ],
+      "year": 2017,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1709.04734v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2511.06559v1",
+      "title": "GenAI vs. Human Creators: Procurement Mechanism Design in Two-/Three-Layer Markets",
+      "abstract": "With the rapid advancement of generative AI (GenAI), mechanism design adapted to its unique characteristics poses new theoretical and practical challenges. Unlike traditional goods, content from one domain can enhance the training and performance of GenAI models in other domains. For example, OpenAI's video generation model Sora (Liu et al., 2024b) relies heavily on image data to improve video generation quality. In this work, we study nonlinear procurement mechanism design under data transferability, where online platforms employ both human creators and GenAI to satisfy cross-domain content demand. We propose optimal mechanisms that maximize either platform revenue or social welfare and identify the specific properties of GenAI that make such high-dimensional design problems tractable. Our analysis further reveals which domains face stronger competitive pressure and which tend to experience overproduction. Moreover, the growing role of data intermediaries, including labeling companies such as Scale AI and creator organizations such as The Wall Street Journal, introduces a third layer into the traditional platform-creator structure. We show that this three-layer market can result in a lose-lose outcome, reducing both platform revenue and social welfare, as large pre-signed contracts distort creators' incentives and lead to inefficiencies in the data market. These findings suggest a need for government regulation of the GenAI data ecosystem, and our theoretical insights are further supported by numerical simulations.",
+      "authors": [
+        "Rui Ai",
+        "David Simchi-Levi",
+        "Haifeng Xu"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2511.06559v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2003.02093v1",
+      "title": "AI-Mediated Exchange Theory",
+      "abstract": "As Artificial Intelligence (AI) plays an ever-expanding role in sociotechnical systems, it is important to articulate the relationships between humans and AI. However, the scholarly communities studying human-AI relationships -- including but not limited to social computing, machine learning, science and technology studies, and other social sciences -- are divided by the perspectives that define them. These perspectives vary both by their focus on humans or AI, and in the micro/macro lenses through which they approach subjects. These differences inhibit the integration of findings, and thus impede science and interdisciplinarity. In this position paper, we propose the development of a framework AI-Mediated Exchange Theory (AI-MET) to bridge these divides. As an extension to Social Exchange Theory (SET) in the social sciences, AI-MET views AI as influencing human-to-human relationships via a taxonomy of mediation mechanisms. We list initial ideas of these mechanisms, and show how AI-MET can be used to help human-AI research communities speak to one another.",
+      "authors": [
+        "Xiao Ma",
+        "Taylor W. Brown"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2003.02093v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2512.11931v1",
+      "title": "Mapping AI Risk Mitigations: Evidence Scan and Preliminary AI Risk Mitigation Taxonomy",
+      "abstract": "Organizations and governments that develop, deploy, use, and govern AI must coordinate on effective risk mitigation. However, the landscape of AI risk mitigation frameworks is fragmented, uses inconsistent terminology, and has gaps in coverage. This paper introduces a preliminary AI Risk Mitigation Taxonomy to organize AI risk mitigations and provide a common frame of reference. The Taxonomy was developed through a rapid evidence scan of 13 AI risk mitigation frameworks published between 2023-2025, which were extracted into a living database of 831 AI risk mitigations. The mitigations were iteratively clustered & coded to create the Taxonomy. The preliminary AI Risk Mitigation Taxonomy organizes mitigations into four categories and 23 subcategories: (1) Governance & Oversight: Formal organizational structures and policy frameworks that establish human oversight mechanisms and decision protocols; (2) Technical & Security: Technical, physical, and engineering safeguards that secure AI systems and constrain model behaviors; (3) Operational Process: processes and management frameworks governing AI system deployment, usage, monitoring, incident handling, and validation; and (4) Transparency & Accountability: formal disclosure practices and verification mechanisms that communicate AI system information and enable external scrutiny. The rapid evidence scan and taxonomy construction also revealed several cases where terms like 'risk management' and 'red teaming' are used widely but refer to different responsible actors, actions, and mechanisms of action to reduce risk. This Taxonomy and associated mitigation database, while preliminary, offers a starting point for collation and synthesis of AI risk mitigations. It also offers an accessible, structured way for different actors in the AI ecosystem to discuss and coordinate action to reduce risks from AI.",
+      "authors": [
+        "Alexander K. Saeri",
+        "Sophia Lloyd George",
+        "Jess Graham",
+        "Clelia D. Lacarriere",
+        "Peter Slattery",
+        "Michael Noetel",
+        "Neil Thompson"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2512.11931v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2509.09254v1",
+      "title": "Towards Better Dental AI: A Multimodal Benchmark and Instruction Dataset for Panoramic X-ray Analysis",
+      "abstract": "Recent advances in large vision-language models (LVLMs) have demonstrated strong performance on general-purpose medical tasks. However, their effectiveness in specialized domains such as dentistry remains underexplored. In particular, panoramic X-rays, a widely used imaging modality in oral radiology, pose interpretative challenges due to dense anatomical structures and subtle pathological cues, which are not captured by existing medical benchmarks or instruction datasets. To this end, we introduce MMOral, the first large-scale multimodal instruction dataset and benchmark tailored for panoramic X-ray interpretation. MMOral consists of 20,563 annotated images paired with 1.3 million instruction-following instances across diverse task types, including attribute extraction, report generation, visual question answering, and image-grounded dialogue. In addition, we present MMOral-Bench, a comprehensive evaluation suite covering five key diagnostic dimensions in dentistry. We evaluate 64 LVLMs on MMOral-Bench and find that even the best-performing model, i.e., GPT-4o, only achieves 41.45% accuracy, revealing significant limitations of current models in this domain. To promote the progress of this specific domain, we also propose OralGPT, which conducts supervised fine-tuning (SFT) upon Qwen2.5-VL-7B with our meticulously curated MMOral instruction dataset. Remarkably, a single epoch of SFT yields substantial performance enhancements for LVLMs, e.g., OralGPT demonstrates a 24.73% improvement. Both MMOral and OralGPT hold significant potential as a critical foundation for intelligent dentistry and enable more clinically impactful multimodal AI systems in the dental field. The dataset, model, benchmark, and evaluation suite are available at https://github.com/isbrycee/OralGPT.",
+      "authors": [
+        "Jing Hao",
+        "Yuxuan Fan",
+        "Yanpeng Sun",
+        "Kaixin Guo",
+        "Lizhuo Lin",
+        "Jinrong Yang",
+        "Qi Yong H. Ai",
+        "Lun M. Wong",
+        "Hao Tang",
+        "Kuo Feng Hung"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2509.09254v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1512.05849v1",
+      "title": "Modeling Progress in AI",
+      "abstract": "Participants in recent discussions of AI-related issues ranging from intelligence explosion to technological unemployment have made diverse claims about the nature, pace, and drivers of progress in AI. However, these theories are rarely specified in enough detail to enable systematic evaluation of their assumptions or to extrapolate progress quantitatively, as is often done with some success in other technological domains. After reviewing relevant literatures and justifying the need for more rigorous modeling of AI progress, this paper contributes to that research program by suggesting ways to account for the relationship between hardware speed increases and algorithmic improvements in AI, the role of human inputs in enabling AI capabilities, and the relationships between different sub-fields of AI. It then outlines ways of tailoring AI progress models to generate insights on the specific issue of technological unemployment, and outlines future directions for research on AI progress.",
+      "authors": [
+        "Miles Brundage"
+      ],
+      "year": 2015,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1512.05849v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2508.15680v1",
+      "title": "Futurity as Infrastructure: A Techno-Philosophical Interpretation of the AI Lifecycle",
+      "abstract": "This paper argues that a techno-philosophical reading of the EU AI Act provides insight into the long-term dynamics of data in AI systems, specifically, how the lifecycle from ingestion to deployment generates recursive value chains that challenge existing frameworks for Responsible AI. We introduce a conceptual tool to frame the AI pipeline, spanning data, training regimes, architectures, feature stores, and transfer learning. Using cross-disciplinary methods, we develop a technically grounded and philosophically coherent analysis of regulatory blind spots. Our central claim is that what remains absent from policymaking is an account of the dynamic of becoming that underpins both the technical operation and economic logic of AI. To address this, we advance a formal reading of AI inspired by Simondonian philosophy of technology, reworking his concept of individuation to model the AI lifecycle, including the pre-individual milieu, individuation, and individuated AI. To translate these ideas, we introduce futurity: the self-reinforcing lifecycle of AI, where more data enhances performance, deepens personalisation, and expands application domains. Futurity highlights the recursively generative, non-rivalrous nature of data, underpinned by infrastructures like feature stores that enable feedback, adaptation, and temporal recursion. Our intervention foregrounds escalating power asymmetries, particularly the tech oligarchy whose infrastructures of capture, training, and deployment concentrate value and decision-making. We argue that effective regulation must address these infrastructural and temporal dynamics, and propose measures including lifecycle audits, temporal traceability, feedback accountability, recursion transparency, and a right to contest recursive reuse.",
+      "authors": [
+        "Mark Cote",
+        "Susana Aires"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2508.15680v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2501.13533v1",
+      "title": "Towards a Theory of AI Personhood",
+      "abstract": "I am a person and so are you. Philosophically we sometimes grant personhood to non-human animals, and entities such as sovereign states or corporations can legally be considered persons. But when, if ever, should we ascribe personhood to AI systems? In this paper, we outline necessary conditions for AI personhood, focusing on agency, theory-of-mind, and self-awareness. We discuss evidence from the machine learning literature regarding the extent to which contemporary AI systems, such as language models, satisfy these conditions, finding the evidence surprisingly inconclusive.   If AI systems can be considered persons, then typical framings of AI alignment may be incomplete. Whereas agency has been discussed at length in the literature, other aspects of personhood have been relatively neglected. AI agents are often assumed to pursue fixed goals, but AI persons may be self-aware enough to reflect on their aims, values, and positions in the world and thereby induce their goals to change. We highlight open research directions to advance the understanding of AI personhood and its relevance to alignment. Finally, we reflect on the ethical considerations surrounding the treatment of AI systems. If AI systems are persons, then seeking control and alignment may be ethically untenable.",
+      "authors": [
+        "Francis Rhys Ward"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2501.13533v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2505.00174v2",
+      "title": "Real-World Gaps in AI Governance Research",
+      "abstract": "Drawing on 1,178 safety and reliability papers from 9,439 generative AI papers (January 2020 - March 2025), we compare research outputs of leading AI companies (Anthropic, Google DeepMind, Meta, Microsoft, and OpenAI) and AI universities (CMU, MIT, NYU, Stanford, UC Berkeley, and University of Washington). We find that corporate AI research increasingly concentrates on pre-deployment areas -- model alignment and testing & evaluation -- while attention to deployment-stage issues such as model bias has waned. Significant research gaps exist in high-risk deployment domains, including healthcare, finance, misinformation, persuasive and addictive features, hallucinations, and copyright. Without improved observability into deployed AI, growing corporate concentration could deepen knowledge deficits. We recommend expanding external researcher access to deployment data and systematic observability of in-market AI behaviors.",
+      "authors": [
+        "Ilan Strauss",
+        "Isobel Moure",
+        "Tim O'Reilly",
+        "Sruly Rosenblat"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2505.00174v2"
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": "3",
+      "name": "Science Education",
+      "paper_count": 11,
+      "trajectory": "Rising",
+      "papers": [
+        {
+          "paper_id": "http://arxiv.org/abs/2408.00025v3",
+          "title": "Need of AI in Modern Education: in the Eyes of Explainable AI (xAI)",
+          "abstract": "Modern Education is not \\textit{Modern} without AI. However, AI's complex nature makes understanding and fixing problems challenging. Research worldwide shows that a parent's income greatly influences a child's education. This led us to explore how AI, especially complex models, makes important decisions using Explainable AI tools. Our research uncovered many complexities linked to parental income and offered reasonable explanations for these decisions. However, we also found biases in AI that go against what we want from AI in education: clear transparency and equal access for everyone. These biases can impact families and children's schooling, highlighting the need for better AI solutions that offer fair opportunities to all. This chapter tries to shed light on the complex ways AI operates, especially concerning biases. These are the foundational steps towards better educational policies, which include using AI in ways that are more reliable, accountable, and beneficial for everyone involved.",
+          "authors": [
+            "Supriya Manna",
+            "Niladri Sett"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2408.00025v3"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2401.15284v6",
+          "title": "Beyond principlism: Practical strategies for ethical AI use in research practices",
+          "abstract": "The rapid adoption of generative artificial intelligence (AI) in scientific research, particularly large language models (LLMs), has outpaced the development of ethical guidelines, leading to a \"Triple-Too\" problem: too many high-level ethical initiatives, too abstract principles lacking contextual and practical relevance, and too much focus on restrictions and risks over benefits and utilities. Existing approaches--principlism (reliance on abstract ethical principles), formalism (rigid application of rules), and technological solutionism (overemphasis on technological fixes)--offer little practical guidance for addressing ethical challenges of AI in scientific research practices. To bridge the gap between abstract principles and day-to-day research practices, a user-centered, realism-inspired approach is proposed here. It outlines five specific goals for ethical AI use: 1) understanding model training and output, including bias mitigation strategies; 2) respecting privacy, confidentiality, and copyright; 3) avoiding plagiarism and policy violations; 4) applying AI beneficially compared to alternatives; and 5) using AI transparently and reproducibly. Each goal is accompanied by actionable strategies and realistic cases of misuse and corrective measures. I argue that ethical AI application requires evaluating its utility against existing alternatives rather than isolated performance metrics. Additionally, I propose documentation guidelines to enhance transparency and reproducibility in AI-assisted research. Moving forward, we need targeted professional development, training programs, and balanced enforcement mechanisms to promote responsible AI use while fostering innovation. By refining these ethical guidelines and adapting them to emerging AI capabilities, we can accelerate scientific progress without compromising research integrity.",
+          "authors": [
+            "Zhicheng Lin"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2401.15284v6"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2504.08817v2",
+          "title": "Exploring utilization of generative AI for research and education in data-driven materials science",
+          "abstract": "Generative AI has recently had a profound impact on various fields, including daily life, research, and education. To explore its efficient utilization in data-driven materials science, we organized a hackathon -- AIMHack2024 -- in July 2024. In this hackathon, researchers from fields such as materials science, information science, bioinformatics, and condensed matter physics worked together to explore how generative AI can facilitate research and education. Based on the results of the hackathon, this paper presents topics related to (1) conducting AI-assisted software trials, (2) building AI tutors for software, and (3) developing GUI applications for software. While generative AI continues to evolve rapidly, this paper provides an early record of its application in data-driven materials science and highlights strategies for integrating AI into research and education.",
+          "authors": [
+            "Takahiro Misawa",
+            "Ai Koizumi",
+            "Ryo Tamura",
+            "Kazuyoshi Yoshimi"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2504.08817v2"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2409.06354v1",
+          "title": "Exploring AI Futures Through Fictional News Articles",
+          "abstract": "The aim of this workshop was to enable critical discussion on AI futures using fictional news articles and discussion groups. By collaboratively imagining and presenting future scenarios in a journalistic news article format, participants explored the socio-political, ethical and sustainability factors of AI through an accessible narrative form. Participants engaged in further anticipatory work by analyzing the issues raised by the articles in a group discussion, emphasizing the underlying motivations, assumptions and expectations conveyed within the news articles.",
+          "authors": [
+            "Martin Lindstam",
+            "Elin Sporrong",
+            "Camilo Sanchez",
+            "Petra J\u00e4\u00e4skel\u00e4inen"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2409.06354v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2412.09086v1",
+          "title": "Understanding Opportunities and Risks of Synthetic Relationships: Leveraging the Power of Longitudinal Research with Customised AI Tools",
+          "abstract": "This position paper discusses the benefits of longitudinal behavioural research with customised AI tools for exploring the opportunities and risks of synthetic relationships. Synthetic relationships are defined as \"continuing associations between humans and AI tools that interact with one another wherein the AI tool(s) influence(s) humans' thoughts, feelings, and/or actions.\" (Starke et al., 2024). These relationships can potentially improve health, education, and the workplace, but they also bring the risk of subtle manipulation and privacy and autonomy concerns. To harness the opportunities of synthetic relationships and mitigate their risks, we outline a methodological approach that complements existing findings. We propose longitudinal research designs with self-assembled AI agents that enable the integration of detailed behavioural and self-reported data.",
+          "authors": [
+            "Alfio Ventura",
+            "Nils K\u00f6bis"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2412.09086v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2009.07262v2",
+          "title": "Report prepared by the Montreal AI Ethics Institute (MAIEI) on Publication Norms for Responsible AI",
+          "abstract": "The history of science and technology shows that seemingly innocuous developments in scientific theories and research have enabled real-world applications with significant negative consequences for humanity. In order to ensure that the science and technology of AI is developed in a humane manner, we must develop research publication norms that are informed by our growing understanding of AI's potential threats and use cases. Unfortunately, it's difficult to create a set of publication norms for responsible AI because the field of AI is currently fragmented in terms of how this technology is researched, developed, funded, etc. To examine this challenge and find solutions, the Montreal AI Ethics Institute (MAIEI) co-hosted two public consultations with the Partnership on AI in May 2020. These meetups examined potential publication norms for responsible AI, with the goal of creating a clear set of recommendations and ways forward for publishers.   In its submission, MAIEI provides six initial recommendations, these include: 1) create tools to navigate publication decisions, 2) offer a page number extension, 3) develop a network of peers, 4) require broad impact statements, 5) require the publication of expected results, and 6) revamp the peer-review process. After considering potential concerns regarding these recommendations, including constraining innovation and creating a \"black market\" for AI research, MAIEI outlines three ways forward for publishers, these include: 1) state clearly and consistently the need for established norms, 2) coordinate and build trust as a community, and 3) change the approach.",
+          "authors": [
+            "Abhishek Gupta",
+            "Camylle Lanteigne",
+            "Victoria Heath"
+          ],
+          "year": 2020,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2009.07262v2"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2510.26007v1",
+          "title": "The Quest for Reliable Metrics of Responsible AI",
+          "abstract": "The development of Artificial Intelligence (AI), including AI in Science (AIS), should be done following the principles of responsible AI. Progress in responsible AI is often quantified through evaluation metrics, yet there has been less work on assessing the robustness and reliability of the metrics themselves. We reflect on prior work that examines the robustness of fairness metrics for recommender systems as a type of AI application and summarise their key takeaways into a set of non-exhaustive guidelines for developing reliable metrics of responsible AI. Our guidelines apply to a broad spectrum of AI applications, including AIS.",
+          "authors": [
+            "Theresia Veronika Rampisela",
+            "Maria Maistro",
+            "Tuukka Ruotsalo",
+            "Christina Lioma"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2510.26007v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2403.17419v1",
+          "title": "AI Safety: Necessary, but insufficient and possibly problematic",
+          "abstract": "This article critically examines the recent hype around AI safety. We first start with noting the nature of the AI safety hype as being dominated by governments and corporations, and contrast it with other avenues within AI research on advancing social good. We consider what 'AI safety' actually means, and outline the dominant concepts that the digital footprint of AI safety aligns with. We posit that AI safety has a nuanced and uneasy relationship with transparency and other allied notions associated with societal good, indicating that it is an insufficient notion if the goal is that of societal good in a broad sense. We note that the AI safety debate has already influenced some regulatory efforts in AI, perhaps in not so desirable directions. We also share our concerns on how AI safety may normalize AI that advances structural harm through providing exploitative and harmful AI with a veneer of safety.",
+          "authors": [
+            "Deepak P"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2403.17419v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2003.02093v1",
+          "title": "AI-Mediated Exchange Theory",
+          "abstract": "As Artificial Intelligence (AI) plays an ever-expanding role in sociotechnical systems, it is important to articulate the relationships between humans and AI. However, the scholarly communities studying human-AI relationships -- including but not limited to social computing, machine learning, science and technology studies, and other social sciences -- are divided by the perspectives that define them. These perspectives vary both by their focus on humans or AI, and in the micro/macro lenses through which they approach subjects. These differences inhibit the integration of findings, and thus impede science and interdisciplinarity. In this position paper, we propose the development of a framework AI-Mediated Exchange Theory (AI-MET) to bridge these divides. As an extension to Social Exchange Theory (SET) in the social sciences, AI-MET views AI as influencing human-to-human relationships via a taxonomy of mediation mechanisms. We list initial ideas of these mechanisms, and show how AI-MET can be used to help human-AI research communities speak to one another.",
+          "authors": [
+            "Xiao Ma",
+            "Taylor W. Brown"
+          ],
+          "year": 2020,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2003.02093v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2509.09254v1",
+          "title": "Towards Better Dental AI: A Multimodal Benchmark and Instruction Dataset for Panoramic X-ray Analysis",
+          "abstract": "Recent advances in large vision-language models (LVLMs) have demonstrated strong performance on general-purpose medical tasks. However, their effectiveness in specialized domains such as dentistry remains underexplored. In particular, panoramic X-rays, a widely used imaging modality in oral radiology, pose interpretative challenges due to dense anatomical structures and subtle pathological cues, which are not captured by existing medical benchmarks or instruction datasets. To this end, we introduce MMOral, the first large-scale multimodal instruction dataset and benchmark tailored for panoramic X-ray interpretation. MMOral consists of 20,563 annotated images paired with 1.3 million instruction-following instances across diverse task types, including attribute extraction, report generation, visual question answering, and image-grounded dialogue. In addition, we present MMOral-Bench, a comprehensive evaluation suite covering five key diagnostic dimensions in dentistry. We evaluate 64 LVLMs on MMOral-Bench and find that even the best-performing model, i.e., GPT-4o, only achieves 41.45% accuracy, revealing significant limitations of current models in this domain. To promote the progress of this specific domain, we also propose OralGPT, which conducts supervised fine-tuning (SFT) upon Qwen2.5-VL-7B with our meticulously curated MMOral instruction dataset. Remarkably, a single epoch of SFT yields substantial performance enhancements for LVLMs, e.g., OralGPT demonstrates a 24.73% improvement. Both MMOral and OralGPT hold significant potential as a critical foundation for intelligent dentistry and enable more clinically impactful multimodal AI systems in the dental field. The dataset, model, benchmark, and evaluation suite are available at https://github.com/isbrycee/OralGPT.",
+          "authors": [
+            "Jing Hao",
+            "Yuxuan Fan",
+            "Yanpeng Sun",
+            "Kaixin Guo",
+            "Lizhuo Lin",
+            "Jinrong Yang",
+            "Qi Yong H. Ai",
+            "Lun M. Wong",
+            "Hao Tang",
+            "Kuo Feng Hung"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2509.09254v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/1512.05849v1",
+          "title": "Modeling Progress in AI",
+          "abstract": "Participants in recent discussions of AI-related issues ranging from intelligence explosion to technological unemployment have made diverse claims about the nature, pace, and drivers of progress in AI. However, these theories are rarely specified in enough detail to enable systematic evaluation of their assumptions or to extrapolate progress quantitatively, as is often done with some success in other technological domains. After reviewing relevant literatures and justifying the need for more rigorous modeling of AI progress, this paper contributes to that research program by suggesting ways to account for the relationship between hardware speed increases and algorithmic improvements in AI, the role of human inputs in enabling AI capabilities, and the relationships between different sub-fields of AI. It then outlines ways of tailoring AI progress models to generate insights on the specific issue of technological unemployment, and outlines future directions for research on AI progress.",
+          "authors": [
+            "Miles Brundage"
+          ],
+          "year": 2015,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/1512.05849v1"
+        }
+      ],
+      "key_papers": [
+        "Towards Better Dental AI: A Multimodal Benchmark and Instruction Dataset for Panoramic X-ray Analysis (Hao et al., 2025)",
+        "Exploring utilization of generative AI for research and education in data-driven materials science (Misawa et al., 2025)",
+        "The Quest for Reliable Metrics of Responsible AI (Rampisela et al., 2025)"
+      ],
+      "avg_year": 2022.7272727272727,
+      "year_distribution": {
+        "2024": 5,
+        "2025": 3,
+        "2020": 2,
+        "2015": 1
+      }
+    },
+    {
+      "cluster_id": "2",
+      "name": "Systems Risk",
+      "paper_count": 10,
+      "trajectory": "Rising",
+      "papers": [
+        {
+          "paper_id": "http://arxiv.org/abs/2211.12434v1",
+          "title": "Expansive Participatory AI: Supporting Dreaming within Inequitable Institutions",
+          "abstract": "Participatory Artificial Intelligence (PAI) has recently gained interest by researchers as means to inform the design of technology through collective's lived experience. PAI has a greater promise than that of providing useful input to developers, it can contribute to the process of democratizing the design of technology, setting the focus on what should be designed. However, in the process of PAI there existing institutional power dynamics that hinder the realization of expansive dreams and aspirations of the relevant stakeholders. In this work we propose co-design principals for AI that address institutional power dynamics focusing on Participatory AI with youth.",
+          "authors": [
+            "Michael Alan Chang",
+            "Shiran Dudy"
+          ],
+          "year": 2022,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2211.12434v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2504.15894v1",
+          "title": "Supporting Data-Frame Dynamics in AI-assisted Decision Making",
+          "abstract": "High stakes decision-making often requires a continuous interplay between evolving evidence and shifting hypotheses, a dynamic that is not well supported by current AI decision support systems. In this paper, we introduce a mixed-initiative framework for AI assisted decision making that is grounded in the data-frame theory of sensemaking and the evaluative AI paradigm. Our approach enables both humans and AI to collaboratively construct, validate, and adapt hypotheses. We demonstrate our framework with an AI-assisted skin cancer diagnosis prototype that leverages a concept bottleneck model to facilitate interpretable interactions and dynamic updates to diagnostic hypotheses.",
+          "authors": [
+            "Chengbo Zheng",
+            "Tim Miller",
+            "Alina Bialkowski",
+            "H Peter Soyer",
+            "Monika Janda"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2504.15894v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2410.13042v1",
+          "title": "How Do AI Companies \"Fine-Tune\" Policy? Examining Regulatory Capture in AI Governance",
+          "abstract": "Industry actors in the United States have gained extensive influence in conversations about the regulation of general-purpose artificial intelligence (AI) systems. Although industry participation is an important part of the policy process, it can also cause regulatory capture, whereby industry co-opts regulatory regimes to prioritize private over public welfare. Capture of AI policy by AI developers and deployers could hinder such regulatory goals as ensuring the safety, fairness, beneficence, transparency, or innovation of general-purpose AI systems. In this paper, we first introduce different models of regulatory capture from the social science literature. We then present results from interviews with 17 AI policy experts on what policy outcomes could compose regulatory capture in US AI policy, which AI industry actors are influencing the policy process, and whether and how AI industry actors attempt to achieve outcomes of regulatory capture. Experts were primarily concerned with capture leading to a lack of AI regulation, weak regulation, or regulation that over-emphasizes certain policy goals over others. Experts most commonly identified agenda-setting (15 of 17 interviews), advocacy (13), academic capture (10), information management (9), cultural capture through status (7), and media capture (7) as channels for industry influence. To mitigate these particular forms of industry influence, we recommend systemic changes in developing technical expertise in government and civil society, independent funding streams for the AI ecosystem, increased transparency and ethics requirements, greater civil society access to policy, and various procedural safeguards.",
+          "authors": [
+            "Kevin Wei",
+            "Carson Ezell",
+            "Nick Gabrieli",
+            "Chinmay Deshpande"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2410.13042v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2207.02201v1",
+          "title": "Efficient Spatial-Temporal Information Fusion for LiDAR-Based 3D Moving Object Segmentation",
+          "abstract": "Accurate moving object segmentation is an essential task for autonomous driving. It can provide effective information for many downstream tasks, such as collision avoidance, path planning, and static map construction. How to effectively exploit the spatial-temporal information is a critical question for 3D LiDAR moving object segmentation (LiDAR-MOS). In this work, we propose a novel deep neural network exploiting both spatial-temporal information and different representation modalities of LiDAR scans to improve LiDAR-MOS performance. Specifically, we first use a range image-based dual-branch structure to separately deal with spatial and temporal information that can be obtained from sequential LiDAR scans, and later combine them using motion-guided attention modules. We also use a point refinement module via 3D sparse convolution to fuse the information from both LiDAR range image and point cloud representations and reduce the artifacts on the borders of the objects. We verify the effectiveness of our proposed approach on the LiDAR-MOS benchmark of SemanticKITTI. Our method outperforms the state-of-the-art methods significantly in terms of LiDAR-MOS IoU. Benefiting from the devised coarse-to-fine architecture, our method operates online at sensor frame rate. The implementation of our method is available as open source at: https://github.com/haomo-ai/MotionSeg3D.",
+          "authors": [
+            "Jiadai Sun",
+            "Yuchao Dai",
+            "Xianjing Zhang",
+            "Jintao Xu",
+            "Rui Ai",
+            "Weihao Gu",
+            "Xieyuanli Chen"
+          ],
+          "year": 2022,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2207.02201v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2308.02033v1",
+          "title": "AI and the EU Digital Markets Act: Addressing the Risks of Bigness in Generative AI",
+          "abstract": "As AI technology advances rapidly, concerns over the risks of bigness in digital markets are also growing. The EU's Digital Markets Act (DMA) aims to address these risks. Still, the current framework may not adequately cover generative AI systems that could become gateways for AI-based services. This paper argues for integrating certain AI software as core platform services and classifying certain developers as gatekeepers under the DMA. We also propose an assessment of gatekeeper obligations to ensure they cover generative AI services. As the EU considers generative AI-specific rules and possible DMA amendments, this paper provides insights towards diversity and openness in generative AI services.",
+          "authors": [
+            "Ayse Gizem Yasar",
+            "Andrew Chong",
+            "Evan Dong",
+            "Thomas Krendl Gilbert",
+            "Sarah Hladikova",
+            "Roland Maio",
+            "Carlos Mougan",
+            "Xudong Shen",
+            "Shubham Singh",
+            "Ana-Andreea Stoica",
+            "Savannah Thais",
+            "Miri Zilka"
+          ],
+          "year": 2023,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2308.02033v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2508.08544v1",
+          "title": "AI Agents and the Law",
+          "abstract": "As AI becomes more \"agentic,\" it faces technical and socio-legal issues it must address if it is to fulfill its promise of increased economic productivity and efficiency. This paper uses technical and legal perspectives to explain how things change when AI systems start being able to directly execute tasks on behalf of a user. We show how technical conceptions of agents track some, but not all, socio-legal conceptions of agency. That is, both computer science and the law recognize the problems of under-specification for an agent, and both disciplines have robust conceptions of how to address ensuring an agent does what the programmer, or in the law, the principal desires and no more. However, to date, computer science has under-theorized issues related to questions of loyalty and to third parties that interact with an agent, both of which are central parts of the law of agency. First, we examine the correlations between implied authority in agency law and the principle of value-alignment in AI, wherein AI systems must operate under imperfect objective specification. Second, we reveal gaps in the current computer science view of agents pertaining to the legal concepts of disclosure and loyalty, and how failure to account for them can result in unintended effects in AI ecommerce agents. In surfacing these gaps, we show a path forward for responsible AI agent development and deployment.",
+          "authors": [
+            "Mark O. Riedl",
+            "Deven R. Desai"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2508.08544v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2512.11931v1",
+          "title": "Mapping AI Risk Mitigations: Evidence Scan and Preliminary AI Risk Mitigation Taxonomy",
+          "abstract": "Organizations and governments that develop, deploy, use, and govern AI must coordinate on effective risk mitigation. However, the landscape of AI risk mitigation frameworks is fragmented, uses inconsistent terminology, and has gaps in coverage. This paper introduces a preliminary AI Risk Mitigation Taxonomy to organize AI risk mitigations and provide a common frame of reference. The Taxonomy was developed through a rapid evidence scan of 13 AI risk mitigation frameworks published between 2023-2025, which were extracted into a living database of 831 AI risk mitigations. The mitigations were iteratively clustered & coded to create the Taxonomy. The preliminary AI Risk Mitigation Taxonomy organizes mitigations into four categories and 23 subcategories: (1) Governance & Oversight: Formal organizational structures and policy frameworks that establish human oversight mechanisms and decision protocols; (2) Technical & Security: Technical, physical, and engineering safeguards that secure AI systems and constrain model behaviors; (3) Operational Process: processes and management frameworks governing AI system deployment, usage, monitoring, incident handling, and validation; and (4) Transparency & Accountability: formal disclosure practices and verification mechanisms that communicate AI system information and enable external scrutiny. The rapid evidence scan and taxonomy construction also revealed several cases where terms like 'risk management' and 'red teaming' are used widely but refer to different responsible actors, actions, and mechanisms of action to reduce risk. This Taxonomy and associated mitigation database, while preliminary, offers a starting point for collation and synthesis of AI risk mitigations. It also offers an accessible, structured way for different actors in the AI ecosystem to discuss and coordinate action to reduce risks from AI.",
+          "authors": [
+            "Alexander K. Saeri",
+            "Sophia Lloyd George",
+            "Jess Graham",
+            "Clelia D. Lacarriere",
+            "Peter Slattery",
+            "Michael Noetel",
+            "Neil Thompson"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2512.11931v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2508.15680v1",
+          "title": "Futurity as Infrastructure: A Techno-Philosophical Interpretation of the AI Lifecycle",
+          "abstract": "This paper argues that a techno-philosophical reading of the EU AI Act provides insight into the long-term dynamics of data in AI systems, specifically, how the lifecycle from ingestion to deployment generates recursive value chains that challenge existing frameworks for Responsible AI. We introduce a conceptual tool to frame the AI pipeline, spanning data, training regimes, architectures, feature stores, and transfer learning. Using cross-disciplinary methods, we develop a technically grounded and philosophically coherent analysis of regulatory blind spots. Our central claim is that what remains absent from policymaking is an account of the dynamic of becoming that underpins both the technical operation and economic logic of AI. To address this, we advance a formal reading of AI inspired by Simondonian philosophy of technology, reworking his concept of individuation to model the AI lifecycle, including the pre-individual milieu, individuation, and individuated AI. To translate these ideas, we introduce futurity: the self-reinforcing lifecycle of AI, where more data enhances performance, deepens personalisation, and expands application domains. Futurity highlights the recursively generative, non-rivalrous nature of data, underpinned by infrastructures like feature stores that enable feedback, adaptation, and temporal recursion. Our intervention foregrounds escalating power asymmetries, particularly the tech oligarchy whose infrastructures of capture, training, and deployment concentrate value and decision-making. We argue that effective regulation must address these infrastructural and temporal dynamics, and propose measures including lifecycle audits, temporal traceability, feedback accountability, recursion transparency, and a right to contest recursive reuse.",
+          "authors": [
+            "Mark Cote",
+            "Susana Aires"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2508.15680v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2501.13533v1",
+          "title": "Towards a Theory of AI Personhood",
+          "abstract": "I am a person and so are you. Philosophically we sometimes grant personhood to non-human animals, and entities such as sovereign states or corporations can legally be considered persons. But when, if ever, should we ascribe personhood to AI systems? In this paper, we outline necessary conditions for AI personhood, focusing on agency, theory-of-mind, and self-awareness. We discuss evidence from the machine learning literature regarding the extent to which contemporary AI systems, such as language models, satisfy these conditions, finding the evidence surprisingly inconclusive.   If AI systems can be considered persons, then typical framings of AI alignment may be incomplete. Whereas agency has been discussed at length in the literature, other aspects of personhood have been relatively neglected. AI agents are often assumed to pursue fixed goals, but AI persons may be self-aware enough to reflect on their aims, values, and positions in the world and thereby induce their goals to change. We highlight open research directions to advance the understanding of AI personhood and its relevance to alignment. Finally, we reflect on the ethical considerations surrounding the treatment of AI systems. If AI systems are persons, then seeking control and alignment may be ethically untenable.",
+          "authors": [
+            "Francis Rhys Ward"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2501.13533v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2505.00174v2",
+          "title": "Real-World Gaps in AI Governance Research",
+          "abstract": "Drawing on 1,178 safety and reliability papers from 9,439 generative AI papers (January 2020 - March 2025), we compare research outputs of leading AI companies (Anthropic, Google DeepMind, Meta, Microsoft, and OpenAI) and AI universities (CMU, MIT, NYU, Stanford, UC Berkeley, and University of Washington). We find that corporate AI research increasingly concentrates on pre-deployment areas -- model alignment and testing & evaluation -- while attention to deployment-stage issues such as model bias has waned. Significant research gaps exist in high-risk deployment domains, including healthcare, finance, misinformation, persuasive and addictive features, hallucinations, and copyright. Without improved observability into deployed AI, growing corporate concentration could deepen knowledge deficits. We recommend expanding external researcher access to deployment data and systematic observability of in-market AI behaviors.",
+          "authors": [
+            "Ilan Strauss",
+            "Isobel Moure",
+            "Tim O'Reilly",
+            "Sruly Rosenblat"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2505.00174v2"
+        }
+      ],
+      "key_papers": [
+        "Mapping AI Risk Mitigations: Evidence Scan and Preliminary AI Risk Mitigation Taxonomy (Saeri et al., 2025)",
+        "Futurity as Infrastructure: A Techno-Philosophical Interpretation of the AI Lifecycle (Cote et al., 2025)",
+        "Supporting Data-Frame Dynamics in AI-assisted Decision Making (Zheng et al., 2025)"
+      ],
+      "avg_year": 2024.1,
+      "year_distribution": {
+        "2022": 2,
+        "2025": 6,
+        "2024": 1,
+        "2023": 1
+      }
+    },
+    {
+      "cluster_id": "0",
+      "name": "Human Cognitive",
+      "paper_count": 7,
+      "trajectory": "Rising",
+      "papers": [
+        {
+          "paper_id": "http://arxiv.org/abs/2112.01298v2",
+          "title": "Meaningful human control: actionable properties for AI system development",
+          "abstract": "How can humans remain in control of artificial intelligence (AI)-based systems designed to perform tasks autonomously? Such systems are increasingly ubiquitous, creating benefits - but also undesirable situations where moral responsibility for their actions cannot be properly attributed to any particular person or group. The concept of meaningful human control has been proposed to address responsibility gaps and mitigate them by establishing conditions that enable a proper attribution of responsibility for humans; however, clear requirements for researchers, designers, and engineers are yet inexistent, making the development of AI-based systems that remain under meaningful human control challenging. In this paper, we address the gap between philosophical theory and engineering practice by identifying, through an iterative process of abductive thinking, four actionable properties for AI-based systems under meaningful human control, which we discuss making use of two applications scenarios: automated vehicles and AI-based hiring. First, a system in which humans and AI algorithms interact should have an explicitly defined domain of morally loaded situations within which the system ought to operate. Second, humans and AI agents within the system should have appropriate and mutually compatible representations. Third, responsibility attributed to a human should be commensurate with that human's ability and authority to control the system. Fourth, there should be explicit links between the actions of the AI agents and actions of humans who are aware of their moral responsibility. We argue that these four properties will support practically-minded professionals to take concrete steps toward designing and engineering for AI systems that facilitate meaningful human control.",
+          "authors": [
+            "Luciano Cavalcante Siebert",
+            "Maria Luce Lupetti",
+            "Evgeni Aizenberg",
+            "Niek Beckers",
+            "Arkady Zgonnikov",
+            "Herman Veluwenkamp",
+            "David Abbink",
+            "Elisa Giaccardi",
+            "Geert-Jan Houben",
+            "Catholijn M. Jonker",
+            "Jeroen van den Hoven",
+            "Deborah Forster",
+            "Reginald L. Lagendijk"
+          ],
+          "year": 2021,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2112.01298v2"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2504.16770v1",
+          "title": "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions",
+          "abstract": "While generative artificial intelligence (Gen AI) increasingly transforms academic environments, a critical gap exists in understanding and mitigating human biases in AI interactions, such as anchoring and confirmation bias. This position paper advocates for metacognitive AI literacy interventions to help university students critically engage with AI and address biases across the Human-AI interaction workflows. The paper presents the importance of considering (1) metacognitive support with deliberate friction focusing on human bias; (2) bi-directional Human-AI interaction intervention addressing both input formulation and output interpretation; and (3) adaptive scaffolding that responds to diverse user engagement patterns. These frameworks are illustrated through ongoing work on \"DeBiasMe,\" AIED (AI in Education) interventions designed to enhance awareness of cognitive biases while empowering user agency in AI interactions. The paper invites multiple stakeholders to engage in discussions on design and evaluation methods for scaffolding mechanisms, bias visualization, and analysis frameworks. This position contributes to the emerging field of AI-augmented learning by emphasizing the critical role of metacognition in helping students navigate the complex interaction between human, statistical, and systemic biases in AI use while highlighting how cognitive adaptation to AI systems must be explicitly integrated into comprehensive AI literacy frameworks.",
+          "authors": [
+            "Chaeyeon Lim"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2504.16770v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2504.14689v1",
+          "title": "Designing AI Systems that Augment Human Performed vs. Demonstrated Critical Thinking",
+          "abstract": "The recent rapid advancement of LLM-based AI systems has accelerated our search and production of information. While the advantages brought by these systems seemingly improve the performance or efficiency of human activities, they do not necessarily enhance human capabilities. Recent research has started to examine the impact of generative AI on individuals' cognitive abilities, especially critical thinking. Based on definitions of critical thinking across psychology and education, this position paper proposes the distinction between demonstrated and performed critical thinking in the era of generative AI and discusses the implication of this distinction in research and development of AI systems that aim to augment human critical thinking.",
+          "authors": [
+            "Katelyn Xiaoying Mei",
+            "Nic Weber"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2504.14689v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2504.14996v1",
+          "title": "Distributed Cognition for AI-supported Remote Operations: Challenges and Research Directions",
+          "abstract": "This paper investigates the impact of artificial intelligence integration on remote operations, emphasising its influence on both distributed and team cognition. As remote operations increasingly rely on digital interfaces, sensors, and networked communication, AI-driven systems transform decision-making processes across domains such as air traffic control, industrial automation, and intelligent ports. However, the integration of AI introduces significant challenges, including the reconfiguration of human-AI team cognition, the need for adaptive AI memory that aligns with human distributed cognition, and the design of AI fallback operators to maintain continuity during communication disruptions. Drawing on theories of distributed and team cognition, we analyse how cognitive overload, loss of situational awareness, and impaired team coordination may arise in AI-supported environments. Based on real-world intelligent port scenarios, we propose research directions that aim to safeguard human reasoning and enhance collaborative decision-making in AI-augmented remote operations.",
+          "authors": [
+            "Rune M\u00f8berg Jacobsen",
+            "Joel Wester",
+            "Helena B\u00f8jer Djern\u00e6s",
+            "Niels van Berkel"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2504.14996v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2504.16021v1",
+          "title": "Navigating the State of Cognitive Flow: Context-Aware AI Interventions for Effective Reasoning Support",
+          "abstract": "Flow theory describes an optimal cognitive state where individuals experience deep focus and intrinsic motivation when a task's difficulty aligns with their skill level. In AI-augmented reasoning, interventions that disrupt the state of cognitive flow can hinder rather than enhance decision-making. This paper proposes a context-aware cognitive augmentation framework that adapts interventions based on three key contextual factors: type, timing, and scale. By leveraging multimodal behavioral cues (e.g., gaze behavior, typing hesitation, interaction speed), AI can dynamically adjust cognitive support to maintain or restore flow. We introduce the concept of cognitive flow, an extension of flow theory in AI-augmented reasoning, where interventions are personalized, adaptive, and minimally intrusive. By shifting from static interventions to context-aware augmentation, our approach ensures that AI systems support deep engagement in complex decision-making and reasoning without disrupting cognitive immersion.",
+          "authors": [
+            "Dinithi Dissanayake",
+            "Suranga Nanayakkara"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2504.16021v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2411.06336v1",
+          "title": "Balancing Power and Ethics: A Framework for Addressing Human Rights Concerns in Military AI",
+          "abstract": "AI has made significant strides recently, leading to various applications in both civilian and military sectors. The military sees AI as a solution for developing more effective and faster technologies. While AI offers benefits like improved operational efficiency and precision targeting, it also raises serious ethical and legal concerns, particularly regarding human rights violations. Autonomous weapons that make decisions without human input can threaten the right to life and violate international humanitarian law. To address these issues, we propose a three-stage framework (Design, In Deployment, and During/After Use) for evaluating human rights concerns in the design, deployment, and use of military AI. Each phase includes multiple components that address various concerns specific to that phase, ranging from bias and regulatory issues to violations of International Humanitarian Law. By this framework, we aim to balance the advantages of AI in military operations with the need to protect human rights.",
+          "authors": [
+            "Mst Rafia Islam",
+            "Azmine Toushik Wasi"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2411.06336v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2507.08804v1",
+          "title": "Cognitive Dissonance Artificial Intelligence (CD-AI): The Mind at War with Itself. Harnessing Discomfort to Sharpen Critical Thinking",
+          "abstract": "AI-augmented systems are traditionally designed to streamline human decision-making by minimizing cognitive load, clarifying arguments, and optimizing efficiency. However, in a world where algorithmic certainty risks becoming an Orwellian tool of epistemic control, true intellectual growth demands not passive acceptance but active struggle. Drawing on the dystopian visions of George Orwell and Philip K. Dick - where reality is unstable, perception malleable, and truth contested - this paper introduces Cognitive Dissonance AI (CD-AI): a novel framework that deliberately sustains uncertainty rather than resolving it. CD-AI does not offer closure, but compels users to navigate contradictions, challenge biases, and wrestle with competing truths. By delaying resolution and promoting dialectical engagement, CD-AI enhances reflective reasoning, epistemic humility, critical thinking, and adaptability in complex decision-making. This paper examines the theoretical foundations of the approach, presents an implementation model, explores its application in domains such as ethics, law, politics, and science, and addresses key ethical concerns - including decision paralysis, erosion of user autonomy, cognitive manipulation, and bias in AI reasoning. In reimagining AI as an engine of doubt rather than a deliverer of certainty, CD-AI challenges dominant paradigms of AI-augmented reasoning and offers a new vision - one in which AI sharpens the mind not by resolving conflict, but by sustaining it. Rather than reinforcing Huxleyan complacency or pacifying the user into intellectual conformity, CD-AI echoes Nietzsche's vision of the Uebermensch - urging users to transcend passive cognition through active epistemic struggle.",
+          "authors": [
+            "Delia Deliu"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2507.08804v1"
+        }
+      ],
+      "key_papers": [
+        "Cognitive Dissonance Artificial Intelligence (CD-AI): The Mind at War with Itself. Harnessing Discomfort to Sharpen Critical Thinking (Deliu et al., 2025)",
+        "Navigating the State of Cognitive Flow: Context-Aware AI Interventions for Effective Reasoning Support (Dissanayake et al., 2025)",
+        "DeBiasMe: De-biasing Human-AI Interactions with Metacognitive AIED (AI in Education) Interventions (Lim et al., 2025)"
+      ],
+      "avg_year": 2024.2857142857142,
+      "year_distribution": {
+        "2021": 1,
+        "2025": 5,
+        "2024": 1
+      }
+    },
+    {
+      "cluster_id": "4",
+      "name": "Data Learning",
+      "paper_count": 6,
+      "trajectory": "Rising",
+      "papers": [
+        {
+          "paper_id": "http://arxiv.org/abs/2509.00961v1",
+          "title": "Ultra Strong Machine Learning: Teaching Humans Active Learning Strategies via Automated AI Explanations",
+          "abstract": "Ultra Strong Machine Learning (USML) refers to symbolic learning systems that not only improve their own performance but can also teach their acquired knowledge to quantifiably improve human performance. In this work, we present LENS (Logic Programming Explanation via Neural Summarisation), a neuro-symbolic method that combines symbolic program synthesis with large language models (LLMs) to automate the explanation of machine-learned logic programs in natural language. LENS addresses a key limitation of prior USML approaches by replacing hand-crafted explanation templates with scalable automated generation. Through systematic evaluation using multiple LLM judges and human validation, we demonstrate that LENS generates superior explanations compared to direct LLM prompting and hand-crafted templates. To investigate whether LENS can teach transferable active learning strategies, we carried out a human learning experiment across three related domains. Our results show no significant human performance improvements, suggesting that comprehensive LLM responses may overwhelm users for simpler problems rather than providing learning support. Our work provides a solid foundation for building effective USML systems to support human learning. The source code is available on: https://github.com/lun-ai/LENS.git.",
+          "authors": [
+            "Lun Ai",
+            "Johannes Langer",
+            "Ute Schmid",
+            "Stephen Muggleton"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2509.00961v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2311.18252v3",
+          "title": "Privacy and Copyright Protection in Generative AI: A Lifecycle Perspective",
+          "abstract": "The advent of Generative AI has marked a significant milestone in artificial intelligence, demonstrating remarkable capabilities in generating realistic images, texts, and data patterns. However, these advancements come with heightened concerns over data privacy and copyright infringement, primarily due to the reliance on vast datasets for model training. Traditional approaches like differential privacy, machine unlearning, and data poisoning only offer fragmented solutions to these complex issues. Our paper delves into the multifaceted challenges of privacy and copyright protection within the data lifecycle. We advocate for integrated approaches that combines technical innovation with ethical foresight, holistically addressing these concerns by investigating and devising solutions that are informed by the lifecycle perspective. This work aims to catalyze a broader discussion and inspire concerted efforts towards data privacy and copyright integrity in Generative AI.",
+          "authors": [
+            "Dawen Zhang",
+            "Boming Xia",
+            "Yue Liu",
+            "Xiwei Xu",
+            "Thong Hoang",
+            "Zhenchang Xing",
+            "Mark Staples",
+            "Qinghua Lu",
+            "Liming Zhu"
+          ],
+          "year": 2023,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2311.18252v3"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2510.00183v2",
+          "title": "Lattica: A Decentralized Cross-NAT Communication Framework for Scalable AI Inference and Training",
+          "abstract": "The rapid expansion of distributed Artificial Intelligence (AI) workloads beyond centralized data centers creates a demand for new communication substrates. These substrates must operate reliably in heterogeneous and permissionless environments, where Network Address Translators (NATs) and firewalls impose significant constraints. Existing solutions, however, are either designed for controlled data center deployments or implemented as monolithic systems that tightly couple machine learning logic with networking code. To address these limitations, we present Lattica, a decentralized cross-NAT communication framework designed to support distributed AI systems. Lattica integrates three core components. First, it employs a robust suite of NAT traversal mechanisms to establish a globally addressable peer-to-peer mesh. Second, it provides a decentralized data store based on Conflict-free Replicated Data Types (CRDTs), ensuring verifiable and eventually consistent state replication. Third, it incorporates a content discovery layer that leverages distributed hash tables (DHTs) together with an optimized RPC protocol for efficient model synchronization. By integrating these components, Lattica delivers a complete protocol stack for sovereign, resilient, and scalable AI systems that operate independently of centralized intermediaries. It is directly applicable to edge intelligence, collaborative reinforcement learning, and other large-scale distributed machine learning scenarios.",
+          "authors": [
+            "Ween Yang",
+            "Jason Liu",
+            "Suli Wang",
+            "Xinyuan Song",
+            "Lynn Ai",
+            "Eric Yang",
+            "Bill Shi"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2510.00183v2"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2502.18527v2",
+          "title": "GOD model: Privacy Preserved AI School for Personal Assistant",
+          "abstract": "Personal AI assistants (e.g., Apple Intelligence, Meta AI) offer proactive recommendations that simplify everyday tasks, but their reliance on sensitive user data raises concerns about privacy and trust. To address these challenges, we introduce the Guardian of Data (GOD), a secure, privacy-preserving framework for training and evaluating AI assistants directly on-device. Unlike traditional benchmarks, the GOD model measures how well assistants can anticipate user needs-such as suggesting gifts-while protecting user data and autonomy. Functioning like an AI school, it addresses the cold start problem by simulating user queries and employing a curriculum-based approach to refine the performance of each assistant. Running within a Trusted Execution Environment (TEE), it safeguards user data while applying reinforcement and imitation learning to refine AI recommendations. A token-based incentive system encourages users to share data securely, creating a data flywheel that drives continuous improvement. Specifically, users mine with their data, and the mining rate is determined by GOD's evaluation of how well their AI assistant understands them across categories such as shopping, social interactions, productivity, trading, and Web3. By integrating privacy, personalization, and trust, the GOD model provides a scalable, responsible path for advancing personal AI assistants. For community collaboration, part of the framework is open-sourced at https://github.com/PIN-AI/God-Model.",
+          "authors": [
+            "PIN AI Team",
+            "Bill Sun",
+            "Gavin Guo",
+            "Regan Peng",
+            "Boliang Zhang",
+            "Shouqiao Wang",
+            "Laura Florescu",
+            "Xi Wang",
+            "Davide Crapis",
+            "Ben Wu"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2502.18527v2"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/1709.04734v1",
+          "title": "Perspectives for Evaluating Conversational AI",
+          "abstract": "Conversational AI systems are becoming famous in day to day lives. In this paper, we are trying to address the following key question: To identify whether design, as well as development efforts for search oriented conversational AI are successful or not.It is tricky to define 'success' in the case of conversational AI and equally tricky part is to use appropriate metrics for the evaluation of conversational AI. We propose four different perspectives namely user experience, information retrieval, linguistic and artificial intelligence for the evaluation of conversational AI systems. Additionally, background details of conversational AI systems are provided including desirable characteristics of personal assistants, differences between chatbot and an AI based personal assistant. An importance of personalization and how it can be achieved is explained in detail. Current challenges in the development of an ideal conversational AI (personal assistant) are also highlighted along with guidelines for achieving personalized experience for users.",
+          "authors": [
+            "Mahipal Jadeja",
+            "Neelanshi Varia"
+          ],
+          "year": 2017,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/1709.04734v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2511.06559v1",
+          "title": "GenAI vs. Human Creators: Procurement Mechanism Design in Two-/Three-Layer Markets",
+          "abstract": "With the rapid advancement of generative AI (GenAI), mechanism design adapted to its unique characteristics poses new theoretical and practical challenges. Unlike traditional goods, content from one domain can enhance the training and performance of GenAI models in other domains. For example, OpenAI's video generation model Sora (Liu et al., 2024b) relies heavily on image data to improve video generation quality. In this work, we study nonlinear procurement mechanism design under data transferability, where online platforms employ both human creators and GenAI to satisfy cross-domain content demand. We propose optimal mechanisms that maximize either platform revenue or social welfare and identify the specific properties of GenAI that make such high-dimensional design problems tractable. Our analysis further reveals which domains face stronger competitive pressure and which tend to experience overproduction. Moreover, the growing role of data intermediaries, including labeling companies such as Scale AI and creator organizations such as The Wall Street Journal, introduces a third layer into the traditional platform-creator structure. We show that this three-layer market can result in a lose-lose outcome, reducing both platform revenue and social welfare, as large pre-signed contracts distort creators' incentives and lead to inefficiencies in the data market. These findings suggest a need for government regulation of the GenAI data ecosystem, and our theoretical insights are further supported by numerical simulations.",
+          "authors": [
+            "Rui Ai",
+            "David Simchi-Levi",
+            "Haifeng Xu"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2511.06559v1"
+        }
+      ],
+      "key_papers": [
+        "Ultra Strong Machine Learning: Teaching Humans Active Learning Strategies via Automated AI Explanations (Ai et al., 2025)",
+        "Lattica: A Decentralized Cross-NAT Communication Framework for Scalable AI Inference and Training (Yang et al., 2025)",
+        "GenAI vs. Human Creators: Procurement Mechanism Design in Two-/Three-Layer Markets (Ai et al., 2025)"
+      ],
+      "avg_year": 2023.3333333333333,
+      "year_distribution": {
+        "2025": 4,
+        "2023": 1,
+        "2017": 1
+      }
+    },
+    {
+      "cluster_id": "5",
+      "name": "Time Optimization",
+      "paper_count": 6,
+      "trajectory": "Rising",
+      "papers": [
+        {
+          "paper_id": "http://arxiv.org/abs/2509.11056v1",
+          "title": "BERT4beam: Large AI Model Enabled Generalized Beamforming Optimization",
+          "abstract": "Artificial intelligence (AI) is anticipated to emerge as a pivotal enabler for the forthcoming sixth-generation (6G) wireless communication systems. However, current research efforts regarding large AI models for wireless communications primarily focus on fine-tuning pre-trained large language models (LLMs) for specific tasks. This paper investigates the large-scale AI model designed for beamforming optimization to adapt and generalize to diverse tasks defined by system utilities and scales. We propose a novel framework based on bidirectional encoder representations from transformers (BERT), termed BERT4beam. We aim to formulate the beamforming optimization problem as a token-level sequence learning task, perform tokenization of the channel state information, construct the BERT model, and conduct task-specific pre-training and fine-tuning strategies. Based on the framework, we propose two BERT-based approaches for single-task and multi-task beamforming optimization, respectively. Both approaches are generalizable for varying user scales. Moreover, the former can adapt to varying system utilities and antenna configurations by re-configuring the input and output module of the BERT model, while the latter, termed UBERT, can directly generalize to diverse tasks, due to a finer-grained tokenization strategy. Extensive simulation results demonstrate that the two proposed approaches can achieve near-optimal performance and outperform existing AI models across various beamforming optimization tasks, showcasing strong adaptability and generalizability.",
+          "authors": [
+            "Yuhang Li",
+            "Yang Lu",
+            "Wei Chen",
+            "Bo Ai",
+            "Zhiguo Ding",
+            "Dusit Niyato"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2509.11056v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2512.20902v1",
+          "title": "Embodied AI-Enhanced IoMT Edge Computing: UAV Trajectory Optimization and Task Offloading with Mobility Prediction",
+          "abstract": "Due to their inherent flexibility and autonomous operation, unmanned aerial vehicles (UAVs) have been widely used in Internet of Medical Things (IoMT) to provide real-time biomedical edge computing service for wireless body area network (WBAN) users. In this paper, considering the time-varying task criticality characteristics of diverse WBAN users and the dual mobility between WBAN users and UAV, we investigate the dynamic task offloading and UAV flight trajectory optimization problem to minimize the weighted average task completion time of all the WBAN users, under the constraint of UAV energy consumption. To tackle the problem, an embodied AI-enhanced IoMT edge computing framework is established. Specifically, we propose a novel hierarchical multi-scale Transformer-based user trajectory prediction model based on the users' historical trajectory traces captured by the embodied AI agent (i.e., UAV). Afterwards, a prediction-enhanced deep reinforcement learning (DRL) algorithm that integrates predicted users' mobility information is designed for intelligently optimizing UAV flight trajectory and task offloading decisions. Real-word movement traces and simulation results demonstrate the superiority of the proposed methods in comparison with the existing benchmarks.",
+          "authors": [
+            "Siqi Mu",
+            "Shuo Wen",
+            "Yang Lu",
+            "Ruihong Jiang",
+            "Bo Ai"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2512.20902v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2407.04336v3",
+          "title": "AI-Driven Mobility Management for High-Speed Railway Communications: Compressed Measurements and Proactive Handover",
+          "abstract": "High-speed railway (HSR) communications are pivotal for ensuring rail safety, operations, maintenance, and delivering passenger information services. The high speed of trains creates rapidly time-varying wireless channels, increases the signaling overhead, and reduces the system throughput, making it difficult to meet the growing and stringent needs of HSR applications. In this article, we explore artificial intelligence (AI)-based beam-level and cell-level mobility management suitable for HSR communications. Particularly, we propose a compressed spatial multi-beam measurements scheme via compressive sensing for beam-level mobility management in HSR communications. In comparison to traditional down-sampling spatial beam measurements, this method leads to improved spatial-temporal beam prediction accuracy with the same measurement overhead. Moreover, we propose a novel AI-based proactive handover scheme to predict handover events and reduce radio link failure (RLF) rates in HSR communications. Compared with the traditional event A3-based handover mechanism, the proposed approach significantly reduces the RLF rates which saves 50% beam measurement overhead.",
+          "authors": [
+            "Wen Li",
+            "Wei Chen",
+            "Shiyue Wang",
+            "Yuanyuan Zhang",
+            "Michail Matthaiou",
+            "Bo Ai"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2407.04336v3"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2504.15647v2",
+          "title": "Promoting Real-Time Reflection in Synchronous Communication with Generative AI",
+          "abstract": "Real-time reflection plays a vital role in synchronous communication. It enables users to adjust their communication strategies dynamically, thereby improving the effectiveness of their communication. Generative AI holds significant potential to enhance real-time reflection due to its ability to comprehensively understand the current context and generate personalized and nuanced content. However, it is challenging to design the way of interaction and information presentation to support the real-time workflow rather than disrupt it. In this position paper, we present a review of existing research on systems designed for reflection in different synchronous communication scenarios. Based on that, we discuss design implications on how to design human-AI interaction to support reflection in real time.",
+          "authors": [
+            "Yi Wen",
+            "Meng Xia"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2504.15647v2"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2404.11836v1",
+          "title": "AI-Empowered RIS-Assisted Networks: CV-Enabled RIS Selection and DNN-Enabled Transmission",
+          "abstract": "This paper investigates artificial intelligence (AI) empowered schemes for reconfigurable intelligent surface (RIS) assisted networks from the perspective of fast implementation. We formulate a weighted sum-rate maximization problem for a multi-RIS-assisted network. To avoid huge channel estimation overhead due to activate all RISs, we propose a computer vision (CV) enabled RIS selection scheme based on a single shot multi-box detector. To realize real-time resource allocation, a deep neural network (DNN) enabled transmit design is developed to learn the optimal mapping from channel information to transmit beamformers and phase shift matrix. Numerical results illustrate that the CV module is able to select of RIS with the best propagation condition. The well-trained DNN achieves similar sum-rate performance to the existing alternative optimization method but with much smaller inference time.",
+          "authors": [
+            "Conggang Hu",
+            "Yang Lu",
+            "Hongyang Du",
+            "Mi Yang",
+            "Bo Ai",
+            "Dusit Niyato"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2404.11836v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2409.14702v2",
+          "title": "Rate-Splitting for Cell-Free Massive MIMO: Performance Analysis and Generative AI Approach",
+          "abstract": "Cell-free (CF) massive multiple-input multipleoutput (MIMO) provides a ubiquitous coverage to user equipments (UEs) but it is also susceptible to interference. Ratesplitting (RS) effectively extracts data by decoding interference, yet its effectiveness is limited by the weakest UE. In this paper, we investigate an RS-based CF massive MIMO system, which combines strengths and mitigates weaknesses of both approaches. Considering imperfect channel state information (CSI) resulting from both pilot contamination and noise, we derive a closed-form expression for the sum spectral efficiency (SE) of the RS-based CF massive MIMO system under a spatially correlated Rician channel. Moreover, we propose low-complexity heuristic algorithms based on statistical CSI for power-splitting of common messages and power-control of private messages, and genetic algorithm is adopted as a solution for upper bound performance. Furthermore, we formulate a joint optimization problem, aiming to maximize the sum SE of the RS-based CF massive MIMO system by optimizing the power-splitting factor and power-control coefficient. Importantly, we improve a generative AI (GAI) algorithm to address this complex and nonconvexity problem by using a diffusion model to obtain solutions. Simulation results demonstrate its effectiveness and practicality in mitigating interference, especially in dynamic environments.",
+          "authors": [
+            "Jiakang Zheng",
+            "Jiayi Zhang",
+            "Hongyang Du",
+            "Ruichen Zhang",
+            "Dusit Niyato",
+            "Octavia A. Dobre",
+            "Bo Ai"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2409.14702v2"
+        }
+      ],
+      "key_papers": [
+        "Embodied AI-Enhanced IoMT Edge Computing: UAV Trajectory Optimization and Task Offloading with Mobility Prediction (Mu et al., 2025)",
+        "Promoting Real-Time Reflection in Synchronous Communication with Generative AI (Wen et al., 2025)",
+        "BERT4beam: Large AI Model Enabled Generalized Beamforming Optimization (Li et al., 2025)"
+      ],
+      "avg_year": 2024.5,
+      "year_distribution": {
+        "2025": 3,
+        "2024": 3
+      }
+    },
+    {
+      "cluster_id": "1",
+      "name": "Communication Information",
+      "paper_count": 5,
+      "trajectory": "Rising",
+      "papers": [
+        {
+          "paper_id": "http://arxiv.org/abs/2501.02842v1",
+          "title": "Foundations of GenIR",
+          "abstract": "The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of generative AI models enable them to produce high-quality, human-like responses, which brings brand new opportunities for the development of IA paradigms. In this chapter, we identify and introduce two of them in details, i.e., information generation and information synthesis. Information generation allows AI to create tailored content addressing user needs directly, enhancing user experience with immediate, relevant outputs. Information synthesis leverages the ability of generative AI to integrate and reorganize existing information, providing grounded responses and mitigating issues like model hallucination, which is particularly valuable in scenarios requiring precision and external knowledge. This chapter delves into the foundational aspects of generative models, including architecture, scaling, and training, and discusses their applications in multi-modal scenarios. Additionally, it examines the retrieval-augmented generation paradigm and other methods for corpus modeling and understanding, demonstrating how generative AI can enhance information access systems. It also summarizes potential challenges and fruitful directions for future studies.",
+          "authors": [
+            "Qingyao Ai",
+            "Jingtao Zhan",
+            "Yiqun Liu"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2501.02842v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2308.12400v1",
+          "title": "Towards The Ultimate Brain: Exploring Scientific Discovery with ChatGPT AI",
+          "abstract": "This paper presents a novel approach to scientific discovery using an artificial intelligence (AI) environment known as ChatGPT, developed by OpenAI. This is the first paper entirely generated with outputs from ChatGPT. We demonstrate how ChatGPT can be instructed through a gamification environment to define and benchmark hypothetical physical theories. Through this environment, ChatGPT successfully simulates the creation of a new improved model, called GPT$^4$, which combines the concepts of GPT in AI (generative pretrained transformer) and GPT in physics (generalized probabilistic theory). We show that GPT$^4$ can use its built-in mathematical and statistical capabilities to simulate and analyze physical laws and phenomena. As a demonstration of its language capabilities, GPT$^4$ also generates a limerick about itself. Overall, our results demonstrate the promising potential for human-AI collaboration in scientific discovery, as well as the importance of designing systems that effectively integrate AI's capabilities with human intelligence.",
+          "authors": [
+            "Gerardo Adesso"
+          ],
+          "year": 2023,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2308.12400v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2504.09138v1",
+          "title": "White-Box AI Model: Next Frontier of Wireless Communications",
+          "abstract": "White-box AI (WAI), or explainable AI (XAI) model, a novel tool to achieve the reasoning behind decisions and predictions made by the AI algorithms, makes it more understandable and transparent. It offers a new approach to address key challenges of interpretability and mathematical validation in traditional black-box models. In this paper, WAI-aided wireless communication systems are proposed and investigated thoroughly to utilize the promising capabilities. First, we introduce the fundamental principles of WAI. Then, a detailed comparison between WAI and traditional black-box model is conducted in terms of optimization objectives and architecture design, with a focus on deep neural networks (DNNs) and transformer networks. Furthermore, in contrast to the traditional black-box methods, WAI leverages theory-driven causal modeling and verifiable optimization paths, thereby demonstrating potential advantages in areas such as signal processing and resource allocation. Finally, we outline future research directions for the integration of WAI in wireless communication systems.",
+          "authors": [
+            "Jiayao Yang",
+            "Jiayi Zhang",
+            "Bokai Xu",
+            "Jiakang Zheng",
+            "Zhilong Liu",
+            "Ziheng Liu",
+            "Dusit Niyato",
+            "M\u00e9rouane Debbah",
+            "Zhu Han",
+            "Bo Ai"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2504.09138v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2412.14538v4",
+          "title": "Overview of AI and Communication for 6G Network: Fundamentals, Challenges, and Future Research Opportunities",
+          "abstract": "With the growing demand for seamless connectivity and intelligent communication, the integration of artificial intelligence (AI) and sixth-generation (6G) communication networks has emerged as a transformative paradigm. By embedding AI capabilities across various network layers, this integration enables optimized resource allocation, improved efficiency, and enhanced system robust performance, particularly in intricate and dynamic environments. This paper presents a comprehensive overview of AI and communication for 6G networks, with a focus on emphasizing their foundational principles, inherent challenges, and future research opportunities. We first review the integration of AI and communications in the context of 6G, exploring the driving factors behind incorporating AI into wireless communications, as well as the vision for the convergence of AI and 6G. The discourse then transitions to a detailed exposition of the envisioned integration of AI within 6G networks, delineated across three progressive developmental stages. The first stage, AI for Network, focuses on employing AI to augment network performance, optimize efficiency, and enhance user service experiences. The second stage, Network for AI, highlights the role of the network in facilitating and buttressing AI operations and presents key enabling technologies, such as digital twins for AI and semantic communication. In the final stage, AI as a Service, it is anticipated that future 6G networks will innately provide AI functions as services, supporting application scenarios like immersive communication and intelligent industrial robots. In addition, we conduct an in-depth analysis of the critical challenges faced by the integration of AI and communications in 6G. Finally, we outline promising future research opportunities that are expected to drive the development and refinement of AI and 6G communications.",
+          "authors": [
+            "Qimei Cui",
+            "Xiaohu You",
+            "Ni Wei",
+            "Guoshun Nan",
+            "Xuefei Zhang",
+            "Jianhua Zhang",
+            "Xinchen Lyu",
+            "Ming Ai",
+            "Xiaofeng Tao",
+            "Zhiyong Feng",
+            "Ping Zhang",
+            "Qingqing Wu",
+            "Meixia Tao",
+            "Yongming Huang",
+            "Chongwen Huang",
+            "Guangyi Liu",
+            "Chenghui Peng",
+            "Zhiwen Pan",
+            "Tao Sun",
+            "Dusit Niyato",
+            "Tao Chen",
+            "Muhammad Khurram Khan",
+            "Abbas Jamalipour",
+            "Mohsen Guizani",
+            "Chau Yuen"
+          ],
+          "year": 2024,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2412.14538v4"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2106.05568v2",
+          "title": "Explainable AI, but explainable to whom?",
+          "abstract": "Advances in AI technologies have resulted in superior levels of AI-based model performance. However, this has also led to a greater degree of model complexity, resulting in 'black box' models. In response to the AI black box problem, the field of explainable AI (xAI) has emerged with the aim of providing explanations catered to human understanding, trust, and transparency. Yet, we still have a limited understanding of how xAI addresses the need for explainable AI in the context of healthcare. Our research explores the differing explanation needs amongst stakeholders during the development of an AI-system for classifying COVID-19 patients for the ICU. We demonstrate that there is a constellation of stakeholders who have different explanation needs, not just the 'user'. Further, the findings demonstrate how the need for xAI emerges through concerns associated with specific stakeholder groups i.e., the development team, subject matter experts, decision makers, and the audience. Our findings contribute to the expansion of xAI by highlighting that different stakeholders have different explanation needs. From a practical perspective, the study provides insights on how AI systems can be adjusted to support different stakeholders needs, ensuring better implementation and operation in a healthcare context.",
+          "authors": [
+            "Julie Gerlings",
+            "Millie S\u00f8ndergaard Jensen",
+            "Arisa Shollo"
+          ],
+          "year": 2021,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2106.05568v2"
+        }
+      ],
+      "key_papers": [
+        "White-Box AI Model: Next Frontier of Wireless Communications (Yang et al., 2025)",
+        "Foundations of GenIR (Ai et al., 2025)",
+        "Overview of AI and Communication for 6G Network: Fundamentals, Challenges, and Future Research Opportunities (Cui et al., 2024)"
+      ],
+      "avg_year": 2023.6,
+      "year_distribution": {
+        "2025": 2,
+        "2023": 1,
+        "2024": 1,
+        "2021": 1
+      }
+    },
+    {
+      "cluster_id": "7",
+      "name": "Knowledge Challenge",
+      "paper_count": 4,
+      "trajectory": "Rising",
+      "papers": [
+        {
+          "paper_id": "http://arxiv.org/abs/2507.16110v1",
+          "title": "Expert-Guided LLM Reasoning for Battery Discovery: From AI-Driven Hypothesis to Synthesis and Characterization",
+          "abstract": "Large language models (LLMs) leverage chain-of-thought (CoT) techniques to tackle complex problems, representing a transformative breakthrough in artificial intelligence (AI). However, their reasoning capabilities have primarily been demonstrated in solving math and coding problems, leaving their potential for domain-specific applications-such as battery discovery-largely unexplored. Inspired by the idea that reasoning mirrors a form of guided search, we introduce ChatBattery, a novel agentic framework that integrates domain knowledge to steer LLMs toward more effective reasoning in materials design. Using ChatBattery, we successfully identify, synthesize, and characterize three novel lithium-ion battery cathode materials, which achieve practical capacity improvements of 28.8%, 25.2%, and 18.5%, respectively, over the widely used cathode material, LiNi0.8Mn0.1Co0.1O2 (NMC811). Beyond this discovery, ChatBattery paves a new path by showing a successful LLM-driven and reasoning-based platform for battery materials invention. This complete AI-driven cycle-from design to synthesis to characterization-demonstrates the transformative potential of AI-driven reasoning in revolutionizing materials discovery.",
+          "authors": [
+            "Shengchao Liu",
+            "Hannan Xu",
+            "Yan Ai",
+            "Huanxin Li",
+            "Yoshua Bengio",
+            "Harry Guo"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2507.16110v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/1908.08184v1",
+          "title": "Report on the First Knowledge Graph Reasoning Challenge 2018 -- Toward the eXplainable AI System",
+          "abstract": "A new challenge for knowledge graph reasoning started in 2018. Deep learning has promoted the application of artificial intelligence (AI) techniques to a wide variety of social problems. Accordingly, being able to explain the reason for an AI decision is becoming important to ensure the secure and safe use of AI techniques. Thus, we, the Special Interest Group on Semantic Web and Ontology of the Japanese Society for AI, organized a challenge calling for techniques that reason and/or estimate which characters are criminals while providing a reasonable explanation based on an open knowledge graph of a well-known Sherlock Holmes mystery story. This paper presents a summary report of the first challenge held in 2018, including the knowledge graph construction, the techniques proposed for reasoning and/or estimation, the evaluation metrics, and the results. The first prize went to an approach that formalized the problem as a constraint satisfaction problem and solved it using a lightweight formal method; the second prize went to an approach that used SPARQL and rules; the best resource prize went to a submission that constructed word embedding of characters from all sentences of Sherlock Holmes novels; and the best idea prize went to a discussion multi-agents model. We conclude this paper with the plans and issues for the next challenge in 2019.",
+          "authors": [
+            "Takahiro Kawamura",
+            "Shusaku Egami",
+            "Koutarou Tamura",
+            "Yasunori Hokazono",
+            "Takanori Ugai",
+            "Yusuke Koyanagi",
+            "Fumihito Nishino",
+            "Seiji Okajima",
+            "Katsuhiko Murakami",
+            "Kunihiko Takamatsu",
+            "Aoi Sugiura",
+            "Shun Shiramatsu",
+            "Shawn Zhang",
+            "Kouji Kozaki"
+          ],
+          "year": 2019,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/1908.08184v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2508.10108v1",
+          "title": "Amazon Nova AI Challenge -- Trusted AI: Advancing secure, AI-assisted software development",
+          "abstract": "AI systems for software development are rapidly gaining prominence, yet significant challenges remain in ensuring their safety. To address this, Amazon launched the Trusted AI track of the Amazon Nova AI Challenge, a global competition among 10 university teams to drive advances in secure AI. In the challenge, five teams focus on developing automated red teaming bots, while the other five create safe AI assistants. This challenge provides teams with a unique platform to evaluate automated red-teaming and safety alignment methods through head-to-head adversarial tournaments where red teams have multi-turn conversations with the competing AI coding assistants to test their safety alignment. Along with this, the challenge provides teams with a feed of high quality annotated data to fuel iterative improvement. Throughout the challenge, teams developed state-of-the-art techniques, introducing novel approaches in reasoning-based safety alignment, robust model guardrails, multi-turn jail-breaking, and efficient probing of large language models (LLMs). To support these efforts, the Amazon Nova AI Challenge team made substantial scientific and engineering investments, including building a custom baseline coding specialist model for the challenge from scratch, developing a tournament orchestration service, and creating an evaluation harness. This paper outlines the advancements made by university teams and the Amazon Nova AI Challenge team in addressing the safety challenges of AI for software development, highlighting this collaborative effort to raise the bar for AI safety.",
+          "authors": [
+            "Sattvik Sahai",
+            "Prasoon Goyal",
+            "Michael Johnston",
+            "Anna Gottardi",
+            "Yao Lu",
+            "Lucy Hu",
+            "Luke Dai",
+            "Shaohua Liu",
+            "Samyuth Sagi",
+            "Hangjie Shi",
+            "Desheng Zhang",
+            "Lavina Vaz",
+            "Leslie Ball",
+            "Maureen Murray",
+            "Rahul Gupta",
+            "Shankar Ananthakrishna"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2508.10108v1"
+        },
+        {
+          "paper_id": "http://arxiv.org/abs/2503.17374v1",
+          "title": "Intanify AI Platform: Embedded AI for Automated IP Audit and Due Diligence",
+          "abstract": "In this paper we introduce a Platform created in order to support SMEs' endeavor to extract value from their intangible assets effectively. To implement the Platform, we developed five knowledge bases using a knowledge-based ex-pert system shell that contain knowledge from intangible as-set consultants, patent attorneys and due diligence lawyers. In order to operationalize the knowledge bases, we developed a \"Rosetta Stone\", an interpreter unit for the knowledge bases outside the shell and embedded in the plat-form. Building on the initial knowledge bases we have created a system of red flags, risk scoring, and valuation with the involvement of the same experts; these additional systems work upon the initial knowledge bases and therefore they can be regarded as meta-knowledge-representations that take the form of second-order knowledge graphs. All this clever technology is dressed up in an easy-to-handle graphical user interface that we will showcase at the conference. The initial platform was finished mid-2024; therefore, it qualifies as an \"emerging application of AI\" and \"deployable AI\", while development continues. The two firms that provided experts for developing the knowledge bases obtained a white-label version of the product (i.e. it runs under their own brand \"powered by Intanify\"), and there are two completed cases.",
+          "authors": [
+            "Viktor Dorfler",
+            "Dylan Dryden",
+            "Viet Lee"
+          ],
+          "year": 2025,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2503.17374v1"
+        }
+      ],
+      "key_papers": [
+        "Expert-Guided LLM Reasoning for Battery Discovery: From AI-Driven Hypothesis to Synthesis and Characterization (Liu et al., 2025)",
+        "Amazon Nova AI Challenge -- Trusted AI: Advancing secure, AI-assisted software development (Sahai et al., 2025)",
+        "Intanify AI Platform: Embedded AI for Automated IP Audit and Due Diligence (Dorfler et al., 2025)"
+      ],
+      "avg_year": 2023.5,
+      "year_distribution": {
+        "2025": 3,
+        "2019": 1
+      }
+    },
+    {
+      "cluster_id": "6",
+      "name": "Change Preference",
+      "paper_count": 1,
+      "trajectory": "Stable",
+      "papers": [
+        {
+          "paper_id": "http://arxiv.org/abs/2203.10525v2",
+          "title": "Recognising the importance of preference change: A call for a coordinated multidisciplinary research effort in the age of AI",
+          "abstract": "As artificial intelligence becomes more powerful and a ubiquitous presence in daily life, it is imperative to understand and manage the impact of AI systems on our lives and decisions. Modern ML systems often change user behavior (e.g. personalized recommender systems learn user preferences to deliver recommendations that change online behavior). An externality of behavior change is preference change. This article argues for the establishment of a multidisciplinary endeavor focused on understanding how AI systems change preference: Preference Science. We operationalize preference to incorporate concepts from various disciplines, outlining the importance of meta-preferences and preference-change preferences, and proposing a preliminary framework for how preferences change. We draw a distinction between preference change, permissible preference change, and outright preference manipulation. A diversity of disciplines contribute unique insights to this framework.",
+          "authors": [
+            "Matija Franklin",
+            "Hal Ashton",
+            "Rebecca Gorman",
+            "Stuart Armstrong"
+          ],
+          "year": 2022,
+          "venue": "arXiv",
+          "url": "https://arxiv.org/abs/2203.10525v2"
+        }
+      ],
+      "key_papers": [
+        "Recognising the importance of preference change: A call for a coordinated multidisciplinary research effort in the age of AI (Franklin et al., 2022)"
+      ],
+      "avg_year": 2022.0,
+      "year_distribution": {
+        "2022": 1
+      }
+    }
+  ]
+}

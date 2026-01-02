@@ -2,6 +2,8 @@
 from storage.object_store import ObjectStore
 import hashlib
 import json
+import os
+import glob
 
 class DataCache:
     """Cache for generated data to avoid regeneration"""
@@ -41,6 +43,34 @@ class DataCache:
             "synthesis": synthesis
         })
         return cache_key
+    
+    def clear_cache(self):
+        """Clear all cached clusters and synthesis data"""
+        try:
+            cache_dir = self.object_store.base_path
+            if os.path.exists(cache_dir):
+                # Find all JSON files in cache directory
+                pattern = os.path.join(cache_dir, "*.json")
+                cache_files = glob.glob(pattern)
+                
+                # Remove all cache files
+                for cache_file in cache_files:
+                    try:
+                        os.remove(cache_file)
+                        print(f"Cleared cache file: {os.path.basename(cache_file)}")
+                    except Exception as e:
+                        print(f"Error removing cache file {cache_file}: {e}")
+                
+                print(f"Cache cleared: {len(cache_files)} files removed")
+                return len(cache_files)
+            else:
+                print("Cache directory does not exist, nothing to clear")
+                return 0
+        except Exception as e:
+            print(f"Error clearing cache: {e}")
+            import traceback
+            traceback.print_exc()
+            return 0
     
     def get_all_data(self):
         """Get all cached data (for paper generation)"""

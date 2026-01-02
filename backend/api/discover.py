@@ -4,8 +4,10 @@ from flask import Blueprint, request, jsonify
 from datetime import datetime
 import feedparser
 import traceback
+from services.data_cache import DataCache
 
 discover_bp = Blueprint("discover", __name__)
+data_cache = DataCache()
 
 ARXIV_API = "http://export.arxiv.org/api/query"
 
@@ -74,6 +76,14 @@ def discover():
             data.get("end_year", datetime.now().year),
             data.get("max_results", 50)
         )
+        
+        # Clear cache when new papers are discovered (new topic/query)
+        # This ensures clusters and synthesis are regenerated for the new topic
+        if papers and len(papers) > 0:
+            print(f"New papers discovered ({len(papers)} papers), clearing cache...")
+            cleared_count = data_cache.clear_cache()
+            print(f"Cache cleared: {cleared_count} files removed")
+        
         return jsonify(papers)
     except Exception as e:
         error_msg = str(e)

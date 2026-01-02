@@ -153,6 +153,10 @@ def generate_paper():
             }), 500
         
         # Generate paper using RAG
+        print(f"Generating paper on topic: {topic}")
+        print(f"Context text length: {len(context_text)}")
+        print(f"Context preview: {context_text[:200]}...")
+        
         prompt = f"""You are a research paper writer. Generate a comprehensive research paper on the topic: "{topic}"
 
 Use the following knowledge base as context:
@@ -171,11 +175,41 @@ Generate a research paper with the following structure:
 Write in academic style, cite relevant work from the context, and ensure the paper is coherent and well-structured. Use **bold** for section headers and key terms."""
 
         try:
+            print("Calling LLM service to generate paper...")
             paper_content = llm_service.generate(prompt, temperature=0.7)
+            print(f"Paper generated successfully, length: {len(paper_content)}")
+            
+            if not paper_content or len(paper_content.strip()) < 100:
+                return jsonify({
+                    "error": "Generated paper is too short or empty",
+                    "details": "The LLM returned insufficient content. Please try again or check if the model is working properly."
+                }), 500
+                
+        except ValueError as e:
+            # Handle specific LLM errors (CUDA, model not found, etc.)
+            error_msg = str(e)
+            print(f"LLM error: {error_msg}")
+            return jsonify({
+                "error": "LLM Generation Failed",
+                "details": error_msg,
+                "type": "llm_error"
+            }), 500
+        except ConnectionError as e:
+            print(f"Connection error: {e}")
+            return jsonify({
+                "error": "Cannot connect to Ollama",
+                "details": str(e),
+                "suggestion": "Please ensure Ollama is running: ollama serve",
+                "type": "connection_error"
+            }), 500
         except Exception as e:
+            print(f"Error generating paper with LLM: {e}")
+            import traceback
+            traceback.print_exc()
             return jsonify({
                 "error": f"Failed to generate paper: {str(e)}",
-                "suggestion": "Please ensure Ollama is running and the model is available."
+                "suggestion": "Please ensure Ollama is running and the model is available.",
+                "type": "unknown_error"
             }), 500
         
         return jsonify({
@@ -190,7 +224,13 @@ Write in academic style, cite relevant work from the context, and ensure the pap
         })
         
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        print(f"Unexpected error in generate_paper: {e}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({
+            "error": str(e),
+            "type": type(e).__name__
+        }), 500
 
 @paper_generation_bp.route("/store", methods=["POST"])
 def store_data():

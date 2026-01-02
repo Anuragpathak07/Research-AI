@@ -72,14 +72,17 @@ export default function Synthesis() {
       }));
 
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 180000); // 3 minute timeout
+      const timeoutId = setTimeout(() => controller.abort(), 360000); // 6 minute timeout (LLM generation for all 7 sections can take 3-5 minutes)
       
       const response = await fetch("/api/synthesis/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(papersForBackend),
+        body: JSON.stringify({
+          papers: papersForBackend,
+          force_regenerate: true  // Always generate fresh synthesis
+        }),
         signal: controller.signal,
       });
       
@@ -109,7 +112,7 @@ export default function Synthesis() {
     } catch (error: any) {
       console.error("Error fetching synthesis:", error);
       if (error.name === 'AbortError') {
-        setError("Synthesis request timed out. The analysis is taking longer than expected. Please try again or check if Ollama is running properly.");
+        setError("Synthesis request timed out after 6 minutes. The LLM generation is taking longer than expected. This can happen with large paper sets. Please try again or check if Ollama is running properly.");
       } else {
         setError("Failed to fetch synthesis. Please check if the backend is running.");
       }
@@ -212,16 +215,32 @@ export default function Synthesis() {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
+      if (!response.ok) {
+        const errorData = await response.json();
+        // Use detailed error message if available
+        const errorMessage = errorData.details || errorData.error || `HTTP error! status: ${response.status}`;
+        throw new Error(errorMessage);
+      }
+
       const data = await response.json();
       if (data.error) {
-        throw new Error(data.error);
+        throw new Error(data.details || data.error);
       }
 
       setGeneratedPaper(data.paper);
       setGeneratingPaper(false);
+      setPaperError(null);
     } catch (error: any) {
       console.error("Error generating paper:", error);
-      setPaperError(error.message || "Failed to generate paper. Please check if Ollama is running.");
+      
+      // Extract error message
+      let errorMessage = "Failed to generate paper. Please check if Ollama is running.";
+      
+      if (error.message) {
+        errorMessage = error.message;
+      }
+      
+      setPaperError(errorMessage);
       setGeneratingPaper(false);
     }
   };
@@ -289,8 +308,9 @@ export default function Synthesis() {
                         </p>
                       </div>
                       {paperError && (
-                        <div className="p-3 rounded-lg bg-red-50 border border-red-200 text-red-800 text-sm">
-                          {paperError}
+                        <div className="p-4 rounded-lg bg-red-50 border border-red-200 text-red-800 text-sm whitespace-pre-line">
+                          <div className="font-semibold mb-2">Error Generating Paper</div>
+                          <div className="text-xs">{paperError}</div>
                         </div>
                       )}
                       <Button
@@ -357,9 +377,10 @@ export default function Synthesis() {
           )}
 
           {loading.synthesis && (
-            <div className="text-center py-12 flex items-center gap-2 justify-center">
+            <div className="text-center py-12 flex flex-col items-center gap-3 justify-center">
               <Loader2 className="h-5 w-5 animate-spin" />
-              <span className="text-muted-foreground">Generating synthesis content...</span>
+              <span className="text-muted-foreground">Generating synthesis content with LLM...</span>
+              <p className="text-xs text-muted-foreground">This may take 3-5 minutes as we generate all 7 sections with AI</p>
             </div>
           )}
 
