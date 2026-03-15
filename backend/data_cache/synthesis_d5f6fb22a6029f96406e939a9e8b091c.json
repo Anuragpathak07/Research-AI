@@ -1,0 +1,424 @@
+{
+  "papers": [
+    {
+      "paper_id": "http://arxiv.org/abs/2209.09367v4",
+      "title": "Supporting Multi-Cloud in Serverless Computing",
+      "abstract": "Serverless computing is a widely adopted cloud execution model composed of Function-as-a-Service (FaaS) and Backend-as-a-Service (BaaS) offerings. The increased level of abstraction makes vendor lock-in inherent to serverless computing, raising more concerns than previous cloud paradigms. Multi-cloud serverless is a promising emerging approach against vendor lock-in, yet multiple challenges must be overcome to tap its potential. First, we need to be aware of both the performance and cost of each FaaS provider. Second, a multi-cloud architecture must be proposed before deploying a multi-cloud workflow. Domain-specific serverless offerings must then be integrated into the multi-cloud architecture to improve performance or save costs. Moreover, dealing with serverless offerings from multiple providers is challenging. Finally, we require workload portability support for serverless multi-cloud.   In this paper, we present a multi-cloud library for cross-serverless offerings. We develop the End Analysis System (EAS) to support comparison among public FaaS providers in terms of performance and cost. Moreover, we design proof-of-concept multi-cloud architectures with domain-specific serverless offerings to alleviate problems such as data gravity. Finally, we deploy workloads on these architectures to evaluate several public FaaS offerings.",
+      "authors": [
+        "Haidong Zhao",
+        "Zakaria Benomar",
+        "Tobias Pfandzelter",
+        "Nikolaos Georgantas"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2209.09367v4"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1601.01608v1",
+      "title": "Framework for cloud computing adoption: A road map for Smes to cloud migration",
+      "abstract": "Small and Medium size Enterprises (SME) are considered as a backbone of many developing and developed economies of the world; they are the driving force to any major economy across the globe. Through Cloud Computing firms outsource their entire information technology (IT) process while concentrating more on their core business. It allows businesses to cut down heavy cost incurred over IT infrastructure without losing focus on customer needs. However, Cloud industry to an extent has struggled to grow among SMEs due to the reluctance and concerns expressed by them. Throughout the course of this study several interviews were conducted and the literature was reviewed to understand how cloud providers offer services and what challenges SMEs are facing. The study identified issues like cloud knowledge, interoperability, security and contractual concerns to be hindering SMEs adoption of cloud services. From the interviews common practices followed by cloud vendors and what concerns SMEs have were identified as a basis for a cloud framework which will bridge gaps between cloud vendors and SMEs. A stepwise framework for cloud adoption is formulated which identifies and provides recommendation to four most predominant challenges which are hurting cloud industry and taking SMEs away from cloud computing, as well as guide SMEs aiding in successful cloud adoption. Moreover, this framework streamlines the cloud adoption process for SMEs by removing ambiguity in regards to fundamentals associated with their organisation and cloud adoption process.",
+      "authors": [
+        "Nabeel Khan",
+        "Adil Al-Yasiri"
+      ],
+      "year": 2016,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1601.01608v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1810.06046v1",
+      "title": "Accelerator Virtualization in Fog Computing: Moving From the Cloud to the Edge",
+      "abstract": "Hardware accelerators are available on the Cloud for enhanced analytics. Next generation Clouds aim to bring enhanced analytics using accelerators closer to user devices at the edge of the network for improving Quality-of-Service by minimizing end-to-end latencies and response times. The collective computing model that utilizes resources at the Cloud-Edge continuum in a multi-tier hierarchy comprising the Cloud, the Edge and user devices is referred to as Fog computing. This article identifies challenges and opportunities in making accelerators accessible at the Edge. A holistic view of the Fog architecture is key to pursuing meaningful research in this area.",
+      "authors": [
+        "Blesson Varghese",
+        "Carlos Reano",
+        "Federico Silla"
+      ],
+      "year": 2018,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1810.06046v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1505.08097v2",
+      "title": "Ad hoc Cloud Computing: From Concept to Realization",
+      "abstract": "This paper presents the first complete, integrated and end-to-end solution for ad hoc cloud computing environments. Ad hoc clouds harvest resources from existing sporadically available, non-exclusive (i.e. primarily used for some other purpose) and unreliable infrastructures. In this paper we discuss the problems ad hoc cloud computing solves and outline our architecture which is based on BOINC.",
+      "authors": [
+        "Gary Andrew McGilvary",
+        "Adam Barker",
+        "Malcolm Atkinson"
+      ],
+      "year": 2015,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1505.08097v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2007.07499v1",
+      "title": "Cloud-based Privacy-Preserving Collaborative Consumption for Sharing Economy",
+      "abstract": "Cloud computing has been a dominant paradigm for a variety of information processing platforms, particularly for enabling various popular applications of sharing economy. However, there is a major concern regarding data privacy on these cloud-based platforms. This work presents novel cloud-based privacy-preserving solutions to support collaborative consumption applications for sharing economy. In typical collaborative consumption, information processing platforms need to enable fair cost-sharing among multiple users for utilizing certain shared facilities and communal services. Our cloud-based privacy-preserving protocols, based on homomorphic Paillier cryptosystems, can ensure that the cloud-based operator can only obtain an aggregate schedule of all users in facility sharing, or a service schedule conforming to service provision rule in communal service sharing, but is unable to track the personal schedules or demands of individual users. More importantly, the participating users are still able to settle cost-sharing among themselves in a fair manner for the incurred costs, without knowing each other's private schedules or demands. Our privacy-preserving protocols involve no other third party who may compromise privacy. We also provide an extensive evaluation study and a proof-of-concept system prototype of our protocols.",
+      "authors": [
+        "Lingjuan Lyu",
+        "Sid Chi-Kin Chau",
+        "Nan Wang",
+        "Yifeng Zheng"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2007.07499v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2111.06466v1",
+      "title": "Molecular Dynamics Simulations on Cloud Computing and Machine Learning Platforms",
+      "abstract": "Scientific computing applications have benefited greatly from high performance computing infrastructure such as supercomputers. However, we are seeing a paradigm shift in the computational structure, design, and requirements of these applications. Increasingly, data-driven and machine learning approaches are being used to support, speed-up, and enhance scientific computing applications, especially molecular dynamics simulations. Concurrently, cloud computing platforms are increasingly appealing for scientific computing, providing \"infinite\" computing powers, easier programming and deployment models, and access to computing accelerators such as TPUs (Tensor Processing Units). This confluence of machine learning (ML) and cloud computing represents exciting opportunities for cloud and systems researchers. ML-assisted molecular dynamics simulations are a new class of workload, and exhibit unique computational patterns. These simulations present new challenges for low-cost and high-performance execution. We argue that transient cloud resources, such as low-cost preemptible cloud VMs, can be a viable platform for this new workload. Finally, we present some low-hanging fruits and long-term challenges in cloud resource management, and the integration of molecular dynamics simulations into ML platforms (such as TensorFlow).",
+      "authors": [
+        "Prateek Sharma",
+        "Vikram Jadhao"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2111.06466v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1706.06535v1",
+      "title": "Combining edge and cloud computing for mobility analytics",
+      "abstract": "Mobility analytics using data generated from the Internet of Mobile Things (IoMT) is facing many challenges which range from the ingestion of data streams coming from a vast number of fog nodes and IoMT devices to avoiding overflowing the cloud with useless massive data streams that can trigger bottlenecks [1]. Managing data flow is becoming an important part of the IoMT because it will dictate in which platform analytical tasks should run in the future. Data flows are usually a sequence of out-of-order tuples with a high data input rate, and mobility analytics requires a real-time flow of data in both directions, from the edge to the cloud, and vice-versa. Before pulling the data streams to the cloud, edge data stream processing is needed for detecting missing, broken, and duplicated tuples in addition to recognize tuples whose arrival time is out of order. Analytical tasks such as data filtering, data cleaning and low-level data contextualization can be executed at the edge of a network. In contrast, more complex analytical tasks such as graph processing can be deployed in the cloud, and the results of ad-hoc queries and streaming graph analytics can be pushed to the edge as needed by a user application. Graphs are efficient representations used in mobility analytics because they unify knowledge about connectivity, proximity and interaction among moving things. This poster describes the preliminary results from our experimental prototype developed for supporting transit systems, in which edge and cloud computing are combined to process transit data streams forwarded from fog nodes into a cloud. The motivation of this research is to understand how to perform meaningfulness mobility analytics on transit feeds by combining cloud and fog computing architectures in order to improve fleet management, mass transit and remote asset monitoring",
+      "authors": [
+        "Ikechukwu Maduako",
+        "Hung Cao",
+        "Lilian Hernandez",
+        "Monica Wachowicz"
+      ],
+      "year": 2017,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1706.06535v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1611.05170v1",
+      "title": "The Effects of Relative Importance of User Constraints in Cloud of Things Resource Discovery: A Case Study",
+      "abstract": "Over the last few years, the number of smart objects connected to the Internet has grown exponentially in comparison to the number of services and applications. The integration between Cloud Computing and Internet of Things, named as Cloud of Things, plays a key role in managing the connected things, their data and services. One of the main challenges in Cloud of Things is the resource discovery of the smart objects and their reuse in different contexts. Most of the existent work uses some kind of multi-criteria decision analysis algorithm to perform the resource discovery, but do not evaluate the impact that the user constraints has in the final solution. In this paper, we analyse the behaviour of the SAW, TOPSIS and VIKOR multi-objective decision analyses algorithms and the impact of user constraints on them. We evaluated the quality of the proposed solutions using the Pareto-optimality concept.",
+      "authors": [
+        "Luiz H. Nunes",
+        "Julio C. Estrella",
+        "Alexandre C. B. Delbem",
+        "Charith Perera",
+        "Stephan Reiff-Marganiec"
+      ],
+      "year": 2016,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1611.05170v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1705.05691v1",
+      "title": "Cloudroid: A Cloud Framework for Transparent and QoS-aware Robotic Computation Outsourcing",
+      "abstract": "Many robotic tasks require heavy computation, which can easily exceed the robot's onboard computer capability. A promising solution to address this challenge is outsourcing the computation to the cloud. However, exploiting the potential of cloud resources in robotic software is difficult, because it involves complex code modification and extensive (re)configuration procedures. Moreover, quality of service (QoS) such as timeliness, which is critical to robot's behavior, have to be considered. In this paper, we propose a transparent and QoS-aware software framework called Cloudroid for cloud robotic applications. This framework supports direct deployment of existing robotic software packages to the cloud, transparently transforming them into Internet-accessible cloud services. And with the automatically generated service stubs, robotic applications can outsource their computation to the cloud without any code modification. Furthermore, the robot and the cloud can cooperate to maintain the specific QoS property such as request response time, even in a highly dynamic and resource-competitive environment. We evaluated Cloudroid based on a group of typical robotic scenarios and a set of software packages widely adopted in real-world robot practices. Results show that robot's capability can be enhanced significantly without code modification and specific QoS objectives can be guaranteed. In certain tasks, the \"cloud + robot\" setup shows improved performance in orders of magnitude compared with the robot native setup.",
+      "authors": [
+        "Ben Hu",
+        "Huaimin Wang",
+        "Pengfei Zhang",
+        "Bo Ding",
+        "Huimin Che"
+      ],
+      "year": 2017,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1705.05691v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2309.02172v1",
+      "title": "Orchestration in the Cloud-to-Things Compute Continuum: Taxonomy, Survey and Future Directions",
+      "abstract": "IoT systems are becoming an essential part of our environment. Smart cities, smart manufacturing, augmented reality, and self-driving cars are just some examples of the wide range of domains, where the applicability of such systems has been increasing rapidly. These IoT use cases often require simultaneous access to geographically distributed arrays of sensors, and heterogeneous remote, local as well as multi-cloud computational resources. This gives birth to the extended Cloud-to-Things computing paradigm. The emergence of this new paradigm raised the quintessential need to extend the orchestration requirements i.e., the automated deployment and run-time management) of applications from the centralised cloud-only environment to the entire spectrum of resources in the Cloud-to-Things continuum. In order to cope with this requirement, in the last few years, there has been a lot of attention to the development of orchestration systems in both industry and academic environments. This paper is an attempt to gather the research conducted in the orchestration for the Cloud-to-Things continuum landscape and to propose a detailed taxonomy, which is then used to critically review the landscape of existing research work. We finally discuss the key challenges that require further attention and also present a conceptual framework based on the conducted analysis.",
+      "authors": [
+        "Amjad Ullah",
+        "Tamas Kiss",
+        "J\u00f3zsef Kov\u00e1cs",
+        "Francesco Tusa",
+        "James Deslauriers",
+        "Huseyin Dagdeviren",
+        "Resmi Arjun",
+        "Hamed Hamzeh"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2309.02172v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2205.05078v1",
+      "title": "Modeling Operational Fairness of Hybrid Cloud Brokerage",
+      "abstract": "Cloud service brokerage is an emerging technology that attempts to simplify the consumption and operation of hybrid clouds. Today's cloud brokers attempt to insulate consumers from the vagaries of multiple clouds. To achieve the insulation, the modern cloud broker needs to disguise itself as the end-provider to consumers by creating and operating a virtual data center construct that we call a meta-cloud, which is assembled on top of a set of participating supplier clouds. It is crucial for such a cloud broker to be considered a trusted partner both by cloud consumers and by the underpinning cloud suppliers. A fundamental tenet of brokerage trust is vendor neutrality. On the one hand, cloud consumers will be comfortable if a cloud broker guarantees that they will not be led through a preferred path. And on the other hand, cloud suppliers would be more interested in partnering with a cloud broker who promises a fair apportioning of client provisioning requests. Because consumer and supplier trust on a meta-cloud broker stems from the assumption of being agnostic to supplier clouds, there is a need for a test strategy that verifies the fairness of cloud brokerage. In this paper, we propose a calculus of fairness that defines the rules to determine the operational behavior of a cloud broker. The calculus uses temporal logic to model the fact that fairness is a trait that has to be ascertained over time; it is not a characteristic that can be judged at a per-request fulfillment level. Using our temporal calculus of fairness as the basis, we propose an algorithm to determine the fairness of a broker probabilistically, based on its observed request apportioning policies. Our model for the fairness of cloud broker behavior also factors in inter-provider variables such as cost divergence and capacity variance.",
+      "authors": [
+        "Sreekrishnan Venkateswaran",
+        "Santonu Sarkar"
+      ],
+      "year": 2022,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2205.05078v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2411.03376v1",
+      "title": "An Open API Architecture to Discover the Trustworthy Explanation of Cloud AI Services",
+      "abstract": "This article presents the design of an open-API-based explainable AI (XAI) service to provide feature contribution explanations for cloud AI services. Cloud AI services are widely used to develop domain-specific applications with precise learning metrics. However, the underlying cloud AI services remain opaque on how the model produces the prediction. We argue that XAI operations are accessible as open APIs to enable the consolidation of the XAI operations into the cloud AI services assessment. We propose a design using a microservice architecture that offers feature contribution explanations for cloud AI services without unfolding the network structure of the cloud models. We can also utilize this architecture to evaluate the model performance and XAI consistency metrics showing cloud AI services trustworthiness. We collect provenance data from operational pipelines to enable reproducibility within the XAI service. Furthermore, we present the discovery scenarios for the experimental tests regarding model performance and XAI consistency metrics for the leading cloud vision AI services. The results confirm that the architecture, based on open APIs, is cloud-agnostic. Additionally, data augmentations result in measurable improvements in XAI consistency metrics for cloud AI services.",
+      "authors": [
+        "Zerui Wang",
+        "Yan Liu",
+        "Jun Huang"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2411.03376v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2305.17761v1",
+      "title": "Towards Confidential Computing: A Secure Cloud Architecture for Big Data Analytics and AI",
+      "abstract": "Cloud computing provisions computer resources at a cost-effective way based on demand. Therefore it has become a viable solution for big data analytics and artificial intelligence which have been widely adopted in various domain science. Data security in certain fields such as biomedical research remains a major concern when moving their workflows to cloud, because cloud environments are generally outsourced which are more exposed to risks. We present a secure cloud architecture and describes how it enables workflow packaging and scheduling while keeping its data, logic and computation secure in transit, in use and at rest.",
+      "authors": [
+        "Naweiluo Zhou",
+        "Florent Dufour",
+        "Vinzent Bode",
+        "Peter Zinterhof",
+        "Nicolay J Hammer",
+        "Dieter Kranzlm\u00fcller"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2305.17761v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2311.04482v1",
+      "title": "Optimizing Distributed Networking with Big Data Scheduling and Cloud Computing",
+      "abstract": "With the rapid transformation of computer hardware and algorithms, mobile networking has evolved from low data carrying capacity and high latency to better-optimized networks, either by enhancing the digital network or using different approaches to reduce network traffic. This paper discusses the big data applications and scheduling in the distributed networking and analyzes the opportunities and challenges of data management systems. The analysis shows that the big data scheduling in the cloud computing environment produces the most efficient way to transfer and synchronize data. Since scheduling problems and cloud models are very complex to analyze in different settings, we set it to the typical software defined networks. The development of cloud management models and coflow scheduling algorithm is proved to be the priority of the digital communications and networks development in the future.",
+      "authors": [
+        "Wenbo Zhu"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2311.04482v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2002.04860v1",
+      "title": "Energy Efficient Algorithms based on VM Consolidation for Cloud Computing: Comparisons and Evaluations",
+      "abstract": "Cloud Computing paradigm has revolutionized IT industry and be able to offer computing as the fifth utility. With the pay-as-you-go model, cloud computing enables to offer the resources dynamically for customers anytime. Drawing the attention from both academia and industry, cloud computing is viewed as one of the backbones of the modern economy. However, the high energy consumption of cloud data centers contributes to high operational costs and carbon emission to the environment. Therefore, Green cloud computing is required to ensure energy efficiency and sustainability, which can be achieved via energy efficient techniques. One of the dominant approaches is to apply energy efficient algorithms to optimize resource usage and energy consumption. Currently, various virtual machine consolidation-based energy efficient algorithms have been proposed to reduce the energy of cloud computing environment. However, most of them are not compared comprehensively under the same scenario, and their performance is not evaluated with the same experimental settings. This makes users hard to select the appropriate algorithm for their objectives. To provide insights for existing energy efficient algorithms and help researchers to choose the most suitable algorithm, in this paper, we compare several state-of-the-art energy efficient algorithms in depth from multiple perspectives, including architecture, modelling and metrics. In addition, we also implement and evaluate these algorithms with the same experimental settings in CloudSim toolkit. The experimental results show the performance comparison of these algorithms with comprehensive results. Finally, detailed discussions of these algorithms are provided.",
+      "authors": [
+        "Qiheng Zhou",
+        "Minxian Xu",
+        "Sukhpal Singh Gill",
+        "Chengxi Gao",
+        "Wenhong Tian",
+        "Chengzhong Xu",
+        "Rajkumar Buyya"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2002.04860v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2507.07671v1",
+      "title": "Multi-agent Reinforcement Learning-based In-place Scaling Engine for Edge-cloud Systems",
+      "abstract": "Modern edge-cloud systems face challenges in efficiently scaling resources to handle dynamic and unpredictable workloads. Traditional scaling approaches typically rely on static thresholds and predefined rules, which are often inadequate for optimizing resource utilization and maintaining performance in distributed and dynamic environments. This inefficiency hinders the adaptability and performance required in edge-cloud infrastructures, which can only be achieved through the newly proposed in-place scaling. To address this problem, we propose the Multi-Agent Reinforcement Learning-based In-place Scaling Engine (MARLISE) that enables seamless, dynamic, reactive control with in-place resource scaling. We develop our solution using two Deep Reinforcement Learning algorithms: Deep Q-Network (DQN), and Proximal Policy Optimization (PPO). We analyze each version of the proposed MARLISE solution using dynamic workloads, demonstrating their ability to ensure low response times of microservices and scalability. Our results show that MARLISE-based approaches outperform heuristic method in managing resource elasticity while maintaining microservice response times and achieving higher resource efficiency.",
+      "authors": [
+        "Jovan Prodanov",
+        "Bla\u017e Bertalani\u010d",
+        "Carolina Fortuna",
+        "Shih-Kai Chou",
+        "Matja\u017e Branko Juri\u010d",
+        "Ramon Sanchez-Iborra",
+        "Jernej Hribar"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2507.07671v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2505.19880v2",
+      "title": "Universal Workers: A Vision for Eliminating Cold Starts in Serverless Computing",
+      "abstract": "Serverless computing enables developers to deploy code without managing infrastructure, but suffers from cold start overhead when initializing new function instances. Existing solutions such as \"keep-alive\" or \"pre-warming\" are costly and unreliable under bursty workloads. We propose universal workers, which are computational units capable of executing any function with minimal initialization overhead. Based on an analysis of production workload traces, our key insight is that requests in Function-as-a-Service (FaaS) platforms show a highly skewed distribution, with most requests invoking a small subset of functions. We exploit this observation to approximate universal workers through locality groups and three-tier caching (handler, install, import). With this work, we aim to enable more efficient and scalable FaaS platforms capable of handling diverse workloads with minimal initialization overhead.",
+      "authors": [
+        "Saman Akbari",
+        "Manfred Hauswirth"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2505.19880v2"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2012.04880v1",
+      "title": "JANUS: Benchmarking Commercial and Open-Source Cloud and Edge Platforms for Object and Anomaly Detection Workloads",
+      "abstract": "With diverse IoT workloads, placing compute and analytics close to where data is collected is becoming increasingly important. We seek to understand what is the performance and the cost implication of running analytics on IoT data at the various available platforms. These workloads can be compute-light, such as outlier detection on sensor data, or compute-intensive, such as object detection from video feeds obtained from drones. In our paper, JANUS, we profile the performance/$ and the compute versus communication cost for a compute-light IoT workload and a compute-intensive IoT workload. In addition, we also look at the pros and cons of some of the proprietary deep-learning object detection packages, such as Amazon Rekognition, Google Vision, and Azure Cognitive Services, to contrast with open-source and tunable solutions, such as Faster R-CNN (FRCNN). We find that AWS IoT Greengrass delivers at least 2X lower latency and 1.25X lower cost compared to all other cloud platforms for the compute-light outlier detection workload. For the compute-intensive streaming video analytics task, an opensource solution to object detection running on cloud VMs saves on dollar costs compared to proprietary solutions provided by Amazon, Microsoft, and Google, but loses out on latency (up to 6X). If it runs on a low-powered edge device, the latency is up to 49X lower.",
+      "authors": [
+        "Karthick Shankar",
+        "Pengcheng Wang",
+        "Ran Xu",
+        "Ashraf Mahgoub",
+        "Somali Chaterji"
+      ],
+      "year": 2020,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2012.04880v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1802.04766v1",
+      "title": "SNC: A Cloud Service Platform for Symbolic-Numeric Computation using Just-In-Time Compilation",
+      "abstract": "Cloud services have been widely employed in IT industry and scientific research. By using Cloud services users can move computing tasks and data away from local computers to remote datacenters. By accessing Internet-based services over lightweight and mobile devices, users deploy diversified Cloud applications on powerful machines. The key drivers towards this paradigm for the scientific computing field include the substantial computing capacity, on-demand provisioning and cross-platform interoperability. To fully harness the Cloud services for scientific computing, however, we need to design an application-specific platform to help the users efficiently migrate their applications. In this, we propose a Cloud service platform for symbolic-numeric computation - SNC. SNC allows the Cloud users to describe tasks as symbolic expressions through C/C++, Python, Java APIs and SNC script. Just-In-Time (JIT) compilation through using LLVM/JVM is used to compile the user code to the machine code. We implemented the SNC design and tested a wide range of symbolic-numeric computation applications (including nonlinear minimization, Monte Carlo integration, finite element assembly and multibody dynamics) on several popular cloud platforms (including the Google Compute Engine, Amazon EC2, Microsoft Azure, Rackspace, HP Helion and VMWare vCloud). These results demonstrate that our approach can work across multiple cloud platforms, support different languages and significantly improve the performance of symbolic-numeric computation using cloud platforms. This offered a way to stimulate the need for using the cloud computing for the symbolic-numeric computation in the field of scientific research.",
+      "authors": [
+        "Peng Zhang",
+        "Yueming Liu",
+        "Meikang Qiu"
+      ],
+      "year": 2018,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1802.04766v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1707.09488v1",
+      "title": "Cloud Computing - Architecture and Applications",
+      "abstract": "In the era of Internet of Things and with the explosive worldwide growth of electronic data volume, and associated need of processing, analysis, and storage of such humongous volume of data, it has now become mandatory to exploit the power of massively parallel architecture for fast computation. Cloud computing provides a cheap source of such computing framework for large volume of data for real-time applications. It is, therefore, not surprising to see that cloud computing has become a buzzword in the computing fraternity over the last decade. This book presents some critical applications in cloud frameworks along with some innovation design of algorithms and architecture for deployment in cloud environment. It is a valuable source of knowledge for researchers, engineers, practitioners, and graduate and doctoral students working in the field of cloud computing. It will also be useful for faculty members of graduate schools and universities.",
+      "authors": [
+        "Jaydip Sen",
+        "Shanrong Zhao",
+        "Xiaoying Wang",
+        "Guojing Zhang",
+        "Mengqin Yang",
+        "Jian Wang",
+        "Yun Long",
+        "Sergey Andreev",
+        "Roman Florea",
+        "Aleksandr Ometov",
+        "Adam Surak",
+        "Yevgeni Koucheryavy",
+        "Muhammad Ahmad Ashraf",
+        "Waleed Tariq Sethi",
+        "Abdullah Alfakhri",
+        "Saleh Alshebeili",
+        "Amr Alasaad"
+      ],
+      "year": 2017,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1707.09488v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1710.02553v1",
+      "title": "Artificial life, complex systems and cloud computing: a short review",
+      "abstract": "Cloud computing is the prevailing mode of designing, creating and deploying complex applications nowadays. Its underlying assumptions include distributed computing, but also new concepts that need to be incorporated in the different fields. In this short paper we will make a review of how the world of cloud computing has intersected the complex systems and artificial life field, and how it has been used as inspiration for new models or implementation of new and powerful algorithms",
+      "authors": [
+        "Juan-Juli\u00e1n Merelo-Guerv\u00f3s"
+      ],
+      "year": 2017,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1710.02553v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1610.00125v1",
+      "title": "Dithen: A Computation-as-a-Service Cloud Platform For Large-Scale Multimedia Processing",
+      "abstract": "We present Dithen, a novel computation-as-a-service (CaaS) cloud platform specifically tailored to the parallel execution of large-scale multimedia tasks. Dithen handles the upload/download of both multimedia data and executable items, the assignment of compute units to multimedia workloads, and the reactive control of the available compute units to minimize the cloud infrastructure cost under deadline-abiding execution. Dithen combines three key properties: (i) the reactive assignment of individual multimedia tasks to available computing units according to availability and predetermined time-to-completion constraints; (ii) optimal resource estimation based on Kalman-filter estimates; (iii) the use of additive increase multiplicative decrease (AIMD) algorithms (famous for being the resource management in the transport control protocol) for the control of the number of units servicing workloads. The deployment of Dithen over Amazon EC2 spot instances is shown to be capable of processing more than 80,000 video transcoding, face detection and image processing tasks (equivalent to the processing of more than 116 GB of compressed data) for less than $1 in billing cost from EC2. Moreover, the proposed AIMD-based control mechanism, in conjunction with the Kalman estimates, is shown to provide for more than 27% reduction in EC2 spot instance cost against methods based on reactive resource estimation. Finally, Dithen is shown to offer a 38% to 500% reduction of the billing cost against the current state-of-the-art in CaaS platforms on Amazon EC2 (Amazon Lambda and Amazon Autoscale). A baseline version of Dithen is currently available at http://www.dithen.com under the \"AutoScale\" option.",
+      "authors": [
+        "Joseph Doyle",
+        "Vasileios Giotsas",
+        "Mohammad Ashraful Anam",
+        "Yiannis Andreopoulos"
+      ],
+      "year": 2016,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1610.00125v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1806.03124v1",
+      "title": "Efficient Resource Allocation for On-Demand Mobile-Edge Cloud Computing",
+      "abstract": "Mobile-edge cloud computing is a new paradigm to provide cloud computing capabilities at the edge of pervasive radio access networks in close proximity to mobile users. Aiming at provisioning flexible on-demand mobile-edge cloud service, in this paper we propose a comprehensive framework consisting of a resource-efficient computation offloading mechanism for users and a joint communication and computation (JCC) resource allocation mechanism for network operator. Specifically, we first study the resource-efficient computation offloading problem for a user, in order to reduce user's resource occupation by determining its optimal communication and computation resource profile with minimum resource occupation and meanwhile satisfying the QoS constraint. We then tackle the critical problem of user admission control for JCC resource allocation, in order to properly select the set of users for resource demand satisfaction. We show the admission control problem is NP-hard, and hence develop an efficient approximation solution of a low complexity by carefully designing the user ranking criteria and rigourously derive its performance guarantee. To prevent the manipulation that some users may untruthfully report their valuations in acquiring mobile-edge cloud service, we further resort to the powerful tool of critical value approach to design truthful pricing scheme for JCC resource allocation. Extensive performance evaluation demonstrates that the proposed schemes can achieve superior performance for on-demand mobile-edge cloud computing.",
+      "authors": [
+        "Xu Chen",
+        "Wenzhong Li",
+        "Sanglu Lu",
+        "Zhi Zhou",
+        "Xiaoming Fu"
+      ],
+      "year": 2018,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1806.03124v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/2111.02727v1",
+      "title": "Failure Aware Semi-Centralized Virtual Network Embedding in Cloud Computing Fat-Tree Data Center Networks",
+      "abstract": "In Cloud Computing, the tenants opting for the Infrastructure as a Service (IaaS) send the resource requirements to the Cloud Service Provider (CSP) in the form of Virtual Network (VN) consisting of a set of inter-connected Virtual Machines (VM). Embedding the VN onto the existing physical network is known as Virtual Network Embedding (VNE) problem. One of the major research challenges is to allocate the physical resources such that the failure of the physical resources would bring less impact onto the users' service. Additionally, the major challenge is to handle the embedding process of growing number of incoming users' VNs from the algorithm design point-of-view. Considering both of the above-mentioned research issues, a novel Failure aware Semi-Centralized VNE (FSC-VNE) algorithm is proposed for the Fat-Tree data center network with the goal to reduce the impact of the resource failure onto the existing users. The impact of failure of the Physical Machines (PMs), physical links and network devices are taken into account while allocating the resources to the users. The beauty of the proposed algorithm is that the VMs are assigned to different PMs in a semi-centralized manner. In other words, the embedding algorithm is executed by multiple physical servers in order to concurrently embed the VMs of a VN and reduces the embedding time. Extensive simulation results show that the proposed algorithm can outperform over other VNE algorithms.",
+      "authors": [
+        "Chinmaya Kumar Dehury",
+        "Prasan Kumar Sahoo"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2111.02727v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1904.10125v1",
+      "title": "Characterizing Application Scheduling on Edge, Fog and Cloud Computing Resources",
+      "abstract": "Cloud computing has grown to become a popular distributed computing service offered by commercial providers. More recently, Edge and Fog computing resources have emerged on the wide-area network as part of Internet of Things (IoT) deployments. These three resource abstraction layers are complementary, and provide distinctive benefits. Scheduling applications on clouds has been an active area of research, with workflow and dataflow models serving as a flexible abstraction to specify applications for execution. However, the application programming and scheduling models for edge and fog are still maturing, and can benefit from learnings on cloud resources. At the same time, there is also value in using these resources cohesively for application execution. In this article, we present a taxonomy of concepts essential for specifying and solving the problem of scheduling applications on edge, for and cloud computing resources. We first characterize the resource capabilities and limitations of these infrastructure, and design a taxonomy of application models, Quality of Service (QoS) constraints and goals, and scheduling techniques, based on a literature review. We also tabulate key research prototypes and papers using this taxonomy. This survey benefits developers and researchers on these distributed resources in designing and categorizing their applications, selecting the relevant computing abstraction(s), and developing or selecting the appropriate scheduling algorithm. It also highlights gaps in literature where open problems remain.",
+      "authors": [
+        "Prateeksha Varshney",
+        "Yogesh Simmhan"
+      ],
+      "year": 2019,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1904.10125v1"
+    },
+    {
+      "paper_id": "http://arxiv.org/abs/1612.09059v1",
+      "title": "Emerging Security Challenges of Cloud Virtual Infrastructure",
+      "abstract": "The cloud computing model is rapidly transforming the IT landscape. Cloud computing is a new computing paradigm that delivers computing resources as a set of reliable and scalable internet-based services allowing customers to remotely run and manage these services. Infrastructure-as-a-service (IaaS) is one of the popular cloud computing services. IaaS allows customers to increase their computing resources on the fly without investing in new hardware. IaaS adapts virtualization to enable on-demand access to a pool of virtual computing resources. Although there are great benefits to be gained from cloud computing, cloud computing also enables new categories of threats to be introduced. These threats are a result of the cloud virtual infrastructure complexity created by the adoption of the virtualization technology.   Breaching the security of any component in the cloud virtual infrastructure significantly impacts on the security of other components and consequently affects the overall system security. This paper explores the security problem of the cloud platform virtual infrastructure identifying the existing security threats and the complexities of this virtual infrastructure. The paper also discusses the existing security approaches to secure the cloud virtual infrastructure and their drawbacks. Finally, we propose and explore some key research challenges of implementing new virtualization-aware security solutions that can provide the pre-emptive protection for complex and ever- dynamic cloud virtual infrastructure.",
+      "authors": [
+        "Amani S. Ibrahim",
+        "James Hamlyn-Harris",
+        "John Grundy"
+      ],
+      "year": 2016,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/1612.09059v1"
+    }
+  ],
+  "synthesis": {
+    "sections": {
+      "methods": {
+        "title": "Methods & Approaches",
+        "content": "**Methodological Approaches:**\n\nThe dominant methodological approaches in this collection of research papers are primarily focused on **Quantum Algorithms**, **Cloud Computing**, and **Fog Computing**. These approaches are crucial for understanding the advancements in cloud and fog computing, as well as their applications in various domains such as serverless computing, robotics, and mobility analytics. The use of quantum algorithms, in particular, highlights the growing interest in harnessing quantum computing capabilities to enhance cloud-based services.\n\n**Key Techniques and Innovations:**\n\nSeveral key techniques and innovations are mentioned across these papers. **Data Augmentation**, for instance, is employed in some studies to improve the performance of machine learning models on cloud-based platforms. **CNNs** (Convolutional Neural Networks) are also used in certain papers to analyze large datasets generated from IoT devices. Furthermore, **Quantum Circuits** are explored as a means to accelerate certain computational tasks, such as molecular dynamics simulations.\n\n**Evolution over Time:**\n\nA notable trend observed across these papers is the increasing emphasis on edge and fog computing. Studies like \"Accelerator Virtualization in Fog Computing\" (2018) and \"Combining edge and cloud computing for mobility analytics\" (2017) highlight the importance of processing data closer to its source, rather than relying solely on cloud-based infrastructure. This shift towards edge and fog computing is likely driven by the need for greater latency and reduced bandwidth requirements.\n\n**Connections between Approaches:**\n\nSeveral connections can be drawn between these approaches. For instance, **Cloud Computing** and **Fog Computing** are often mentioned together, highlighting their complementary roles in processing data at various stages of its journey from source to destination. Similarly, **Quantum Algorithms** and **Machine Learning** are interconnected topics, as quantum computing has the potential to significantly enhance machine learning capabilities on cloud-based platforms. Overall, these papers demonstrate a growing recognition of the importance of integrating multiple approaches to achieve optimal performance in cloud-based systems."
+      },
+      "datasets": {
+        "title": "Datasets & Benchmarks",
+        "content": "**Based on the analysis of the 26 research papers, it is evident that **Simulations** and **Benchmarks** are the most commonly used datasets and benchmarks in the cloud computing and edge computing domains.**\n\nThe preference for **Simulations** as a dataset can be attributed to the need for controlled and repeatable experiments. Simulations allow researchers to model real-world scenarios, test hypotheses, and evaluate the performance of their algorithms or systems under various conditions. Additionally, simulations provide a cost-effective way to conduct large-scale experiments without requiring access to physical infrastructure.\n\nThe choice of datasets reflects research priorities in cloud computing and edge computing. The papers' focus on topics such as serverless computing, fog computing, and big data analytics suggests that researchers are interested in exploring the potential of cloud computing for real-time processing, edge intelligence, and data-driven decision-making. **Benchmarks**, specifically, serve as a standardized evaluation metric to compare the performance of different algorithms, systems, or services.\n\nOver time, there is a trend towards using more realistic and diverse datasets, such as those related to mobility analytics (2017) and molecular dynamics simulations (2021). This shift reflects the growing importance of edge computing and real-time processing in various domains, including IoT, robotics, and scientific computing."
+      },
+      "metrics": {
+        "title": "Evaluation Metrics",
+        "content": "**The primary evaluation metrics used in the research papers analyzed include **accuracy**, **precision**, **recall**, **f1-score**, **time complexity**, and **energy efficiency**. These metrics are significant because they allow researchers to assess the performance, efficiency, and effectiveness of their cloud computing and edge computing solutions.**\n\nIn this field, certain metrics are preferred because they align with the research goals of achieving high-performance, low-latency, and energy-efficient cloud and edge computing systems. For instance, **accuracy** is a crucial metric in evaluating machine learning models deployed on cloud and edge devices. Similarly, **energy efficiency** is vital in optimizing resource usage and reducing power consumption.\n\nThe choice of evaluation metrics reflects the research goals of improving the performance, scalability, and sustainability of cloud and edge computing systems. The preference for **time complexity** and **energy efficiency** metrics indicates a focus on developing efficient algorithms and optimizing system performance. The use of **accuracy**, **precision**, and **recall** metrics highlights the importance of developing high-performing machine learning models that can effectively analyze large datasets.\n\nIn terms of trends, there is an increasing emphasis on evaluating the **energy efficiency** and **time complexity** of cloud and edge computing systems as researchers seek to develop more sustainable and efficient solutions. Additionally, the use of **accuracy**, **precision**, and **recall** metrics suggests a growing interest in developing high-performing machine learning models for various applications. Overall, the choice of evaluation metrics reflects the field's focus on developing innovative, efficient, and effective cloud and edge computing systems that can support diverse applications and use cases."
+      },
+      "performance": {
+        "title": "Performance Trends",
+        "content": "**Overall Performance Trends and Improvements Over Time**\n\nThe analyzed papers exhibit a steady improvement in performance over time, with a significant leap in 2020-2023. The early years (2015-2017) focused on establishing foundations and exploring novel concepts, such as ad hoc cloud computing and edge computing. As the field matured, research shifted towards optimizing existing solutions, like energy-efficient algorithms for VM consolidation, and developing more sophisticated frameworks, like open API architectures for explainable AI.\n\n**Key Breakthroughs or Significant Advances**\n\nSeveral breakthroughs stand out in this research trajectory:\n\n1. **Cloud-to-Things Compute Continuum**: The 2023 paper on orchestration in the cloud-to-things compute continuum marks a significant advance in integrating IoT and cloud computing, enabling seamless communication between devices and services.\n2. **Explainable AI (XAI)**: The 2024 paper on an open API architecture for trustworthy explanation of cloud AI services highlights the importance of transparency and accountability in AI-driven decision-making processes.\n3. **Confidential Computing**: The 2023 paper on secure cloud architecture for big data analytics and AI showcases a significant step towards protecting sensitive information while processing large datasets.\n\n**How Research Priorities Have Shifted**\n\nResearch priorities have shifted from exploring novel concepts (2015-2017) to optimizing existing solutions (2018-2020) and developing more sophisticated frameworks (2021-2024). This shift reflects the field's increasing focus on practical applications, scalability, and interoperability.\n\n**What the Performance Trends Indicate about the Field's Maturity**\n\nThe performance trends suggest that the cloud computing research field has reached a level of maturity. The steady improvement in performance and the emergence of more sophisticated frameworks indicate a high degree of innovation and problem-solving capabilities. The focus on optimizing existing solutions and developing practical applications further confirms the field's maturity, as researchers are now building upon established foundations to create more robust and effective solutions."
+      },
+      "method_transitions": {
+        "title": "Method Transitions",
+        "content": "**The research literature analysis reveals a significant evolution in the field of cloud computing, with major paradigm shifts and methodological transitions occurring over the past decade.**\n\nOne notable paradigm shift is the transition from traditional cloud computing to **edge computing**, as evident in papers like \"Accelerator Virtualization in Fog Computing: Moving From the Cloud to the Edge\" (2018) and \"Combining edge and cloud computing for mobility analytics\" (2017). This shift reflects a growing recognition of the need to process data closer to where it is generated, reducing latency and improving real-time decision-making. Another key development is the increasing focus on **AI-powered cloud computing**, as seen in papers like \"Molecular Dynamics Simulations on Cloud Computing and Machine Learning Platforms\" (2021) and \"Towards Confidential Computing: A Secure Cloud Architecture for Big Data Analytics and AI\" (2023). This trend highlights the growing importance of AI-driven insights and decision-making in various domains.\n\nIn terms of methodological transitions, **quantum algorithms** and **data augmentation** are rising stars in the field. Papers like \"Supporting Multi-Cloud in Serverless Computing\" (2022) and \"Cloud-based Privacy-Preserving Collaborative Consumption for Sharing Economy\" (2020) demonstrate the increasing adoption of these methods to improve cloud computing efficiency, security, and scalability. In contrast, **CNNs** appear to be declining in popularity, likely due to their limited applicability in certain domains or the emergence of more effective AI-powered alternatives.\n\nThe trajectory implications for future research are significant. As the field continues to evolve, we can expect to see a greater emphasis on **edge-AI convergence**, where real-time data processing and AI-driven insights are seamlessly integrated at the edge. The increasing importance of **security** and **explainability** in cloud computing will also drive innovation in areas like confidential computing and XAI (Explainable AI). Ultimately, the future of cloud computing research lies at the intersection of AI, edge computing, and **blockchain**, where secure, decentralized, and real-time data processing will revolutionize industries and transform the way we live and work."
+      },
+      "dataset_shifts": {
+        "title": "Dataset Shifts",
+        "content": "**Dataset Evolution:**\n\nOver the years, there has been a shift from using **Simulations** as datasets in research papers to more practical and real-world applications. In the early years (2015-2016), researchers focused on **Simulations**, likely due to the lack of large-scale, publicly available datasets for cloud computing. As the field progressed and more data became available, researchers began to use **Benchmarks** (2022) to evaluate their methods. This shift indicates a move towards more realistic and applicable scenarios.\n\nIn recent years (2020-2024), there is a growing trend of using **real-world datasets**, such as those related to mobility analytics (2017), sharing economy (2020), and big data analytics (2023). These shifts suggest that researchers are becoming more interested in solving real-world problems and evaluating their methods on actual data. This evolution is significant because it reflects the increasing importance of practical applications over theoretical simulations.\n\n**Benchmark Evolution:**\n\nThe choice of benchmarking datasets has also undergone changes over time. In the early years, **Benchmarks** were used to evaluate cloud computing performance (2016). As the field advanced, researchers began to use more specific benchmarks, such as those related to serverless computing (2022) and edge computing (2023). This shift indicates a move towards more focused evaluations that cater to specific areas of research. The significance of this evolution lies in its reflection of the increasing complexity and specialization of cloud computing research.\n\n**Emerging Datasets:**\n\nThe emergence of new datasets, such as those related to molecular dynamics simulations (2021) and explainable AI (2024), indicates a growing interest in applying cloud computing and machine learning techniques to scientific computing and AI-related applications. This trend is significant because it highlights the potential for cloud computing and AI to transform scientific research and decision-making processes.\n\n**Implications:**\n\nThe evolution of datasets and benchmarks has important implications for the field of cloud computing. As researchers focus on more practical and real-world scenarios, they will need to develop methods that can handle large-scale, complex data sets. The increasing emphasis on explainable AI and machine learning techniques suggests a growing recognition of the importance of transparency and accountability in AI decision-making processes. Overall, these shifts reflect a maturing field that is increasingly focused on solving real-world problems and developing practical applications."
+      },
+      "metric_deprecations": {
+        "title": "Metric Evolution",
+        "content": "**Evaluation Metric Evolution Over Time**\n\nThe analysis of 26 papers from 2015 to 2025 reveals a significant shift in evaluation metrics over time. In the early years, traditional metrics such as **Accuracy**, **Precision**, and **Recall** were dominant. As research progressed, more nuanced metrics like **F1-score**, **MSE**, and **RMSE** gained prominence, particularly in papers focusing on machine learning and data analysis. The increased emphasis on cloud computing and edge computing led to the adoption of metrics like **Latency**, **Throughput**, and **Energy Efficiency**.\n\n**Changes in Metric Prominence**\n\nSome traditional metrics, such as **Accuracy** and **Precision**, have maintained their relevance, while others, like **Recall**, have become less prominent. This shift reflects the increasing complexity of research problems and the need for more comprehensive evaluation frameworks. The rise of **F1-score**, a harmonic mean of precision and recall, indicates a growing recognition of the importance of balancing these two metrics in machine learning evaluations. The prominence of **Latency** and **Throughput** in cloud computing-related papers highlights the increasing focus on performance and efficiency.\n\n**Research Priorities Revealed**\n\nThe evolution of evaluation metrics reveals changing research priorities. The early emphasis on traditional metrics like **Accuracy** and **Precision** suggests a focus on developing and evaluating individual models or algorithms. As research shifted towards more complex systems, like cloud computing and edge computing, the importance of performance-related metrics like **Latency**, **Throughput**, and **Energy Efficiency** grew. This evolution reflects the increasing recognition of the need to balance accuracy with other important factors, such as efficiency, scalability, and latency.\n\n**Emerging Evaluation Approaches**\n\nThe analysis also identifies emerging evaluation approaches, such as **Explainability** and **Fairness**, which are gaining traction in papers focusing on cloud AI services, big data analytics, and trustworthy AI. These metrics reflect the growing importance of transparency, accountability, and social responsibility in AI research. The increasing emphasis on **Energy Efficiency** and **Sustainability** highlights the need to consider environmental and ecological factors in evaluation frameworks."
+      }
+    },
+    "statistics": {
+      "papers_analyzed": 26,
+      "year_range": {
+        "start": 2015,
+        "end": 2025
+      },
+      "top_methods": {
+        "Quantum Algorithms": 10,
+        "Quantum Circuits": 1,
+        "Data Augmentation": 1,
+        "CNNs": 1
+      },
+      "top_datasets": {
+        "Simulations": 2,
+        "Benchmarks": 1
+      },
+      "top_metrics": {}
+    }
+  }
+}
